@@ -1,0 +1,45 @@
+.my-button{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#28d7f2;
+    color: black;
+    border:0px;
+    margin-right: 20px;
+    box-shadow: 1px rgb(121, 116, 116);;
+    border-radius: 10px;
+}
+
+.my-button-2{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#eedb33;
+    color: black;
+    border:0px;
+    margin-right: 20px;
+    box-shadow: 1px rgb(121, 116, 116);
+    border-radius: 10px;
+}
+
+
+.my-button-3{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#cc09bf;
+    color: black;
+    border:0px;
+    margin-right: 20px;
+    box-shadow: 1px rgb(121, 116, 116);
+    border-radius: 10px;
+}
+
+.gallery{
+    display: flex;
+    width:120px;
+    gap:5px;
+}
