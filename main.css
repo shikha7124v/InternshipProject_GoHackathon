@@ -31,7 +31,7 @@ header {
 
 header * {
     display: inline;
-    padding-right: 34px;
+    padding-right: 19px;
 }
 
 header li {
@@ -43,16 +43,16 @@ header li a {
     text-decoration: none;
 }
 
-.button {
-    height: 3rem;
-    padding: 0 2rem;
+/* .button {
+    height: 2rem;
+    padding: 0 1rem;
     border-radius: 1.5rem;
     background: linear-gradient(-45deg, #9925ea, #338aff, #9925ea);
     background-size: 400%;
     background-position: 90% 0;
     color: #ffffff;
     transition: background 0.8s;
-}
+} */
 
 body {
     margin: 0;
@@ -69,35 +69,34 @@ section {
     }
 }
 
-.banner {
-    position: relative;
+/* .banner {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     gap: 167px;
     justify-content: space-between;
-    /* padding-top: 100px; */
     padding-bottom: 72px;
-    min-height: 28vw;
+    height: 200px;
     margin-bottom: -146px;
-}
+} */
 
-@media (width <=620px) {
+/* @media (width <=620px) {
     .banner {
         text-align: center;
         flex-direction: column-reverse;
         justify-content: center;
     }
-}
+} */
 
-.banner::before {
+/* .banner::before {
     content: "";
     position: absolute;
     z-index: -1;
-    top: 50%;
+    top: 30%;
     left: 50%;
     translate: -50% -50%;
     width: 200%;
-    height: 83%;
+    height: 48%;
     rotate: 0deg;
     background: #0c80d8;
 }
@@ -113,9 +112,9 @@ section {
     font-weight: 400;
     margin: 0;
     color: rgb(255 255 255 / 57%);
-}
+} */
 
-@keyframes morph {
+/* @keyframes morph {
 
     0%,
     100% {
@@ -129,15 +128,15 @@ section {
     67% {
         border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
     }
-}
+} */
 
-.banner img {
-    width: 320px;
-    height: 320px;
+/* .banner img {
+    width: 385px;
+    height: 263px;
     object-fit: cover;
     animation: morph 3.5s linear infinite;
 
-}
+} */
 
 body {
     align-items: center;
