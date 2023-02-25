@@ -43,7 +43,7 @@ header li a {
     text-decoration: none;
 }
 
-.button {
+/* .button {
     height: 2rem;
     padding: 0 1rem;
     border-radius: 1.5rem;
@@ -52,7 +52,7 @@ header li a {
     background-position: 90% 0;
     color: #ffffff;
     transition: background 0.8s;
-}
+} */
 
 body {
     margin: 0;
@@ -69,28 +69,26 @@ section {
     }
 }
 
-.banner {
-    /* position: relative; */
+/* .banner {
     margin-top: 20px;
     display: flex;
     align-items: center;
     gap: 167px;
     justify-content: space-between;
-    /* padding-top: 100px; */
     padding-bottom: 72px;
     height: 200px;
     margin-bottom: -146px;
-}
+} */
 
-@media (width <=620px) {
+/* @media (width <=620px) {
     .banner {
         text-align: center;
         flex-direction: column-reverse;
         justify-content: center;
     }
-}
+} */
 
-.banner::before {
+/* .banner::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -114,9 +112,9 @@ section {
     font-weight: 400;
     margin: 0;
     color: rgb(255 255 255 / 57%);
-}
+} */
 
-@keyframes morph {
+/* @keyframes morph {
 
     0%,
     100% {
@@ -130,15 +128,15 @@ section {
     67% {
         border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
     }
-}
+} */
 
-.banner img {
+/* .banner img {
     width: 385px;
     height: 263px;
     object-fit: cover;
     animation: morph 3.5s linear infinite;
 
-}
+} */
 
 body {
     align-items: center;
