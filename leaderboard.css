@@ -2,8 +2,19 @@ body{
     font-family: sans-serif;
     margin: 0;
     background-color: whitesmoke;
+    background-image: linear-gradient(45deg, #9aafdf, transparent);
     overflow-x: hidden;
+    
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
 }
+
+
 .leaderboard{
     max-width: 55em;
     margin-right: auto;
@@ -47,6 +58,9 @@ body{
 .search:focus{
     outline: none;
 }
+
+
+
 table{
     margin-top: 2em;
     width: 50em;
@@ -87,11 +101,13 @@ table td:nth-child(2){
     max-width: 5em;
 }
 tbody tr:nth-child(even){
-    background-color:#3d5a80;
+    background-color:#34a1af;
+    background-image: linear-gradient(45deg, #606a89, transparent);
 }
 
 tbody tr:nth-child(odd){
-    background-color:#98c1d9;
+    background-color:#cde5f3;
+    background-image: linear-gradient(45deg, #5e7081, #7b8fbb00);
 }
 #winner{
     color: gold;
