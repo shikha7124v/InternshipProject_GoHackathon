@@ -1,133 +1,372 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
-    background-color: whitesmoke;
-    overflow-x: hidden;
-}
-.leaderboard{
-    max-width: 55em;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    padding: 1em;
-    padding-top: 2em;
-    margin-top: 10vh;
-   
-}
-.board{
-
-    max-width: 55em;
-    margin-top: 10vh;
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
 }
 
-
-.theme-img{
-    width: 20em;
-    border-radius: 10px;
+header,
+section {
+  overflow-x: hidden;
+  /* height: 30%; */
 }
-.description{
-    display:inline-flex;
-    text-align: center;
-    margin: 3em;
-    padding: 1vh;
-    color: black;
-    transform: translateY(-5em);
-    margin-left: 40%;
+header img {
+    height: 80px;
+    margin-left: -110px;
 }
-.search{
-    border-radius: 5px;
-    border: none;
-    background-color: transparent;
-    border-bottom: #0aa989 2px solid;
-    padding: .5em;
-    font-size: 1em;
-    color: black;
-    
-}
-.search:focus{
-    outline: none;
-}
-table{
-    margin-top: 2em;
-    width: 50em;
-    color:black;
-    margin-right: auto;
-    margin-left: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-table thead{
-    opacity: .8;
-}
-table img{
-    width:2em;
-    height: 2em;
-    border-radius: 100%;
-
-}
-table td{
-    max-width: 2em;
-    padding: .5em;
-    text-align: center;
-}
-tbody tr{
-    box-shadow: 0 2px rgba(100,100,100,.5);
-    border-radius: 10px;
-}
-tbody tr:hover{
-    transform: scale(1.025);
-    transition: .2s ease-in-out;
-}
-tbody tr td:nth-child(2) p{
-    display: inline-block;
-    transform: translateY(-.5em);
-    padding-left: .5em;
-    text-align: left;
-}
-table td:nth-child(2){
-    max-width: 5em;
-}
-tbody tr:nth-child(even){
-    background-color:#3d5a80;
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #3e4146db;
+  --bggradient: linear-gradient(to bottom, #ffffff, #37BBE4);
+  --light-gray: rgba(0, 0, 0, 0.877);
 }
 
-tbody tr:nth-child(odd){
-    background-color:#98c1d9;
-}
-#winner{
-    color: gold;
-    font-weight: 800;
-}
-#runner-up{
-    color: silver;
-    font-weight: 800;
-
-}
-#second-runner-up{
-    color: #cd7f32;
-    font-weight: 800;
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: rgb(28, 0, 140);
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #22c1e9;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-@media(max-width:860px){
-    .leaderboard{
-        padding: 0;
-    }
-    .theme-img{
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-    }
-    .description{
-        display: block;
-        transform: translateY(0);
-    }
-    table{
-        max-width: 100vw;
-        overflow-x: scroll;
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-    }
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
 
+header .nav-item {
+  padding: 0.9em;
+}
 
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background: #025fff;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/********** section 1 **************/
+
+.section-1 {
+  padding: 6vmin 0vmin;
+}
+/* 
+.section-1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 80%;
+  border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-6:last-child {
+  position: relative;
+}
+
+.section-1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 7vmin;
+  left: -18vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 20vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: var(--Rubik);
+  z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+} */
+
+/*  Section 2  */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background: url("../assets/pexels-photo-452738.jpeg");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: rgb(255, 255, 255);
+}
+
+.cover .content > p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #f0f0f0;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: rgb(255, 255, 255);
+  width: 17rem;
+  height: 17rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(0, 191, 255, 0.484);
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: rgb(71, 181, 255);
+}
+
+.numbers .rect > p {
+  font-family: var(--Patua);
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+}
+
+.card-body .pricing {
+  background: rgba(3, 213, 250, 0.501);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+  font-size: 4vmin;
+  padding: 1em 0.5em;
+}
+
+/* Section 3 */
+
+.section-3 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: var(--bggradient);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: rgb(0, 0, 0);
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: var(--light-gray);
+  font-size: 3vmin;
+}
+
+.section-3 .desktop {
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 2vmin;
+}
+
+/* Section Team */
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+  padding: 0.5em;
+}
+
+.section-4 .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 85%);
+  z-index: 9999;
+  transition: all 1.5s ease;
 }
