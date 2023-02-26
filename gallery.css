@@ -17,8 +17,9 @@ body{
     list-style: none;
     position: relative;
     margin-top: 20;
+    right: 90%;
+    vertical-align: middle;
     
-
 }
 .nav-bar{
     width: 100;
@@ -66,6 +67,7 @@ body{
     box-shadow: 1px rgb(121, 116, 116);;
     border-radius: 10px;
     margin-left: 200px;
+    text-size-adjust: 40;
 }
 
 .my-button-2{
@@ -80,6 +82,7 @@ body{
     box-shadow: 10px rgb(96, 93, 93);
     border-radius: 10px;
     margin-left: 100px;
+    text-size-adjust: 40;
 }
 .my-button-3{
     width:200px;
@@ -92,6 +95,7 @@ body{
     box-shadow: 1px rgb(121, 116, 116);
     border-radius: 10px;
     margin-right: 150px;
+    text-size-adjust: 40;
     
 }
 .logo img{width:40px;}
@@ -146,7 +150,7 @@ z-index:100;
 background-color: var(--color2);
 transition: all 0.2s;
 }}
-.memu li{margin-top: 40px;}
+.menu li{margin-top: 40px;}
 .menu li a {padding :10px;}
 
 
@@ -166,7 +170,8 @@ transition: all 0.2s;
     margin-bottom: 50;
     height: 70vh;
 }
-.p{
+p{
     text-align: center;
-    font-size: medium;
+    font-size: x-large;
+    display: block;
 }
