@@ -2,7 +2,7 @@ body{
     font-family: sans-serif;
     margin: 0;
     background-color: whitesmoke;
-    background-image: linear-gradient(45deg, #9aafdf, transparent);
+    background-image: linear-gradient(45deg, #c8d1ec, rgb(154, 154, 236));
     overflow-x: hidden;
     
     font-family: 'Poppins', sans-serif;
@@ -123,8 +123,49 @@ tbody tr:nth-child(odd){
     font-weight: 800;
 }
 
+.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    background-image: linear-gradient(45deg, #292b30, rgb(154, 154, 236));
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    border-radius: 2px;
+    border-color: #000000;
+  }
+  .sidenav a {
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #ffffff;
+    background-color:#03b7fe;
+  }
+  .sidenav{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
 
+  .head{
+	padding:20px;
+}
 
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 300px;
+}
 
 @media(max-width:860px){
     .leaderboard{
