@@ -1,9 +1,28 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  body{
+    font-family: Montserrat;
+    /* overflow: hidden; */
+    user-select: none;
+  }
+
+  
+  
+  section{
+    background: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  body{
     font-family: sans-serif;
     margin: 0;
-    background-color: whitesmoke;
-    background-image: linear-gradient(45deg, #c8d1ec, rgb(154, 154, 236));
-    overflow-x: hidden;
+    background-color: white;
     
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
@@ -13,7 +32,6 @@ body{
     text-transform: capitalize;
     transition: all .2s linear;
 }
-
 
 .leaderboard{
     max-width: 55em;
@@ -68,6 +86,7 @@ table{
     margin-right: auto;
     margin-left: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20%;
 }
 table thead{
     opacity: .8;
@@ -122,50 +141,167 @@ tbody tr:nth-child(odd){
     color: #cd7f32;
     font-weight: 800;
 }
-
-.sidenav {
-    height: 100%;
-    width: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: whitesmoke;
-    background-image: linear-gradient(45deg, #292b30, rgb(154, 154, 236));
-    overflow: hidden;
-    transition: 0.5s;
-    padding-top: 30px;
-    border-radius: 2px;
-    border-color: #000000;
-  }
-  .sidenav a {
-    padding: 15px 8px 15px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #000000;
-    display: block;
-    transition: 0.3s;
-  }
-  .sidenav a:hover {
-    color: #ffffff;
-    background-color:#03b7fe;
-  }
-  .sidenav{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-  }
-
-  .head{
-	padding:20px;
+header,
+section {
+  overflow-x: hidden;
+}
+header img {
+    height: 80px;
+    margin-left: -110px;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-    margin-left: 300px;
+#login-btn
+{
+  padding: 15px;
+  /* padding-top: 2%; */
+  margin-top: 12px;
+  
 }
+
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: rgb(28, 0, 140);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2f7cc4;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3fa9ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+
+
+
+header,
+section {
+  overflow-x: hidden;
+}
+header img {
+    height: 80px;
+    margin-left: -110px;
+}
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: rgb(28, 0, 140);
+  }
+
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background: #025fff;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+
+.navbar-collapse
+{
+  padding: 0% 3%;
+}
+
+
 
 @media(max-width:860px){
     .leaderboard{
@@ -185,6 +321,201 @@ tbody tr:nth-child(odd){
         overflow-x: scroll;
 
     }
-
-
+   
 }
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+header img {
+    height: 80px;
+    margin-left: -110px;
+}
+.section-0{
+  background-color: #aff2faca;
+  padding: 140px;
+  text-align: center;
+  width: 100%;
+}
+.section-0 img{
+  height: 300px;
+  width: 360px;
+  left: 70%;
+}
+
+/* :root {
+   --Sniglet-font: "Sniglet", cursive;  
+   --Rubik: "Rubik", cursive; 
+   --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive; 
+} */
+
+.container-hero
+{
+  background-color: lightblue;
+  padding-left: 3%;
+  text-align: center;
+}
+
+#login-btn
+{
+  padding: 15px;
+}
+
+.navbar-collapse
+{
+  padding: 0% 3%;
+}
+
+/* :root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #3e4146db;
+  --bggradient: linear-gradient(to bottom, #ffffff, #28c7f7);
+  --light-gray: rgba(0, 0, 0, 0.877);
+} */
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: rgb(28, 0, 140);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d1d1d1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3fa9ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background: #025fff;
+  /* fallback for old browsers */
+  background: var(--bggradient);
+}
+
+header .container .col-md-7 {
+  font-family: "Rubik", sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+
+
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+/* .sticky {
+
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 9999;
+  transition: all 1.5s ease;
+} */
