@@ -233,6 +233,7 @@ transition: all 0.2s;
   display: flex;
   justify-content: center;
   top: 40px;
+  align-items: center;
  
 }
 .gallery-item-1{

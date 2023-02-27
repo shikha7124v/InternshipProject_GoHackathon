@@ -52,7 +52,64 @@ header a {
   font-size: 0.9em;
   color: rgb(28, 0, 140);
 }
+.my-button{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#6ab1bc;
+  color: black;
+  border:0px;
+  margin-right: 100px;
+  box-shadow: 1px rgb(121, 116, 116);;
+  border-radius: 10px;
+  margin-left: 230px;
+  text-size-adjust: 40;
+  display: inline-block;
+  position: relative;
+}
 
+.my-button-2{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#e8da5f;
+  color: black;
+  border:0px;
+  margin-right: 130px;
+  box-shadow: 10px rgb(96, 93, 93);
+  border-radius: 10px;
+  margin-left: 100px;
+  text-size-adjust: 40;
+  display: inline-block;
+}
+
+.my-button-3{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#ad77aa;
+  color: black;
+  border:0px;
+  box-shadow: 1px rgb(121, 116, 116);
+  border-radius: 10px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.p{
+  text-align: center;
+  font-size: medium;
+  
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  top: 40px;
+  align-items: center;
+ 
+}
 .dropdown-content {
   display: none;
   position: absolute;
