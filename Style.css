@@ -12,6 +12,13 @@ header img {
     height: 80px;
     margin-left: -110px;
 }
+
+
+#login-btn
+{
+  padding: 15px;
+}
+
 :root {
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
