@@ -1,3 +1,9 @@
+/* #body
+{
+  padding: 0% 3%;
+  background-color: white;
+} */
+
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 * {
   box-sizing: border-box;
@@ -12,15 +18,41 @@ header img {
     height: 80px;
     margin-left: -110px;
 }
+<<<<<<< HEAD
 :root {
+  /* --Sniglet-font: "Sniglet", cursive;  */
+   /* --Rubik: "Rubik", cursive; 
+   --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive; */
+=======
+
+.container-hero
+{
+  background-color: lightblue;
+  padding-left: 3%;
+  text-align: center;
+}
+
+#login-btn
+{
+  padding: 15px;
+}
+
+.navbar-collapse
+{
+  padding: 0% 3%;
+}
+
+/* :root {
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
+>>>>>>> 2025d1ee22fc646e884286365c68bc662f1cb679
   --light-black: #3e4146db;
-  --bggradient: linear-gradient(to bottom, #ffffff, #37BBE4);
+  --bggradient: linear-gradient(to bottom, #ffffff, #28c7f7);
   --light-gray: rgba(0, 0, 0, 0.877);
-}
+} */
 
 header a {
   font-family: var(--Sniglet-font);
@@ -31,7 +63,7 @@ header a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #22c1e9;
+  background-color: #d1d1d1;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -45,7 +77,7 @@ header a {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #3fa9ff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -156,7 +188,7 @@ header .container .col-md-7 p {
 .cover {
   width: 100%;
   height: 55vmin;
-  background: url("../assets/pexels-photo-452738.jpeg");
+  background: url("img/");
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
@@ -235,6 +267,7 @@ header .container .col-md-7 p {
 .cards div {
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 .cards .title {
@@ -247,7 +280,9 @@ header .container .col-md-7 p {
   padding: 2.5rem 3rem;
   color: var(--light-black);
 }
-
+.card-body{
+    cursor: pointer;
+}
 .card-body .pricing {
   background: rgba(3, 213, 250, 0.501);
   border-top-right-radius: 170px;
@@ -369,4 +404,17 @@ footer .column i + i {
   background: rgba(255, 255, 255, 85%);
   z-index: 9999;
   transition: all 1.5s ease;
+}
+
+body{
+    font-style: normal;
+}
+.text-light{
+    color: #28c7f7 !important;
+}
+.aboutimage{
+    right: 10px;
+    top: 50px;
+    width: 70px;
+    height: 70px;
 }
