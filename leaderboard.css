@@ -3,7 +3,12 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
     
+  }
+
+  html{
+    scroll-behavior: smooth;
   }
   body{
     font-family: Montserrat;
@@ -11,7 +16,9 @@
     user-select: none;
   }
 
-  
+  .subheading{
+    height: 50%;
+  }
   
   section{
     background: url(bg.jpeg);
