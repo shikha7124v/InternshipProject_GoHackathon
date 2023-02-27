@@ -3,10 +3,10 @@ body{
     
     }
     h1{
-      color:#66BFBF
+      color:#47aaed
     }
     h3{
-        color:#66BFBF
+        color:#45c7fb
       }
     
     hr{
@@ -16,3 +16,133 @@ body{
       border-width: 5px;
       width:5%;
     }
+    @import url("");
+* {
+  box-sizing: border-box;
+}
+
+header,
+section {
+  overflow-x: hidden;
+}
+header img {
+    height: 80px;
+    margin-left: -110px;
+}
+
+#login-btn
+{
+  padding: 15px;
+  /* padding-top: 2%; */
+  margin-top: 12px;
+}
+
+.navbar-collapse
+{
+  padding: 0% 3%;
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: rgb(28, 0, 140);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2f7cc4;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3fa9ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 85%);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+.aboutsection{
+  margin: 5%;
+}
+
+.imgofabout{
+  height: 300px;
+  width: 360px;
+}
+body{
+  font-family: Montserrat;
+}
+.bottompara{
+  /* text-align: center; */
+  margin: 5%;
+}
