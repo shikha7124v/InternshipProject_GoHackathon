@@ -9,8 +9,13 @@ body{
 	clear: both;
 }
 .logo{
+<<<<<<< HEAD
+  width:100px ;
+  height: 20px;
+=======
   width:200px ;
   height: 70px;
+>>>>>>> 08413022b478ea9c64760b82f50690b7f94bc260
 	margin: 0px;
 	margin-left: 28px;
     font-weight: bold;
@@ -68,7 +73,11 @@ body{
 }
 .pro-img{
 	float: left;
+<<<<<<< HEAD
+	width: 40px;
+=======
 	width: 139px;
+>>>>>>> 08413022b478ea9c64760b82f50690b7f94bc260
 	margin-top: 5px;
 }
 .profile p{
@@ -153,7 +162,11 @@ body{
 }
 .content-box p span:hover{
   color:white;
+<<<<<<< HEAD
+  background-color:#03b7fe );
+=======
   background-color:#03b7fe ;
+>>>>>>> 08413022b478ea9c64760b82f50690b7f94bc260
 }
 .box-8, .box-4{
 	width: 95%;

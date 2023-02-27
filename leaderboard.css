@@ -1,8 +1,93 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  body{
+    font-family: sans-serif;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  
+  nav .logo{
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 110px;
+  }
+  nav{
+    height: 70px;
+    background: #063247;
+    box-shadow: 0 3px 15px rgba(0,0,0,.4);
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: white;
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+    background: #063247;
+    transition: .5s;
+  }
+  nav ul li a:hover,
+  nav ul li a.active{
+    color: #23dbdb;
+  }
+  nav ul ul{
+    position: absolute;
+    top: 85px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0;
+    visibility: hidden;
+  }
+  nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  nav ul ul li{
+    width: 150px;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: none;
+  }
+  nav ul ul li a{
+    line-height: 50px;
+  }
+  nav ul ul ul{
+    border-top: none;
+  }
+  nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+  }
+  nav ul ul li a i{
+    margin-left: 45px;
+  }
+  section{
+    background: url(bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  body{
     font-family: sans-serif;
     margin: 0;
     background-color: whitesmoke;
-    background-image: linear-gradient(45deg, #c8d1ec, rgb(154, 154, 236));
+    background-image: linear-gradient(45deg, #c8d1ec, rgb(220, 220, 240));
     overflow-x: hidden;
     
     font-family: 'Poppins', sans-serif;
@@ -13,7 +98,6 @@ body{
     text-transform: capitalize;
     transition: all .2s linear;
 }
-
 
 .leaderboard{
     max-width: 55em;
@@ -123,43 +207,6 @@ tbody tr:nth-child(odd){
     font-weight: 800;
 }
 
-.sidenav {
-    height: 100%;
-    width: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: whitesmoke;
-    background-image: linear-gradient(45deg, #292b30, rgb(154, 154, 236));
-    overflow: hidden;
-    transition: 0.5s;
-    padding-top: 30px;
-    border-radius: 2px;
-    border-color: #000000;
-  }
-  .sidenav a {
-    padding: 15px 8px 15px 32px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #000000;
-    display: block;
-    transition: 0.3s;
-  }
-  .sidenav a:hover {
-    color: #ffffff;
-    background-color:#03b7fe;
-  }
-  .sidenav{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-  }
-
-  .head{
-	padding:20px;
-}
 
 #main {
     transition: margin-left .5s;
