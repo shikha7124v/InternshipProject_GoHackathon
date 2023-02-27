@@ -11,7 +11,9 @@
     user-select: none;
   }
 
-  
+  .subheading{
+    height: 50%;
+  }
   
   section{
     background: url(bg.jpeg);
