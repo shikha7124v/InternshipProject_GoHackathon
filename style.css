@@ -6,13 +6,14 @@
 header,
 section {
   overflow-x: hidden;
+  /* left: 100px; */
 }
 header img {
     height: 80px;
     margin-left: -110px;
 }
 .section-0{
-  background-color: #aff2faca;
+  background-color: #37bbe454;
   padding: 140px;
   text-align: center;
   width: 100%;
@@ -82,6 +83,8 @@ header .nav-item:last-child {
 
 header .nav-item {
   padding: 0.9em;
+  /* width: 100%; */
+  /* width: -2px; */
 }
 
 header .navbar-brand {
@@ -90,6 +93,36 @@ header .navbar-brand {
 
 header .nav-link:hover {
   color: black;
+}
+
+/* here */
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
 }
 
 .primary-btn {
@@ -331,4 +364,15 @@ body{
 }
 .text-light{
     color: #ffffff !important;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #37bbe454;
+  /* border: 1px solid transparent; */
+  /* border-radius: 0.25rem; */
+}
+.text-light {
+  color: #000000 !important;
 }
