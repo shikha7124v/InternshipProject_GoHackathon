@@ -11,15 +11,20 @@ body{
 }
 .heading{
     width: 100;
-    display: flex;
+    display: inline block;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     position: relative;
     margin-top: 20;
     right: 90%;
-    vertical-align: middle;
     
+}
+.text{
+    display: inline block;
+    position: relative;
+    
+
 }
 .nav-bar{
     width: 100;
@@ -58,7 +63,7 @@ body{
 .my-button{
     width:200px;
     height:80px;
-    font-size:20px;
+    font-size:30px;
     font-family: 'Times New Roman', Times, serif;
     background-color:#6ab1bc;
     color: black;
@@ -66,14 +71,14 @@ body{
     margin-right: 100px;
     box-shadow: 1px rgb(121, 116, 116);;
     border-radius: 10px;
-    margin-left: 200px;
+    margin-left: 230px;
     text-size-adjust: 40;
 }
 
 .my-button-2{
     width:200px;
     height:80px;
-    font-size:20px;
+    font-size:30px;
     font-family: 'Times New Roman', Times, serif;
     background-color:#e8da5f;
     color: black;
@@ -87,15 +92,15 @@ body{
 .my-button-3{
     width:200px;
     height:80px;
-    font-size:20px;
+    font-size:30px;
     font-family: 'Times New Roman', Times, serif;
     background-color:#ad77aa;
     color: black;
     border:0px;
     box-shadow: 1px rgb(121, 116, 116);
     border-radius: 10px;
-    margin-right: 150px;
-    text-size-adjust: 40;
+    margin-right: 100px;
+    
     
 }
 .logo img{width:40px;}
