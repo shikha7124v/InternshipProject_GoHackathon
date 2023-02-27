@@ -15,51 +15,60 @@
     <link rel="stylesheet" href="./mobile-style.css">
 </head>
 
-<body>
+<body id="body">
     <header>
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">
                     <!-- <i class="fas fa-book-reader fa-2x mx-3"></i>Go Hackathon -->
                     <img src="img/logowithoutbg.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-right text-light"></i>
-                </button>
+                
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
+                        <!-- <li class="nav-item active">
                             <a class="nav-link" href="#">HOME
                                 <span class="sr-only">(current)</span>
                             </a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">HACKATHONS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">COURSES</a>
+                            <a class="nav-link active" href="about.html">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown">
                             <div class="dropdown">
                                 <a href="#" class="nav-link">EVENTS</a>
                                 <div class="dropdown-content">
-                                    <a href="#">CODING COMPETITIONS</a>
-                                    <a href="#">STARTUP</a>
+                                    <a href="#">LIVE EVENTS</a>
+                                    <a href="#">UPCOMMING EVENTS</a>
+                                    <a href="#">PAST EVENTS</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">HACKATHON</a>
+                                <div class="dropdown-content">
+                                    <a href="#">LEADERBOARD</a>
+                                    <a href="#">PRACTICE SET</a>
+                                    <a href="#">PARTICIPANTS</a>
+                                    <a href="#">WINNERS</a>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="#">GALLERY</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                        <li>
+                            <button class="btn btn-primary" id="login-btn">Login/Signup</button>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <div class="container text-center">
+        <div class="container-hero">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-black">
                     <h6>BEST PLATFORM</h6>
@@ -72,7 +81,7 @@
                         society.
                     </p>
                     <button class="btn btn-primary px-5 py-2 primary-btn">
-                        NOW MORE
+                        KNOW MORE
                     </button>
                 </div>
             </div>
@@ -342,6 +351,7 @@
                     <div class="column text-light">
                         <i class="fab fa-facebook-f"></i>
                         <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
                         <i class="fab fa-twitter"></i>
                         <i class="fab fa-youtube"></i>
                     </div>
