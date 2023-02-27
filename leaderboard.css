@@ -11,8 +11,8 @@
     scroll-behavior: smooth;
   }
   body{
-    font-family: sans-serif;
-    overflow: hidden;
+    font-family: Montserrat;
+    /* overflow: hidden; */
     user-select: none;
   }
 
@@ -91,6 +91,7 @@ table{
     margin-right: auto;
     margin-left: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20%;
 }
 table thead{
     opacity: .8;
@@ -515,11 +516,11 @@ footer .column i + i {
   padding: 0 0.5em;
 }
 
-.sticky {
+/* .sticky {
 
   top: 0;
   width: 100%;
   background: white;
   z-index: 9999;
   transition: all 1.5s ease;
-}
+} */
