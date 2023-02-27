@@ -16,7 +16,7 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #f3a1cc;
+  background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -71,7 +71,7 @@ form.sign-in-form {
 .input-field {
   max-width: 380px;
   width: 100%;
-  background-color: #f8cfe4;
+  background-color: #fff;
   margin: 10px 0;
   height: 55px;
   border-radius: 55px;
@@ -79,12 +79,19 @@ form.sign-in-form {
   grid-template-columns: 15% 85%;
   padding: 0 0.4rem;
   position: relative;
+  
+
+}
+.input-field:hover{
+  outline: solid 5px #aff2faca;
+  border-style: solid;
+  border: 2px;
 }
 
 .input-field i {
   text-align: center;
   line-height: 55px;
-  color: #d861e3;
+  color: rgb(7, 144, 198);
   transition: 0.5s;
   font-size: 1.1rem;
 }
@@ -100,7 +107,7 @@ form.sign-in-form {
 }
 
 .input-field input::placeholder {
-  color: #d861e3;
+  color:  rgb(7, 144, 198);
   font-weight: 500;
 }
 
@@ -130,13 +137,13 @@ form.sign-in-form {
 }
 
 .social-icon:hover {
-  color: #fe036a;
-  border-color: #fe036a;
+  color: rgb(10, 97, 168);
+  border-color: rgb(10, 97, 168);
 }
 
 .btn {
   width: 150px;
-  background-color: #7e104a;
+  background-color: #3fa9ff;
   border: none;
   outline: none;
   height: 49px;
@@ -150,7 +157,7 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #fe036a;
+  background-color: rgb(10, 97, 168);
   color:#fff;
 }
 .panels-container {
@@ -171,7 +178,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #7e104a 100%, #fe036a 0%);
+  background-image: linear-gradient(-45deg,  rgb(102, 179, 209) 100%, #078bf8 0%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -222,7 +229,7 @@ form.sign-in-form {
 
 .btn.transparent {
   margin: 0;
-  border: 2px solid #eec4dc;
+  border: 0px solid #eec4dc;
   width: 130px;
   height: 41px;
   font-weight: 600;
@@ -292,7 +299,7 @@ form.sign-in-form {
 
   .panels-container {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr ;
   }
 
   .panel {
@@ -308,7 +315,7 @@ form.sign-in-form {
   }
 
   .left-panel {
-    grid-row: 1 / 2;
+    grid-row: 1/ 2;
   }
 
   .image {
