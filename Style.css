@@ -1,3 +1,9 @@
+/* #body
+{
+  padding: 0% 3%;
+  background-color: white;
+} */
+
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 * {
   box-sizing: border-box;
@@ -13,13 +19,24 @@ header img {
     margin-left: -110px;
 }
 
+.container-hero
+{
+  background-color: lightblue;
+  padding-left: 3%;
+  text-align: center;
+}
 
 #login-btn
 {
   padding: 15px;
 }
 
-:root {
+.navbar-collapse
+{
+  padding: 0% 3%;
+}
+
+/* :root {
   --Sniglet-font: "Sniglet", cursive;
   --Rubik: "Rubik", cursive;
   --Patua: "Patua One", cursive;
@@ -27,7 +44,7 @@ header img {
   --light-black: #3e4146db;
   --bggradient: linear-gradient(to bottom, #ffffff, #37BBE4);
   --light-gray: rgba(0, 0, 0, 0.877);
-}
+} */
 
 header a {
   font-family: var(--Sniglet-font);
