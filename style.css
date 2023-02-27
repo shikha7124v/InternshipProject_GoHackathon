@@ -1,10 +1,4 @@
-/* #body
-{
-  padding: 0% 3%;
-  background-color: white;
-} */
-
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url("");
 * {
   box-sizing: border-box;
 }
@@ -22,23 +16,20 @@ header img {
   padding: 140px;
   text-align: center;
   width: 100%;
+  /* margin-top: 10px; */
 }
 .section-0 img{
   height: 300px;
   width: 360px;
-  left: 70%;
+  /* left: 70%; */
 }
-
-/* :root {
-   --Sniglet-font: "Sniglet", cursive;  
-   --Rubik: "Rubik", cursive; 
-   --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive; 
-} */
+.bannertext{
+  margin-top: 5px;
+}
 
 .container-hero
 {
-  background-color: lightblue;
+  background-color: rgb(7, 144, 198);
   padding-left: 3%;
   text-align: center;
 }
@@ -46,22 +37,14 @@ header img {
 #login-btn
 {
   padding: 15px;
+  /* padding-top: 2%; */
+  margin-top: 12px;
 }
 
 .navbar-collapse
 {
   padding: 0% 3%;
 }
-
-/* :root {
-  --Sniglet-font: "Sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive;
-  --light-black: #3e4146db;
-  --bggradient: linear-gradient(to bottom, #ffffff, #28c7f7);
-  --light-gray: rgba(0, 0, 0, 0.877);
-} */
 
 header a {
   font-family: var(--Sniglet-font);
@@ -72,7 +55,7 @@ header a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #d1d1d1;
+  background-color: #2f7cc4;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -109,44 +92,6 @@ header .nav-link:hover {
   color: black;
 }
 
-header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 35vmin;
-}
-
-header .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
-}
-
-header .row .col-md-5 img {
-  width: 90%;
-}
-
-header {
-  background: #025fff;
-  /* fallback for old browsers */
-  background: var(--bggradient);
-}
-
-header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
-}
-
-header .container .col-md-7 h6 {
-  padding: 1vmin;
-  letter-spacing: 4px;
-}
-
-header .container .col-md-7 h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
-}
-
-header .container .col-md-7 p {
-  padding: 1vmin 5vmin;
-}
-
 .primary-btn {
   border-radius: 30px;
   font-weight: bold;
@@ -157,40 +102,7 @@ header .container .col-md-7 p {
 .section-1 {
   padding: 6vmin 0vmin;
 }
-/* 
-.section-1 .row .col-md-6 .pray img {
-  opacity: 0.8;
-  width: 80%;
-  border-radius: 0.2em;
-}
 
-.section-1 .row .col-md-6:last-child {
-  position: relative;
-}
-
-.section-1 .row .col-md-6 .panel {
-  position: absolute;
-  top: 7vmin;
-  left: -18vmin;
-  background: white;
-  border-radius: 3px;
-  text-align: left;
-  padding: 13vmin 5vmin 20vmin 10vmin;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-  font-family: var(--Rubik);
-  z-index: 1;
-}
-
-.section-1 .row .col-md-6 .panel h1 {
-  font-weight: bold;
-  padding: 0.4em 0;
-  font-size: 2em;
-}
-
-.section-1 .row .col-md-6 .panel p {
-  font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.5);
-} */
 
 /*  Section 2  */
 
@@ -216,20 +128,20 @@ header .container .col-md-7 p {
 .cover .content {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background-color: white;
   padding-top: 19vmin;
 }
 
 .cover .content > h1 {
   font-family: var(--Patua);
   font-size: 6vmin;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .cover .content > p {
   font-family: var(--Rubik);
   font-size: 2vmin;
-  color: #f0f0f0;
+  color: #000000;
 }
 
 .numbers .rect {
@@ -401,8 +313,6 @@ footer .column i {
   color: #dd2476;
 }
 
-/* It is Adjacent sibling combinator */
-
 footer .column i + i {
   padding: 0 0.5em;
 }
@@ -417,14 +327,8 @@ footer .column i + i {
 }
 
 body{
-    font-style: normal;
+    font-family: Montserrat;
 }
 .text-light{
-    color: #28c7f7 !important;
-}
-.aboutimage{
-    right: 10px;
-    top: 50px;
-    width: 70px;
-    height: 70px;
+    color: #ffffff !important;
 }
