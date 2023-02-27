@@ -37,10 +37,6 @@ header img {
   text-align: center;
 }
 
-#login-btn
-{
-  padding: 15px;
-}
 
 .navbar-collapse
 {
@@ -161,7 +157,7 @@ body{
     position: relative;
     background-color: white;
     padding: 12PX 20PX;
-    --color2:#bbb0b0;
+    --color2:#02021f;
 float:left;
 left: 35%;
 
