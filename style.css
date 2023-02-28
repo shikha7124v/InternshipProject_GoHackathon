@@ -456,7 +456,7 @@ body{
   /* border-radius: 0.25rem; */
 }
 .text-light {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 .mr_auto{
@@ -466,7 +466,8 @@ body{
   margin-top: 50px;
 }
 .simg{
-  width: 250px;
-  height: 250px;
-  padding: 10px 10px;
+  width: 240px;
+  height: 141px;
+  padding: 40px 10px;
+  margin-left: 6%;
 }
