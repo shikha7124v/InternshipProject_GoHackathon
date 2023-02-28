@@ -3,7 +3,8 @@ body{
 	padding: 0px;
 	background-color:rgb(7, 144, 198);
 	overflow: hidden;
-	font-family: system-ui;
+	/* font-family: system-ui; */
+  font-family: Montserrat;
 }
 .clearfix{
 	clear: both;
