@@ -46,7 +46,7 @@
     margin-left: auto;
     display: block;
     padding: 1em;
-    padding-top: 2em;
+    padding-top: 8em;
     margin-top: 10vh;
    
 }
@@ -95,12 +95,13 @@
 
 table{
     margin-top: 2em;
-    width: 50em;
+    width: 60em;
     color:black;
-    margin-right: auto;
+    margin-right:auto;
     margin-left: auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 20%;
+    
 }
 table thead{
     opacity: .8;
@@ -582,7 +583,8 @@ header .container .col-md-7 p {
       
     }
     .card{
-      margin-top: 10vh;
+       /*margin-top: 10vh; */
+      padding: 3% 3% ;
     }
 }
 
@@ -747,7 +749,6 @@ footer {
   overflow-x: hidden;
   padding: 14vmin 18vmin;
 }
-
 footer p > span {
   color: #ff512f;
 }
