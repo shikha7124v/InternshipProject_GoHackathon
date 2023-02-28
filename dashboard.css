@@ -356,15 +356,15 @@ header .container .col-md-7 p {
   } }
   .profilephoto{
     margin-top: 11px;
-    margin-left: 250%;
+    margin-left: 350%;
     height: 40px;
     width: 40px;
     cursor: pointer;
   }
-  .crossback{
+  .dropdownprofile{
     margin-top: 14px;
-    margin-left: 330%;
+    margin-left: 430%;
     height: 32px;
-    width: 32px;
+    width: 37px;
     cursor: pointer;
   }
