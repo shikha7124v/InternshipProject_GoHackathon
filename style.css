@@ -465,8 +465,23 @@ body{
 .sponsors{
   margin-top: 50px;
 }
+.images{
+  position: relative; 
+  left: -23.6667px; 
+  box-sizing: border-box; 
+  width: 1263px; 
+  max-width: 1263px;
+  margin-right: 60px;;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .simg{
-  width: 250px;
-  height: 250px;
-  padding: 10px 10px;
+  border-radius: 4px;
+  box-shadow: none;
+  height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    padding-right: 40px; ;
+    margin:50px 50px ;
 }
