@@ -518,12 +518,19 @@ body{
 .sponsors{
   margin-top: 50px;
 }
-.simg{
-  width: 240px;
-  height: 141px;
-  padding: 40px 10px;
-  margin-left: 6%;
+.images{
+  position: relative; 
+  left: -23.6667px; 
+  box-sizing: border-box; 
+  width: 1263px; 
+  max-width: 1263px;
+  margin-right: 60px;;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-.survey-btn{
-  padding: 386px;
+.simg{
+  width: 250px;
+  height: 250px;
+  padding: 10px 10px;
 }
