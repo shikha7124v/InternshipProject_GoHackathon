@@ -6,7 +6,7 @@
 header,
 section {
   overflow-x: hidden;
-  /* left: 100px; */
+  left: 100px;
 }
 header img {
     height: 80px;
@@ -38,8 +38,8 @@ header img {
 #login-btn
 {
   padding: 15px;
-  /* padding-top: 2%; */
   margin-top: 12px;
+  margin-left: 20%;
 }
 
 .navbar-collapse
