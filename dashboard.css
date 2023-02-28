@@ -1,7 +1,7 @@
 body{
 	margin:0px;
 	padding: 0px;
-	background-color:#addff9;
+	background-color:rgb(7, 144, 198);
 	overflow: hidden;
 	font-family: system-ui;
 }
@@ -17,42 +17,15 @@ body{
     color: white;
     margin-bottom: 30px;
 }
-.sidenav {
-  height: 100%;
-  width: 300px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  overflow: hidden;
-  transition: 0.5s;
-  padding-top: 30px;
-  border-radius: 2px;
-  border-color: #000000;
+
+#main-content {
+  height: 500px; /* set a fixed height for the content area */
+  overflow: auto; /* add a scrollbar when the content overflows */
 }
-.sidenav a {
-  padding: 15px 8px 15px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #000000;
-  display: block;
-  transition: 0.3s;
-}
-.sidenav a:hover {
-  color: #ffffff;
-  background-color:#03b7fe;
-}
-.sidenav{
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-}
+
 #main {
-  transition: margin-left .5s;
   padding: 16px;
-  margin-left: 300px;
+  margin-left: 20px;
 }
 .head{
 	padding:20px;
