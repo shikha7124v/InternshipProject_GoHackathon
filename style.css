@@ -530,7 +530,13 @@ body{
   padding-bottom: 30px;
 }
 .simg{
-  width: 250px;
-  height: 250px;
-  padding: 10px 10px;
+  width: 350px;
+  height: 152px;
+  border-radius:4px ;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  margin: 20px;
+  padding: 15px 15px;
 }
