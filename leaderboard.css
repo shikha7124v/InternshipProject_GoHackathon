@@ -58,8 +58,9 @@
 
 .card:hover{
   transform: scale(1.025);
-  transition: .2s ease-in-out;
-  background-color: lightblue;
+  transition: .1s ease-in-out;
+  background-color: rgb(128, 118, 112);
+  background-image: linear-gradient(rgb(106, 156, 231),rgb(77, 240, 252));
 }
 
 .theme-img{
@@ -330,6 +331,7 @@ header .container .col-md-7 p {
 
 .card {
   background-color: #b1c7e9;
+  background-image: linear-gradient(rgb(130, 213, 255),rgb(215, 215, 236));
   height: 20rem;
   border-radius: 5px;
   display: flex;
@@ -347,10 +349,12 @@ header .container .col-md-7 p {
 .card__image {
   height: 160px;
   width: 160px;
+  margin-left: 2vh;
   border-radius: 50%;
-  border: 5px solid #51426e;
+  border: 2.5px solid #070608;
   margin-top: 20px;
-  box-shadow: 0 10px 50px #5831e6;
+  box-shadow: 0 10px 50px #adadad;
+  margin-right: 2vh;
 }
 
 
@@ -386,12 +390,12 @@ header .container .col-md-7 p {
 }
 
 .draw-border:hover {
-  color: #ffe593;
+  color: #0c0901;
 }
 
 .draw-border:hover::before,
 .draw-border:hover::after {
-  border-color: #eb196e;
+  border-color: #2b0111;
   -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
@@ -540,6 +544,8 @@ header .container .col-md-7 p {
 .dropdownn:hover .dropdownn-content {
   display: block;
 }
+
+
 
 @media(max-width:860px){
     .leaderboard{
