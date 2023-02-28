@@ -76,8 +76,6 @@ header .row .col-md-5 {
   padding: 4.2vmin 1vmin;
 }
 
-
-
 header {
   background: #025fff;
   /* fallback for old browsers */
@@ -193,19 +191,11 @@ body {
     flex: 0 0 24%;
   }
 }
-
-<<<<<<< HEAD
-  
-
-
-  
-
-
 :root{
     --color-white:#f3f3f3;
-    --color-darkblue:#796ec8;
-    --color-darkblue-alpha:rgba(13, 138, 187, 0.8);
-    --color-green:#21eb6e;
+    --color-darkblue:#5b9cd1;
+    --color-darkblue-alpha:rgba(126, 203, 233, 0.8);
+    --color-green:#ffffff;
 }
 *,*::before,*::after{
     box-sizing: border-box;
@@ -215,7 +205,7 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
-    color: var(--color-white);
+    color: black;
     margin: 0;
 }
 body::before{
@@ -227,13 +217,13 @@ body::before{
     width: 100%;
     z-index: -1;
     background: var(--color-darkblue);
-    background-image: linear-gradient(215deg,rgba(75, 113, 179, 0.8),rgba(124, 192, 147, 0.8)),url(/developers.jpg);
+    background-image: linear-gradient(215deg,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)),url(/developers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 #title{
-    color: var(--color-green);
+    color: rgb(0, 49, 173);
     font-weight: 600;
     
     
@@ -274,9 +264,10 @@ input,button,select,textarea{
     text-align: center;
 }
 #description{
-    font-style: italic;
+    font-style: Montserrat;
     font-weight: 200;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+    /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+    color: black;
 
 }
 .clue{
@@ -285,7 +276,7 @@ input,button,select,textarea{
     color: #e4e4e4;
 }
 #quest{
-    color: rgb(241, 191, 98);
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
 }
 form{
@@ -340,14 +331,14 @@ form{
     display: block;
     width: 100%;
     padding:0.5rem 0.75rem;
-    background: var(--color-green);
+    background: rgb(0, 136, 255);
     color: inherit;
     border-radius: 15px;
     cursor: pointer;
     outline: none;
     text-transform: uppercase;
     font-size: 1.5rem;
-    color: blue;
+    color: rgb(255, 255, 255);
     border: none;
 }
 
@@ -360,11 +351,10 @@ form{
     .container{
         max-width: 760px;
     }
-=======
+  }
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
   margin-bottom: 5%;
->>>>>>> f2c7ee4499d7bb19ccf1a60e3cb2eea4eee94e6a
 }
