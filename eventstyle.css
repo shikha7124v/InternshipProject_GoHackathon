@@ -191,6 +191,16 @@ body {
     flex: 0 0 24%;
   }
 }
+<<<<<<< HEAD
+=======
+
+  
+
+
+  
+
+
+>>>>>>> ad68374356736e056dc004990869f8811f3bc7c5
 :root{
     --color-white:#f3f3f3;
     --color-darkblue:#5b9cd1;
@@ -351,10 +361,13 @@ form{
     .container{
         max-width: 760px;
     }
+<<<<<<< HEAD
   }
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
   margin-bottom: 5%;
+=======
+>>>>>>> ad68374356736e056dc004990869f8811f3bc7c5
 }
