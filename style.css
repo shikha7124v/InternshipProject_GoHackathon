@@ -48,7 +48,6 @@ header img {
   margin-top: 12px;
   margin-left: 20%;
 }
-
 .navbar-collapse
 {
   padding: 0% 3%;
@@ -76,7 +75,6 @@ header a {
   display: inline-block;
   position: relative;
 }
-
 .my-button-2{
   width:200px;
   height:80px;
@@ -92,7 +90,6 @@ header a {
   text-size-adjust: 40;
   display: inline-block;
 }
-
 .my-button-3{
   width:200px;
   height:80px;
@@ -118,17 +115,14 @@ header a {
   align-items: center;
  
 }
-
 .bannertext{
   margin-top: 80px;
   margin-bottom: 80px;
 }
-
 .bannerimage{
   margin-top: 80px;
   margin-bottom: 80px;
 }
-
 .container-fluid
 {
   position: absolute;
@@ -142,7 +136,6 @@ header a {
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
   
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -205,7 +198,6 @@ header .container .col-md-7 h1 {
 header .container .col-md-7 p {
   padding: 1vmin 5vmin;
 } 
-
 .primary-btn {
   border-radius: 30px;
   font-weight: bold;
