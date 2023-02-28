@@ -12,15 +12,7 @@ header img {
     height: 80px;
     margin-left: -110px;
 }
-:root {
-  --Sniglet-font: "Sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive;
-  --light-black: #3e4146db;
-  --bggradient: white;
-  --light-gray: rgba(0, 0, 0, 0.877);
-}
+
 
 header a {
   font-family: var(--Sniglet-font);
