@@ -39,57 +39,70 @@
         <div class="container-fluid p-0">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">
-                    <!-- <i class="fas fa-book-reader fa-2x mx-3"></i>Go Hackathon -->
                     <img class="logoimg" src="img/logowithoutbg.png" alt=""></a>
-
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-light"></i>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
-                        <!-- <li class="nav-item active">
-                            <a class="nav-link" href="#">LEADERBOARD
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">ABOUT US</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a href="#" class="nav-link">EVENTS</a>
-                                <div class="dropdown-content">
-                                    <a href="#">LIVE EVENTS</a>
-                                    <a href="#">UPCOMMING EVENTS</a>
-                                    <a href="#">PAST EVENTS</a>
-                                </div>
+                        <li class="nav-item active">
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <div class="mr-auto"></div>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">HOME
+                                            <span class="sr-only">(current)</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="about.html">ABOUT US</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <div class="dropdown">
+                                            <a href="event.html" class="nav-link">EVENTS/HACKATHONS</a>
+                                            <div class="dropdown-content">
+                                                <a href="#">LIVE EVENTS</a>
+                                                <a href="#">UPCOMMING EVENTS</a>
+                                                <a href="#">PAST EVENTS</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <div class="dropdown">
+                                            <a href="event.html" class="nav-link">EXPLORE MORE</a>
+                                            <div class="dropdown-content">
+                                                <a href="leaderboard.html">LEADERBOARD</a>
+                                                <a href="#">PRACTICE SET</a>
+                                                <a href="#">PARTICIPANTS</a>
+                                                <a href="leaderboard.html">WINNERS</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">CONTACT US</a>
+                                    </li>
+                                    <li>
+                                        <!-- <a href="login.html"></a>
+                                        <button onclick="login.html" class="btn btn-primary px-5 py-2 primary-btn"
+                                            id="login-btn"> Login/Signup</button>
+                                        </a> -->
+                                        <a href="login.html" class="btn btn-primary px-5 py-2 primary-btn" id="login-btn" role="button">Login/Signup</a>
+                                    </li>
+                                </ul>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a href="#" class="nav-link">HACKATHON</a>
-                                <div class="dropdown-content">
-                                    <a href="#">LEADERBOARD</a>
-                                    <a href="#">PRACTICE SET</a>
-                                    <a href="#">PARTICIPANTS</a>
-                                    <a href="#">WINNERS</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
-                        </li>
-                        <li>
-                            <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-                        </li>
-                    </ul>
-                </div>
             </nav>
         </div>
     </header>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f25e2e60139fe3ae04030292288d8129bdc3c2a1
     <div class="leaderboard">
         <div class="description">
             
@@ -97,9 +110,57 @@
         </div>
         
         <section>
-            
+            <div class="container">
+                <div class="card">
+                  <img src= "img/1.jpg" alt="Person" class="card__image">
+                  <p class="card__name">Geeta</p>
+                  <div class="grid-container">
+              
+                    <div class="grid-rank">
+                      1st Rank
+                    </div>
+              
+                    <div class="grid-score">
+                      Score 1000
+                    </div>
+              
+                  </div>
+              
+                </div>
+                <div class="card">
+                  <img src="img/2.jpg" class="card__image">
+                  <p class="card__name">Riya</p>
+                  <div class="grid-container">
+              
+                    <div class="grid-rank">
+                      2nd Rank
+                    </div>
+              
+                    <div class="grid-score">
+                      Score 985
+                    </div>
+              
+                  </div>
+                 
+                </div>
+                <div class="card">
+                  <img src="img/3.jpg" alt="Person" class="card__image">
+                  <p class="card__name">Manish</p>
+                  <div class="grid-container">
+              
+                    <div class="grid-rank">
+                      3rd Rank
+                    </div>
+              
+                    <div class="grid-score">
+                      Score 800
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+              
         </section>
-      
             <table>
                 <thead>
                     <tr>
@@ -117,47 +178,47 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td id="winner">1</td>
+                        <td id="winner">4</td>
                         <td><img src="img/1.jpg"><p> Amrit</p></td>
                         <td>239</td>
-                        <td>1</td>
+                        <td>4</td>
                     </tr>
                     
                     <tr>
-                        <td id="runner-up">2</td>
+                        <td id="runner-up">5</td>
                         <td><img src="img/2.jpg"><p> Riya</p></td>
                         <td>209</td>
-                        <td>2</td>
+                        <td>5</td>
                     </tr>
                     
                     <tr>
-                        <td id="second-runner-up">3</td>
+                        <td id="second-runner-up">6</td>
                         <td><img src="img/3.jpg"><p>Raman</p></td>
                         <td>154</td>
-                        <td>3</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>4</td>
-                        <td><img src="img/4.jpg"><p>Jahnvi</p></td>
-                        <td>100</td>
-                        <td>4</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>5</td>
-                        <td><img src="img/5.jpg"><p>Nikhil</p></td>
-                        <td>82</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td><img src="img/5.jpg"><p>ABC</p></td>
-                        <td>82</td>
                         <td>6</td>
                     </tr>
+                    
                     <tr>
-                        <td>5</td>
+                        <td>7</td>
+                        <td><img src="img/4.jpg"><p>Jahnvi</p></td>
+                        <td>100</td>
+                        <td>7</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>8</td>
+                        <td><img src="img/5.jpg"><p>Nikhil</p></td>
+                        <td>82</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td><img src="img/5.jpg"><p>ABC</p></td>
+                        <td>82</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
                         <td><img src="img/5.jpg"><p>XYZ</p></td>
                         <td>82</td>
                         <td>7</td>

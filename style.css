@@ -6,14 +6,20 @@
 header,
 section {
   overflow-x: hidden;
+  left: 100px;
 }
 header img {
     height: 80px;
     margin-left: -110px;
 }
+
+.container{
+  width: 100%;
+}
 .section-0{
-  background-color: #aff2faca;
-  padding: 140px;
+  background-color: #37bbe454;
+  margin-top: 110px;
+  /* padding: 140px; */
   text-align: center;
   width: 100%;
   /* margin-top: 10px; */
@@ -23,9 +29,7 @@ header img {
   width: 360px;
   /* left: 70%; */
 }
-.bannertext{
-  margin-top: 5px;
-}
+
 
 .container-hero
 {
@@ -37,8 +41,8 @@ header img {
 #login-btn
 {
   padding: 15px;
-  /* padding-top: 2%; */
   margin-top: 12px;
+  margin-left: 20%;
 }
 
 .navbar-collapse
@@ -109,6 +113,7 @@ header a {
   align-items: center;
  
 }
+<<<<<<< HEAD
 .gallery-section{
   position: relative;
 }
@@ -162,14 +167,31 @@ p{
    text-align: center;
    font-size: x-large;
    display: block;
+=======
+
+.bannertext{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.bannerimage{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container-fluid
+{
+  position: absolute;
+  z-index: 1;
+>>>>>>> f25e2e60139fe3ae04030292288d8129bdc3c2a1
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #2f7cc4;
+  background-color: whitesmoke;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  
 }
 
 .dropdown-content a {
@@ -193,6 +215,8 @@ header .nav-item:last-child {
 
 header .nav-item {
   padding: 0.9em;
+  /* width: 100%; */
+  /* width: -2px; */
 }
 
 header .navbar-brand {
@@ -202,6 +226,36 @@ header .navbar-brand {
 header .nav-link:hover {
   color: black;
 }
+
+/* here */
+
+ header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+} 
 
 .primary-btn {
   border-radius: 30px;
@@ -430,7 +484,6 @@ footer .column i + i {
 
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 85%);
   z-index: 9999;
@@ -439,7 +492,20 @@ footer .column i + i {
 
 body{
     font-family: Montserrat;
+    width: 100%;
+    padding: 0% 0%;
 }
 .text-light{
     color: #ffffff !important;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #37bbe454;
+  /* border: 1px solid transparent; */
+  /* border-radius: 0.25rem; */
+}
+.text-light {
+  color: #000000 !important;
 }
