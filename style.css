@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url("");
 * {
   box-sizing: border-box;
 }
@@ -6,27 +6,48 @@
 header,
 section {
   overflow-x: hidden;
-  /* height: 30%; */
+  left: 100px;
 }
 header img {
     height: 80px;
     margin-left: -110px;
 }
 
+.container{
+  width: 100%;
+}
+.section-0{
+  background-color: #37bbe454;
+  margin-top: 110px;
+  /* padding: 140px; */
+  text-align: center;
+  width: 100%;
+  /* margin-top: 10px; */
+}
+.section-0 img{
+  height: 300px;
+  width: 360px;
+  /* left: 70%; */
+}
+
+
+.container-hero
+{
+  background-color: rgb(7, 144, 198);
+  padding-left: 3%;
+  text-align: center;
+}
 
 #login-btn
 {
   padding: 15px;
+  margin-top: 12px;
+  margin-left: 20%;
 }
 
-:root {
-  --Sniglet-font: "Sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive;
-  --light-black: #3e4146db;
-  --bggradient: linear-gradient(to bottom, #ffffff, #37BBE4);
-  --light-gray: rgba(0, 0, 0, 0.877);
+.navbar-collapse
+{
+  padding: 0% 3%;
 }
 
 header a {
@@ -34,14 +55,87 @@ header a {
   font-size: 0.9em;
   color: rgb(28, 0, 140);
 }
+.my-button{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#6ab1bc;
+  color: black;
+  border:0px;
+  margin-right: 100px;
+  box-shadow: 1px rgb(121, 116, 116);;
+  border-radius: 10px;
+  margin-left: 230px;
+  text-size-adjust: 40;
+  display: inline-block;
+  position: relative;
+}
 
+.my-button-2{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#e8da5f;
+  color: black;
+  border:0px;
+  margin-right: 130px;
+  box-shadow: 10px rgb(96, 93, 93);
+  border-radius: 10px;
+  margin-left: 100px;
+  text-size-adjust: 40;
+  display: inline-block;
+}
+
+.my-button-3{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#ad77aa;
+  color: black;
+  border:0px;
+  box-shadow: 1px rgb(121, 116, 116);
+  border-radius: 10px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.p{
+  text-align: center;
+  font-size: medium;
+  
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  top: 40px;
+  align-items: center;
+ 
+}
+
+.bannertext{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.bannerimage{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container-fluid
+{
+  position: absolute;
+  z-index: 1;
+}
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #22c1e9;
+  background-color: whitesmoke;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  
 }
 
 .dropdown-content a {
@@ -52,7 +146,7 @@ header a {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #3fa9ff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -65,6 +159,8 @@ header .nav-item:last-child {
 
 header .nav-item {
   padding: 0.9em;
+  /* width: 100%; */
+  /* width: -2px; */
 }
 
 header .navbar-brand {
@@ -75,7 +171,9 @@ header .nav-link:hover {
   color: black;
 }
 
-header .row .col-md-7 {
+/* here */
+
+ header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
 }
@@ -86,16 +184,6 @@ header .row .col-md-5 {
 
 header .row .col-md-5 img {
   width: 90%;
-}
-
-header {
-  background: #025fff;
-  /* fallback for old browsers */
-  background: var(--bggradient);
-}
-
-header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
 }
 
 header .container .col-md-7 h6 {
@@ -111,7 +199,7 @@ header .container .col-md-7 h1 {
 
 header .container .col-md-7 p {
   padding: 1vmin 5vmin;
-}
+} 
 
 .primary-btn {
   border-radius: 30px;
@@ -123,47 +211,15 @@ header .container .col-md-7 p {
 .section-1 {
   padding: 6vmin 0vmin;
 }
-/* 
-.section-1 .row .col-md-6 .pray img {
-  opacity: 0.8;
-  width: 80%;
-  border-radius: 0.2em;
-}
 
-.section-1 .row .col-md-6:last-child {
-  position: relative;
-}
-
-.section-1 .row .col-md-6 .panel {
-  position: absolute;
-  top: 7vmin;
-  left: -18vmin;
-  background: white;
-  border-radius: 3px;
-  text-align: left;
-  padding: 13vmin 5vmin 20vmin 10vmin;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-  font-family: var(--Rubik);
-  z-index: 1;
-}
-
-.section-1 .row .col-md-6 .panel h1 {
-  font-weight: bold;
-  padding: 0.4em 0;
-  font-size: 2em;
-}
-
-.section-1 .row .col-md-6 .panel p {
-  font-size: 0.9em;
-  color: rgba(0, 0, 0, 0.5);
-} */
 
 /*  Section 2  */
 
 .cover {
   width: 100%;
   height: 55vmin;
-  background: url("../assets/pexels-photo-452738.jpeg");
+  /* background: url("img/"); */
+  background-color: grey;
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
@@ -181,20 +237,20 @@ header .container .col-md-7 p {
 .cover .content {
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background-color: white;
   padding-top: 19vmin;
 }
 
 .cover .content > h1 {
   font-family: var(--Patua);
   font-size: 6vmin;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .cover .content > p {
   font-family: var(--Rubik);
   font-size: 2vmin;
-  color: #f0f0f0;
+  color: #000000;
 }
 
 .numbers .rect {
@@ -242,6 +298,7 @@ header .container .col-md-7 p {
 .cards div {
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 .cards .title {
@@ -254,7 +311,9 @@ header .container .col-md-7 p {
   padding: 2.5rem 3rem;
   color: var(--light-black);
 }
-
+.card-body{
+    cursor: pointer;
+}
 .card-body .pricing {
   background: rgba(3, 213, 250, 0.501);
   border-top-right-radius: 170px;
@@ -288,7 +347,7 @@ header .container .col-md-7 p {
 }
 
 .section-3 .desktop {
-  background: rgb(255, 255, 255);
+  background: rgba(140, 236, 255, 0.903);
   display: inline-block;
   border-radius: 3em;
   padding: 2vmin 4.5vmin;
@@ -363,17 +422,34 @@ footer .column i {
   color: #dd2476;
 }
 
-/* It is Adjacent sibling combinator */
-
 footer .column i + i {
   padding: 0 0.5em;
 }
 
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
   background: rgba(255, 255, 255, 85%);
   z-index: 9999;
   transition: all 1.5s ease;
+}
+
+body{
+    font-family: Montserrat;
+    width: 100%;
+    padding: 0% 0%;
+}
+.text-light{
+    color: #ffffff !important;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #37bbe454;
+  /* border: 1px solid transparent; */
+  /* border-radius: 0.25rem; */
+}
+.text-light {
+  color: #000000 !important;
 }
