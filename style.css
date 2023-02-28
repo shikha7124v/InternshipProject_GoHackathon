@@ -97,7 +97,7 @@ header a {
   margin-right: 100px;
   display: inline-block;
 }
-.p{
+.overlay{
   text-align: center;
   font-size: medium;
   
@@ -108,6 +108,60 @@ header a {
   top: 40px;
   align-items: center;
  
+}
+.gallery-section{
+  position: relative;
+}
+.gallery-section img{
+  width: 150%;
+  height: 40%;
+  position: absolute;
+}
+.Image1{
+  left: 5em;
+}
+.Image2{
+  left: 10rem;
+  top: 1rem;
+}
+.Image3{
+  left: 15rem;
+  top: 2rem;
+}
+.gallery-section img:hover{
+  z-index:20;
+  
+}
+.gallery-section:hover img:not(:hover){
+  transform:scale(.9)
+}
+@media screen and (max-width:500px){
+  .Image1{
+    left:5rem;
+  }
+  .Image2{
+    left:7rem;
+  }
+  .Image3{
+    left:10rem;
+  }
+}
+.gallery-item-1:hover{
+  transform: scale(1.1);
+}
+.gallery-item{
+  border-radius: 0%;
+   margin-top: 50;
+   margin-left: 50;
+   margin-right: 50;
+   margin-bottom: 50;
+   height: 70vh;
+   transition: transform 0.3s ease-in-out;
+}
+p{
+   text-align: center;
+   font-size: x-large;
+   display: block;
 }
 .dropdown-content {
   display: none;
