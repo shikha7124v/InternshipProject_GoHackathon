@@ -47,7 +47,8 @@ header img {
 }
 
 header a {
-  font-family: var(--Sniglet-font);
+  /* font-family: var(--Sniglet-font); */
+  font-family: Montserrat;
   font-size: 0.9em;
   color: rgb(28, 0, 140);
 }

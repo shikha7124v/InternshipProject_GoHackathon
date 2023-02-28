@@ -2,7 +2,10 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+margin: 0;
+padding: 0;
+}
 header,
 section {
   overflow-x: hidden;
@@ -14,6 +17,7 @@ header img {
 }
 
 .container{
+  background-attachment: white;
   width: 100%;
 }
 .section-0{
@@ -33,7 +37,7 @@ header img {
 
 .container-hero
 {
-  background-color: rgb(7, 144, 198);
+  background-color: rgb(192, 198, 201);
   padding-left: 3%;
   text-align: center;
 }
@@ -48,6 +52,7 @@ header img {
 .navbar-collapse
 {
   padding: 0% 3%;
+  
 }
 
 header a {
@@ -202,7 +207,7 @@ p{
 }
 
 .dropdown-content a:hover {
-  background-color: #3fa9ff;
+  background-color: #dee2e6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -214,9 +219,9 @@ header .nav-item:last-child {
 }
 
 header .nav-item {
-  padding: 0.9em;
+  padding: 0.5em;
   /* width: 100%; */
-  /* width: -2px; */
+  /* width: -2px;*/
 }
 
 header .navbar-brand {
@@ -482,14 +487,14 @@ footer .column i + i {
   padding: 0 0.5em;
 }
 
-.sticky {
+/*.sticky {
   position: fixed;
   width: 100%;
   background: rgba(255, 255, 255, 85%);
   z-index: 9999;
   transition: all 1.5s ease;
 }
-
+*/
 body{
     font-family: Montserrat;
     width: 100%;
@@ -507,5 +512,18 @@ body{
   /* border-radius: 0.25rem; */
 }
 .text-light {
-  color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.mr_auto{
+  margin-right: 0%;
+}
+.sponsors{
+  margin-top: 50px;
+}
+.simg{
+  width: 240px;
+  height: 141px;
+  padding: 40px 10px;
+  margin-left: 6%;
 }
