@@ -115,9 +115,7 @@ header a {
   align-items: center;
  
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 .gallery-section{
   position: relative;
 }
@@ -171,9 +169,7 @@ p{
    text-align: center;
    font-size: x-large;
    display: block;
-=======
-
->>>>>>> 1b8d5585f52e317c2b164b6d4523c36c4470e962
+}
 .bannertext{
   margin-top: 80px;
   margin-bottom: 80px;
@@ -186,7 +182,7 @@ p{
 {
   position: absolute;
   z-index: 1;
->>>>>>> f25e2e60139fe3ae04030292288d8129bdc3c2a1
+
 }
 .dropdown-content {
   display: none;
