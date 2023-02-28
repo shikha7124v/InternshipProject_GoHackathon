@@ -56,6 +56,11 @@
     margin-top: 10vh;
 }
 
+.card:hover{
+  transform: scale(1.025);
+  transition: .2s ease-in-out;
+  background-color: lightblue;
+}
 
 .theme-img{
     width: 20em;
@@ -64,7 +69,7 @@
 .description{
     display:inline-flex;
     text-align: center;
-    margin: 3em;
+    margin: 1em;
     padding: 1vh;
     color: black;
     transform: translateY(-5em);
@@ -404,7 +409,7 @@ header .container .col-md-7 p {
 }
 
 .btn {
-  background: none;
+  background: #34a8ce;
   border: none;
   cursor: pointer;
   line-height: 1.5;
@@ -428,6 +433,78 @@ header .container .col-md-7 p {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   font-size: 1.2em;
+}
+
+.containerr {
+
+  width:200px;
+
+  position: relative;
+
+}
+
+.click{
+
+  background-color: #f85f73;
+
+}
+
+.click:hover {
+
+  background-color: #B71C1C;
+
+}
+
+.click,.links {
+
+  padding: 12px;
+
+  font-size: 1.2em;
+
+  font-family: futura Md BT;
+
+  border: none;
+
+  outline: none;
+
+  width:200px;
+
+  color:#fff;
+
+  transition: 0.3s;
+
+}
+
+.list {
+
+  position: absolute;
+
+  transform: scaleY(0);
+
+  transform-origin: top;
+
+  transition: 0.3s;
+
+}
+
+.newlist {
+
+  transform: scaleY(1);
+
+}
+
+.links {
+
+  background-color: #283c63;
+
+}
+
+.links:hover {
+
+  background-color: #01579B;
+
+  transform: scale(1.1);
+
 }
 
 
