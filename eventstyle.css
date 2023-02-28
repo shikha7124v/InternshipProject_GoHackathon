@@ -5,22 +5,14 @@
 
 header,
 section {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   /* height: 30%; */
 }
 header img {
     height: 80px;
     margin-left: -110px;
 }
-:root {
-  --Sniglet-font: "Sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --Patua: "Patua One", cursive;
-  --Lobster: "lobster", cursive;
-  --light-black: #3e4146db;
-  --bggradient: white;
-  --light-gray: rgba(0, 0, 0, 0.877);
-}
+
 
 header a {
   font-family: var(--Sniglet-font);
@@ -31,7 +23,7 @@ header a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #22c1e9;
+  background-color: #808080;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -87,6 +79,7 @@ header {
   background: #025fff;
   /* fallback for old browsers */
   background: var(--bggradient);
+  margin-bottom: 5%;
 }
 
 header .container .col-md-7 {
@@ -156,6 +149,7 @@ footer {
   
   body{
       font-family: Montserrat;
+      /* margin-bottom: 4%; */
   }
   .text-light{
       color: #ffffff !important;
@@ -167,7 +161,7 @@ footer {
 
 
 .eventbody {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   .card-deck {
@@ -201,7 +195,12 @@ footer {
     }
   }
 
-  
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin-bottom: 5%;
+}
 
 
   
