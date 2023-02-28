@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
     
   }
-
+ 
   html{
     scroll-behavior: smooth;
   }
@@ -60,7 +60,8 @@
   transform: scale(1.025);
   transition: .1s ease-in-out;
   background-color: rgb(128, 118, 112);
-  background-image: linear-gradient(rgb(106, 156, 231),rgb(77, 240, 252));
+  box-shadow: grey  5px 2px 6px;
+  background-image: linear-gradient(rgb(77, 111, 158),rgb(156, 156, 236) );
 }
 
 .theme-img{
@@ -330,20 +331,22 @@ header .container .col-md-7 p {
 }
 
 .card {
-  background-color: #b1c7e9;
-  background-image: linear-gradient(rgb(130, 213, 255),rgb(215, 215, 236));
+  background-color: #007bff;;
+  background-image: linear-gradient(rgb(120, 155, 233),rgb(119, 159, 247));
   height: 20rem;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.7);
+ 
   color: rgb(14, 13, 13);
+  box-shadow:  grey 5px 0px 5px;
 }
 
 .card__name {
   margin-top: 10px;
   font-size: 1em;
+  font-weight: 200;
 }
 
 .card__image {
@@ -525,9 +528,8 @@ header .container .col-md-7 p {
   background-color: #d1d1d1;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  overflow: scroll;
-  scroll-behavior: smooth;
+  z-index: 2;
+  
 }
 
 .dropdownn-content a {
@@ -600,6 +602,7 @@ header .container .col-md-7 p {
 header,
 section {
   overflow-x: hidden;
+  
 }
 header img {
     height: 80px;
@@ -671,6 +674,7 @@ header a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  
 }
 
 .dropdown-content a:hover {
