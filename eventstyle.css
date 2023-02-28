@@ -76,8 +76,6 @@ header .row .col-md-5 {
   padding: 4.2vmin 1vmin;
 }
 
-
-
 header {
   background: #025fff;
   /* fallback for old browsers */
@@ -105,6 +103,7 @@ header .container .col-md-7 p {
 }
 
 .primary-btn {
+  margin-top: 15px;
   border-radius: 30px;
   font-weight: bold;
 }
@@ -192,7 +191,168 @@ body {
     flex: 0 0 24%;
   }
 }
+:root{
+    --color-white:#f3f3f3;
+    --color-darkblue:#5b9cd1;
+    --color-darkblue-alpha:rgba(126, 203, 233, 0.8);
+    --color-green:#ffffff;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: black;
+    margin: 0;
+}
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(215deg,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)),url(/developers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#title{
+    color: rgb(0, 49, 173);
+    font-weight: 600;
+    
+    
+}
+h1{
+    font-weight: 400;
+    line-height: 1.2;
+}
+p{
+    font-size: 1.125rem;
+}
+h1,p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+label{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+input,button,select,textarea{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.container{
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    padding:1.8rem 1rem;
+}
+
+.header{
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+}
+#description{
+    font-style: Montserrat;
+    font-weight: 200;
+    /* text-shadow: 1px 1px 1px rgb(0, 0, 0); */
+    color: black;
+
+}
+.clue{
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+#quest{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+form{
+    background: var(--color-darkblue-alpha);
+    border-radius: 0.25rem;
+}
+
+@media (min-width: 480px){
+    form{
+        padding: 2.5rem;
+    }
+}
+.form-group{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.formControl{
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+.formControl:focus{
+    border-color:blue;
+    outline: 0;
+    box-shadow:0 0 0 0.2rem rgba(0,123,255,0.25)
+}
+.inputRadio,
+.checkbox
+{
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+
+}
+.textarea{
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.15rem;
+    outline: none;
+    border-color: blue;
+    border-radius: 5px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding:0.5rem 0.75rem;
+    background: rgb(0, 136, 255);
+    color: inherit;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width:800px){
+    .container{
+        max-width: 760px;
+    }
+
+  }
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
