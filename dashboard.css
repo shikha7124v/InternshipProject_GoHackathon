@@ -2,7 +2,7 @@ body{
 	margin:0px;
 	padding: 0px;
 	background-color:rgb(7, 144, 198);
-	overflow: hidden;
+	/* overflow: hidden; */
 	/* font-family: system-ui; */
   font-family: Montserrat;
 }
@@ -27,6 +27,8 @@ body{
 #main {
   padding: 16px;
   margin-left: 20px;
+  padding-bottom: 20%;
+  padding-top: 2%;
 }
 .head{
 	padding:20px;
@@ -34,10 +36,11 @@ body{
 .col-div-6{
 	width: 50%;
 	float: left;
+  margin-bottom: 3%;
 }
 .profile{
 	display: inline-block;
-	float: right;
+  /* right: 20%; */
 	width: 160px;
 }
 .pro-img{
@@ -156,7 +159,7 @@ table {
 }
  td {
   text-align: left;
-  padding:15px;
+  padding:10px;
   color: #fff;
   border-bottom: 3px solid #001f38cb;
 }
@@ -251,7 +254,8 @@ footer .column i + i {
 }
 header,
 section {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  left: 100px;   /*now*/
 }
 header img {
     height: 80px;
@@ -262,6 +266,7 @@ header img {
   padding: 15px;
   /* padding-top: 2%; */
   margin-top: 12px;
+  margin-left: 20%; /*now*/
 }
 
 .navbar-collapse
@@ -278,10 +283,10 @@ header a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #2f7cc4;
+  background-color: whitesmoke;  /*now*/
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  /* z-index: 1; */  /*now*/
 }
 
 .dropdown-content a {
@@ -292,7 +297,7 @@ header a {
 }
 
 .dropdown-content a:hover {
-  background-color: #3fa9ff;
+  background-color: #dee2e6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -314,7 +319,52 @@ header .navbar-brand {
 header .nav-link:hover {
   color: black;
 }
+header .row .col-md-7{           /*now*/
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+} 
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 768px) {
   header .navbar-brand {
     padding-left: 1rem;
   } }
+  .profilephoto{
+    margin-top: 11px;
+    margin-left: 250%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  .crossback{
+    margin-top: 14px;
+    margin-left: 330%;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+  }
