@@ -5,6 +5,8 @@
 body{
 margin: 0;
 padding: 0;
+font-size: medium;
+font-family: Montserrat;
 }
 header,
 section {
@@ -26,8 +28,11 @@ header img {
   /* padding: 140px; */
   text-align: center;
   width: 100%;
+  font-family: Montserrat;
+  font-size: small;
   /* margin-top: 10px; */
 }
+
 .section-0 img{
   height: 300px;
   width: 360px;
@@ -55,7 +60,7 @@ header img {
 }
 
 header a {
-  font-family: var(--Sniglet-font);
+  /* font-family: var(--Sniglet-font); */
   font-size: 0.9em;
   color: rgb(28, 0, 140);
 }
@@ -63,7 +68,7 @@ header a {
   width:200px;
   height:80px;
   font-size:30px;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   background-color:#6ab1bc;
   color: black;
   border:0px;
@@ -79,7 +84,7 @@ header a {
   width:200px;
   height:80px;
   font-size:30px;
-  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Times New Roman', Times, serif; */
   background-color:#e8da5f;
   color: black;
   border:0px;
@@ -167,7 +172,7 @@ header a {
 }
 p{
    text-align: center;
-   font-size: x-large;
+   font-size: medium;
    display: block;
 }
 .bannertext{
