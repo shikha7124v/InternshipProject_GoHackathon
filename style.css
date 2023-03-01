@@ -762,7 +762,6 @@ article {
   transition: all 0.4s ease-in-out;
   overflow: hidden;
 }
-
 article a::after {
   position: absolute;
   inset-block: 0;
@@ -770,7 +769,6 @@ article a::after {
   cursor: pointer;
   content: "";
 }
-
 /* basic article elements styling */
 article h2 {
   margin: 0 0 18px 0;
@@ -780,32 +778,27 @@ article h2 {
   color: var(--title-color);
   transition: color 0.3s ease-out;
 }
-
 figure {
   margin: 0;
   padding: 0;
   aspect-ratio: 16 / 9;
   overflow: hidden;
 }
-
 article img {
   max-width: 100%;
   transform-origin: center;
   transform: scale(var(--img-scale));
   transition: transform 0.4s ease-in-out;
 }
-
 .article-body {
   padding: 24px;
 }
-
 article a {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: #28666e;
 }
-
 article a:focus {
   outline: 1px dotted #28666e;
 }
