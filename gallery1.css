@@ -17,26 +17,30 @@
     
   } */
   .section0{
-   /* padding-bottom: 20px; */
-   margin-bottom: -10%;
-   margin-top: -2%;
+   display: block;
+   align-items: center;
+   margin-left: auto;
+   padding-left: 180px;
    background-color: #ffffff;
   }
   .section1{
     background-color: #ffffff;
-    margin-top: 4%;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 250px;
+    margin-bottom: 17%;
   }
   .container-gallery{
     position: relative;
-    margin: 0% 5% 0% 28%;
+    margin: 0% 8% 0% 8%;
     height: 500px;
-    width: 700px;
+    width: 1000px;
   }
   .container-gallery-2{
     position: relative;
-    margin: 0% 5% 0% 28%;
+    margin: 0% 8% 0% 8%;
     height: 500px;
-    width: 700px;
+    width: 1000px;
   }
   /* Hide the images by default */
   .mySlides {
