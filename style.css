@@ -315,7 +315,7 @@ header .container .col-md-7 p {
   height: 150px;
 }
 
-.numbers .rect {
+/* .numbers .rect {
   position: relative;
   z-index: 1;
   background: rgb(255, 255, 255);
@@ -325,7 +325,7 @@ header .container .col-md-7 p {
   margin: 1rem;
   border-radius: 0.5em;
   box-shadow: 1px 2px 50px 0px rgba(0, 191, 255, 0.484);
-}
+} */
 
 .numbers {
   margin-top: -15vmin;
