@@ -50,12 +50,12 @@ header img {
 #login-btn
 {
   padding: 15px;
-  margin-top: 12px;
-  margin-left: 20%;
+  margin-top: 5px;
+  margin-left: 0%;
 }
 .navbar-collapse
 {
-  padding: 0% 3%;
+  /* padding: 0% 0%; */
   
 }
 

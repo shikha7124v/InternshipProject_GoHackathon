@@ -165,13 +165,13 @@ header img {
     margin-left: -110px;
 }
 
-#login-btn
+/* #login-btn
 {
   padding: 15px;
   /* padding-top: 2%; */
-  margin-top: 12px;
+  /* margin-top: 12px; */
   
-}
+/* } */ 
 
 
 header a {
@@ -636,15 +636,15 @@ header img {
   text-align: center;
 }
 
-#login-btn
+/* #login-btn
 {
   padding: 15px;
-}
+} */
 
-.navbar-collapse
+/* .navbar-collapse
 {
   padding: 0% 3%;
-}
+} */
 
 /* :root {
   --Sniglet-font: "Sniglet", cursive;
