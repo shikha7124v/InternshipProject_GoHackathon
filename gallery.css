@@ -1,341 +1,92 @@
+
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-weight: 500;
-  color: #4c4c4c;
-  outline: none;
-  visibility: visible;
-  overflow-x: hidden;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-  outline: 0;
+img {
+  vertical-align: middle;
 }
 
-.section-padding {
-  padding-top: 80px;
-}
-
-.gallery-section {
+/* Position the image container (needed to position the left and right arrows) */
+.container {
   position: relative;
-  z-index: 1;
+  margin-top: 50px;
 }
 
-.title {
-  font-size: 46px;
-  font-weight: 700;
-  color: 36bbf4;
-  text-align: center;
-  margin-bottom: 20px
-} 
-
-.filter {
-  text-align: center;
-  max-width: 1050px;
-  margin: auto;
-}
-
-.btn {
-  padding: 10px 20px;
-  margin: 5px 4px 4px 0;
-  display: inline-block;
-  color: #003;
-  background: #eee;
-  border: 1px solid #36bbf4;
-  transition: all 0.4s;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: 500;
-}
-.btn:hover,.btn-active {
-  background: #36bbf4;
-  color: #fff;
-  -webkit-transform: translateY(3px);
-  -ms-transform: translateY(3px);
-  transform: translateY(3px);
-}
-.gallery {
-  display: flex;
-  justify-content: center;
-  width: fit-content;
-  max-width: 1320px;
-  flex-wrap: wrap;
-  margin: 25px auto;
-  /* gap: 14px; */
-}
-.gallery a {
-  display: flex;
-}
-.gallery img {
-  width: 200px;
-  height: 220px;
-  object-fit: cover;
-  transition: 0.3s ease-in-out;
-  border-radius: 12px;
-  overflow: hidden;
-  margin: 10px 10px;
-}
-
-.gallery img:hover {
-  transform: scale(1.1);
-}
-
-.sets .hide,
-.sets .pophide {
-  width: 0%;
-  opacity: 0;
-}
-
-.closeBtn {
-  position: absolute;
-  font-size: 22px;
-  font-weight: 500;
-  right: 25px;
-  top: 25px;
-  color: white;
-  transition: 0.5s linear;
-  padding: 8px 40px;
-  border-radius: 25px;
-  background: red;
-  outline-offset: -6px;
-  outline: 2px solid #fff;
-}
-.closeBtn:hover {
-  cursor: pointer;
-  background: white;
-  color: black;
-  outline: 2px solid #000;
-}
-
-.openDiv {
-  width: 100%;
-  height: 100vh;
-  background: #000000e7;
-  position: fixed;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  left: 0;
-  z-index: 9999;
-}
-.imgPreview {
-  width: 70%;
-  object-fit: scale-down;
-  max-height: 40vw;
-  height: auto;
-}
-.prevButton,
-.nextButton {
-  transition: 1s linear;
-  padding: 10px 35px;
-  font-size: 18px;
-  border: none;
-  color: white;
-  background: #0005;
-  border-radius: 10px;
-  border: 1px solid white;
-  margin: 10px;
-}
-.prevButton:hover,
-.nextButton:hover {
-  background: #fff;
-  color: black;
-}
-
-/* resposive CSS Code */
-
-/* @media max-width: 1199px {
-  .section-padding {
-    padding-top: 70px;
-  }
-} */
-@media (max-width: 991px) {
-  .section-padding {
-    padding-top: 50px;
-  }
-}
-@media (max-width: 767px) {
-  .title {
-    font-size: 36px;
-  }
-  .gallery img {
-    margin: 8px 8px;
-    width: 175px;
-  }
-  .closeBtn {
-    padding: 6px 25px;
-  }
-  .prevButton,
-  .nextButton {
-    font-size: 18px;
-    padding: 8px 25px;
-  }
-}
-
-@media (max-width: 540px) {
-  .section-padding {
-    padding-top: 30px;
-  }
-  
-  .gallery img {
-    margin: 8px 6px;
-    width: 155px;
-  }
-
-  .closeBtn {
-    font-size: 18px;
-    border-radius: 15px;
-  }
-  .prevButton,
-  .nextButton {
-    font-size: 18px;
-    padding: 6px 20px;
-    border-radius: 10px;
-    margin: 5px;
-  }
-
-  .imgPreview {
-    width: 90%;
-    max-height: 50vh;
-    height: auto;
-  }
-  
-}
-header,
-section {
-  /* overflow-x: hidden; */
-  left: 100px;
-}
-header img {
-    height: 80px;
-    margin-left: -110px;
-}
-#login-btn
-{
-  padding: 15px;
-  margin-top: 12px;
-  margin-left: 20%;
-}
-.navbar-collapse
-{
-  padding: 0% 3%;
-  
-}
-
-header a {
-  /* font-family: var(--Sniglet-font); */
-  font-size: 0.9em;
-  color: rgb(28, 0, 140);
-}
-
-header .nav-item:last-child {
-  padding-right: 10.5em;
-}
-
-header .nav-item {
-  padding: 0.5em;
-  /* width: 100%; */
-  /* width: -2px;*/
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
-}
-
-header .nav-link:hover {
-  color: black;
-}
-
-/* here */
-
- header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 35vmin;
-}
-
-header .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
-}
-
-header .row .col-md-5 img {
-  width: 90%;
-}
-
-header .container .col-md-7 h6 {
-  padding: 1vmin;
-  letter-spacing: 4px;
-}
-
-header .container .col-md-7 h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
-}
-
-header .container .col-md-7 p {
-  padding: 1vmin 5vmin;
-} 
-footer {
-  background: rgba(0, 0, 0, 0.815);
-  overflow-x: hidden;
-  padding: 14vmin 18vmin;
-}
-
-footer p > span {
-  color: #ff512f;
-}
-
-footer input {
-  border: none !important;
-}
-
-footer input::placeholder {
-  color: rgb(255, 255, 255) !important;
-}
-
-footer .input-group .input-group-text {
-  background: var(--bggradient);
-  border: none;
-}
-
-footer .column i {
-  color: #dd2476;
-}
-
-footer .column i + i {
-  padding: 0 0.5em;
-}
-.dropdown-content {
+/* Hide the images by default */
+.mySlides {
   display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
   position: absolute;
-  background-color: whitesmoke;
-  min-width: 160px;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #dee2e6;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
