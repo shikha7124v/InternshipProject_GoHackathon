@@ -460,7 +460,12 @@ header .container .col-md-7 p {
 footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
-  padding: 14vmin 18vmin;
+  /* padding: 14vmin 18vmin; */
+  /* padding: 30px 40px 30px 40px; */
+  padding: 30px -6px;
+  margin-right: 0%;
+  margin-left: 0%;
+  width: 100%;
 }
 
 /* footer p > span {
@@ -549,8 +554,9 @@ ul {
   padding: 0px;
 }
 .footer-section {
-background: white;
+background: rgb(27, 27, 27);
 position: relative;
+width: 100%;
 }
 .footer-cta {
 border-bottom: 1px solid #373636;
@@ -578,6 +584,8 @@ font-size: 15px;
 .footer-content {
 position: relative;
 z-index: 2;
+margin: 30px 1px 7px 1px;
+width: 98%;
 }
 .footer-pattern img {
 position: absolute;
@@ -596,7 +604,7 @@ margin-bottom: 30px;
 .footer-text p {
 margin-bottom: 14px;
 font-size: 14px;
-    color: #7e7e7e;
+    color: #ffffff;
 line-height: 28px;
 }
 .footer-social-icon span {
@@ -633,16 +641,18 @@ color: #fff;
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 40px;
+margin-right: 20px;
 position: relative;
 }
 .footer-widget-heading h3::before {
 content: "";
 position: absolute;
-left: 0;
+left: 81px;
 bottom: -15px;
 height: 2px;
 width: 50px;
 background: #2271bc;
+margin-right: 20px;
 }
 .footer-widget ul li {
 display: inline-block;
@@ -669,11 +679,12 @@ color: #fff;
 }
 .subscribe-form button {
   position: absolute;
-  right: 0;
-  background: #21abc6;
-  padding: 13px 20px;
-  border: 1px solid #25c4ca;
+  right: 0px;
+  background: #0093ee;
+  padding: 14px 5px;
+  border: 1px solid #4a4a4a;
   top: 0;
+  color: white;
 }
 .subscribe-form button i {
 color: #fff;
@@ -771,4 +782,23 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
 }
 .btn-3 span:hover:after {
   width: 100%;
+}
+.footer-widget{
+  /* margin-left: 5px; */
+  text-align: center;
+}
+.footer-widget-links{
+  margin-left: 40px;
+  text-align: center;
+  color: #1ab4de;
+}
+.footer-widget-phone{
+  margin-left: 40px;
+  text-align: center;
+  color: white;
+}
+.footer-widget-subscribe{
+  margin-left: 50px;
+  /* margin-right: 5px; */
+  text-align: center;
 }
