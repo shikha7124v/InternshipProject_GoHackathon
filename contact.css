@@ -9,10 +9,11 @@
 body{
   min-height: 100vh;
   width: 100%;
-  background: #c8e8e9;
-  display: flex;
+  background: #bde9f6;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
+  margin-right: 5px;
 }
 .container{
   width: 85%;
@@ -20,6 +21,8 @@ body{
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10%;
+  margin-top: 4%;
 }
 .container .content{
   display: flex;
@@ -181,6 +184,7 @@ footer .column i + i {
 .dropdown-content {
   display: none;
   position: absolute;
+  /* display: block; */
   background-color: whitesmoke;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
@@ -194,7 +198,7 @@ footer .column i + i {
 }
 
 .dropdown-content a:hover {
-  background-color: #dee2e6;
+  background-color: #ffffff;
 }
 
 .dropdown:hover .dropdown-content {
@@ -261,7 +265,7 @@ header a {
 }
 header,
 section {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   left: 100px;
 }
 header img {

@@ -205,6 +205,8 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
+    /* line-height: 15px; */
+    /* width: 7px; */
     color: black;
     margin: 0;
 }
@@ -356,6 +358,8 @@ form{
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+  height: 200px;
   padding: 1.25rem;
-  margin-bottom: 5%;
+  /* padding: 2px; */
+  margin-bottom: 2%;
 }
