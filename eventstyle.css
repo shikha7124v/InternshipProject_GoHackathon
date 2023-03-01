@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+/* @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 
 * {
   box-sizing: border-box;
-}
+} */
 
 /* header,
 section {
@@ -10,17 +10,17 @@ section {
   height: 30%;
 } */
 
-header img {
+/* header img {
   height: 80px;
   margin-left: -110px;
-}
+} */
 
 
-header a {
+/* header a {
   font-family: var(--Sniglet-font);
   font-size: 0.9em;
   color: rgb(28, 0, 140);
-}
+} */
 
 .dropdown-content {
   display: none;
@@ -46,7 +46,7 @@ header a {
   display: block;
 }
 
-.nav-itemsub {
+/* .nav-itemsub {
   margin-left: 250px;
   margin-bottom: 50px;
 }
@@ -65,9 +65,9 @@ header .navbar-brand {
 
 header .nav-link:hover {
   color: black;
-}
+} */
 
-header .row .col-md-7 {
+/* header .row .col-md-7 {
   padding: 22vmin 1vmin;
   padding-bottom: 35vmin;
 }
@@ -79,11 +79,11 @@ header .row .col-md-5 {
 header {
   background: #025fff;
   /* fallback for old browsers */
-  background: var(--bggradient);
-  margin-bottom: 5%;
-}
+  /* background: var(--bggradient);
+  margin-bottom: 5%; */
+/* } */
 
-header .container .col-md-7 {
+/* header .container .col-md-7 {
   font-family: "Rubik", sans-serif;
 }
 
@@ -100,13 +100,13 @@ header .container .col-md-7 h1 {
 
 header .container .col-md-7 p {
   padding: 1vmin 5vmin;
-}
+} */ */
 
-.primary-btn {
+/* .primary-btn {
   margin-top: 15px;
   border-radius: 30px;
   font-weight: bold;
-}
+} */
 
 
 footer {
@@ -158,40 +158,36 @@ body {
   color: #ffffff !important;
 }
 
-.eventbody {
-  padding-top: 10px;
+/* .card-text{
+  text-align: justify;
+  padding: 0% 0%;
+} */
+
+.card-container{
+  padding-top: 80px;
 }
 
-.card-deck {
-  margin: 0 -15px;
-  justify-content: space-between;
-}
-
-.card-deck .card {
-  margin: 0 0 1rem;
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
+/* @media (min-width: 576px) and (max-width: 767.98px) {
   .card-deck .card {
     -ms-flex: 0 0 48.7%;
     flex: 0 0 48.7%;
   }
-}
+} */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* @media (min-width: 768px) and (max-width: 991.98px) {
   .card-deck .card {
     -ms-flex: 0 0 32%;
     flex: 0 0 32%;
   }
-}
+} */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .card-deck .card {
     -ms-flex: 0 0 24%;
     flex: 0 0 24%;
   }
-}
-:root{
+} */
+/* :root{
     --color-white:#f3f3f3;
     --color-darkblue:#5b9cd1;
     --color-darkblue-alpha:rgba(126, 203, 233, 0.8);
@@ -199,16 +195,18 @@ body {
 }
 *,*::before,*::after{
     box-sizing: border-box;
-}
+} */
 body{
 
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
+    /* line-height: 15px; */
+    /* width: 7px; */
     color: black;
     margin: 0;
 }
-body::before{
+/* body::before{
     content: '';
     position: fixed;
     top: 0;
@@ -221,7 +219,7 @@ body::before{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 #title{
     color: rgb(0, 49, 173);
     font-weight: 600;
@@ -258,11 +256,11 @@ input,button,select,textarea{
     padding:1.8rem 1rem;
 }
 
-.header{
+/* .header{
     padding: 0 0.625rem;
     margin-bottom: 1.875rem;
     text-align: center;
-}
+} */
 #description{
     font-style: Montserrat;
     font-weight: 200;
@@ -284,11 +282,11 @@ form{
     border-radius: 0.25rem;
 }
 
-@media (min-width: 480px){
+/* @media (min-width: 480px){
     form{
         padding: 2.5rem;
     }
-}
+} */
 .form-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
@@ -327,7 +325,7 @@ form{
     border-color: blue;
     border-radius: 5px;
 }
-.btn{
+/* .btn{
     display: block;
     width: 100%;
     padding:0.5rem 0.75rem;
@@ -340,22 +338,23 @@ form{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     border: none;
-}
+} */
 
-@media (min-width:576px){
+/* @media (min-width:576px){
     .container{
         max-width: 540px;
     }
-}
-@media (min-width:800px){
+} */
+/* @media (min-width:800px){
     .container{
         max-width: 760px;
     }
 
-  }
-.card-body {
+} */
+/* .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
+  height: 200px;
   padding: 1.25rem;
   margin-bottom: 5%;
 }
