@@ -19,7 +19,8 @@ body{
   width: 85%;
   background: #fff;
   border-radius: 6px;
-  padding: 20px 60px 30px 40px;
+  /* padding: 20px 60px 30px 40px; */
+  padding: 40px 70px 40px 50px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 10%;
   margin-top: 4%;
@@ -91,6 +92,7 @@ body{
   background: #F0F1F8;
   border-radius: 6px;
   padding: 0 15px;
+  padding-bottom: 10px;
   resize: none;
 }
 .right-side .message-box{

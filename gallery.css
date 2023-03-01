@@ -152,11 +152,11 @@ a {
 
 /* resposive CSS Code */
 
-@media max-width: 1199px {
+/* @media max-width: 1199px {
   .section-padding {
     padding-top: 70px;
   }
-}
+} */
 @media (max-width: 991px) {
   .section-padding {
     padding-top: 50px;
