@@ -21,6 +21,9 @@
   align-items: center;
   justify-content: center;
 }
+i{
+  cursor: pointer;
+}
 .containerofcontact{
   width: 85%;
   background: #fff;
