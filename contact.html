@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
@@ -67,16 +68,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">CONTACT US</a>
                         </li>
-                        <!-- <li>
+                        <li>
                             <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-                        </li> -->
+                        </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-    <main>
-        <div class="container">
+    <main class="contact-main">
+        <!-- <div class="container-contact-page">
             <div class="content">
                 <div class="left-side">
                     <div class="address details">
@@ -124,53 +125,162 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> -->
+        <div class="containerofcontact">
+            <div class="contentofcontainer">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic">Address</div>
+                  <div class="text-one">Surkhet, NP12</div>
+                  <div class="text-two">Birendranagar 06</div>
+                </div>
+                <div class="phone details">
+                  <i class="fas fa-phone-alt"></i>
+                  <div class="topic">Phone</div>
+                  <div class="text-one">+0098 9893 5647</div>
+                  <div class="text-two">+0096 3434 5678</div>
+                </div>
+                <div class="email details">
+                  <i class="fas fa-envelope"></i>
+                  <div class="topic">Email</div>
+                  <div class="text-one">codinglab@gmail.com</div>
+                  <div class="text-two">info.codinglab@gmail.com</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+              <form action="#">
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your name">
+                </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="number">
+                    <input type="text" placeholder="&nbsp;&nbsp; Phone number">
+                  </div>
+                <div class="input-box message-box">
+                    <input type="text" placeholder="Enter your message">
+                </div>
+                <div class="button">
+                  <input type="button" value="Send Now" >
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
     </main>
-    <footer>
-        <div class=" p-0 text-center">
-            <div class="row text-center">
-                <div class="col-md-5 col-sm-5">
-                    <h4 class="text-light">About us</h4>
-                    <p class="text-muted">Go Hackathon comprises of eminent Industry professionals, educators and
-                        students meant to nurture talent among budding tech professionals.</p>
-                    <!-- <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | Terms and conditions
-                    </p> -->
-                </div>
-                <div class="col-md-5 col-sm-5">
-                    <h4 class="text-light">Quick Link</h4>
-                    <p class="text-muted"> <a href="index.html">Home</a>&nbsp;|<a href="about.html">About</a>&nbsp;|<a href="event.html">Events</a>&nbsp;|<a href="leaderboard.html">Leaderboard</a>&nbsp;|<a href="contact.html">Contact Us</a> </p>
-                    <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | Terms and conditions
-                    </p>
-                </div>
-                <div class="col-md-5 col-sm-12">
-                    <h4 class="text-light">Subscribe</h4>
-                    <p class="text-muted">Stay Updated</p>
-                    <form class="form-inline">
-                        <div class="col pl-0">
-                            <div class="input-group pr-7">
-                                <input type="text" class="form-control bg-dark text-white"
-                                    id="inlineFormInputGroupUsername2" placeholder="Email">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">
-                                        <i class="fas fa-arrow-right"></i>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-4">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 footer-about">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="logo.jpg" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant
+                                    to nurture talent among budding tech professionals. </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 ">
+                        <div class="footer-widget-links">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">events</a></li>
+                                    <li><a href="#">Hackathon</a></li>
+                                    <li><a href="#">gallery</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 ">
+                        <div class="footer-widget-phone">
+                            <div class="footer-widget">
+                                <div class="address details">
+
+                                    <div class="topic"> <a href="https://goo.gl/maps/7uj6ADWiX5YEDBTCA">
+                                            <i class="fa fa-map-marker"></i>
+                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address</div>
+                                    <div class="text-one">
+                                        AAG – 11, Shipra Krishna Azure
                                     </div>
+                                    <div class="text-two">Kaushambi, Ghaziabad, UP – 201010</div>
+                                </div>
+                                <div class="phone details">
+                                    <div class="topic"> <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone
+                                    </div>
+                                    <a href="tel:+91 9910018925">+91 9910018925</a>
+                                    <a href="tel:+91 767846713">+91 767846713</a>
+                                    <a href="tel:+91-120-4567841">+91-120-4567841</a>
+                                </div>
+                                <div class="email details">
+                                    <div class="topic"><i
+                                            class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email
+                                    </div>
+                                    <a href="mailto:info@gohackathon.in">info@gohackathon.in</a>
+                                    <a href="mailto:gohackathon2k22@gmail.com">gohackathon2k22@gmail.com</a>
                                 </div>
                             </div>
                         </div>
-                    </form>
-                </div>
-                <div class="col-md-5 col-sm-12 ">
-                    <h4 class="text-light">Follow Us</h4>
-                    <p class="text-muted">Let us be social</p>
-                    <div class="column text-light">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 ">
+                        <div class="footer-widget-subscribe">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button>send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright © 2023 | <a href="https://gohackathon.in/">GOHACKATHON</a> | All Right
+                                Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Terms and Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 

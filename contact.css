@@ -1,4 +1,3 @@
-/* Google Font CDN Link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -6,31 +5,35 @@
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
 }
-body{
+/* body{
   min-height: 100vh;
   width: 100%;
-  background: #ffffff;
-  /* display: flex; */
+  background: #c8e8e9;
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 5px;
+} */
+.contact-main{
+  min-height: 114vh;
+  width: 100%;
+  background: #c8e8e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.container{
-  width: 90%;
-  background: #bde9f6;
+.containerofcontact{
+  width: 85%;
+  background: #fff;
   border-radius: 6px;
-  /* padding: 20px 60px 30px 40px; */
-  padding: 40px 70px 40px 50px;
+  padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10%;
-  margin-top: 4%;
 }
-.container .content{
+.containerofcontact .contentofcontainer{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container .content .left-side{
+.containerofcontact .contentofcontainer .left-side{
   width: 25%;
   height: 100%;
   display: flex;
@@ -40,7 +43,7 @@ body{
   margin-top: 15px;
   position: relative;
 }
-.content .left-side::before{
+.contentofcontainer .left-side::before{
   content: '';
   position: absolute;
   height: 70%;
@@ -48,31 +51,31 @@ body{
   right: -15px;
   top: 50%;
   transform: translateY(-50%);
-  background: #6a6a6a;
+  background: #afafb6;
 }
-.content .left-side .details{
+.contentofcontainer .left-side .details{
   margin: 14px;
   text-align: center;
 }
-.content .left-side .details i{
+.contentofcontainer .left-side .details i{
   font-size: 30px;
   color: #3e2093;
   margin-bottom: 10px;
 }
-.content .left-side .details .topic{
+.contentofcontainer .left-side .details .topic{
   font-size: 18px;
   font-weight: 500;
 }
-.content .left-side .details .text-one,
-.content .left-side .details .text-two{
+.contentofcontainer .left-side .details .text-one,
+.contentofcontainer .left-side .details .text-two{
   font-size: 14px;
-  color: #878787;
+  color: #afafb6;
 }
-.container .content .right-side{
+.containerofcontact .contentofcontainer .right-side{
   width: 75%;
   margin-left: 75px;
 }
-.content .right-side .topic-text{
+.contentofcontainer .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
   color: #3e2093;
@@ -92,7 +95,6 @@ body{
   background: #F0F1F8;
   border-radius: 6px;
   padding: 0 15px;
-  padding-bottom: 10px;
   resize: none;
 }
 .right-side .message-box{
@@ -121,162 +123,36 @@ body{
 }
 
 @media (max-width: 950px) {
-  .container{
+  .containerofcontact{
     width: 90%;
     padding: 30px 40px 40px 35px ;
   }
-  .container .content .right-side{
+  .containerofcontact .contentofcontainer .right-side{
    width: 75%;
    margin-left: 55px;
 }
 }
 @media (max-width: 820px) {
-  .container{
+  .containerofcontact{
     margin: 40px 0;
     height: 100%;
   }
-  .container .content{
+  .containerofcontact .contentofcontainer{
     flex-direction: column-reverse;
   }
- .container .content .left-side{
+ .containerofcontact .contentofcontainer .left-side{
    width: 100%;
    flex-direction: row;
    margin-top: 40px;
    justify-content: center;
    flex-wrap: wrap;
  }
- .container .content .left-side::before{
+ .containerofcontact .contentofcontainer .left-side::before{
    display: none;
  }
- .container .content .right-side{
+ .containerofcontact .contentofcontainer .right-side{
    width: 100%;
    margin-left: 0;
  }
 }
-footer {
-  background: rgba(0, 0, 0, 0.815);
-  overflow-x: hidden;
-  /* padding: 14vmin 18vmin; */
-  padding: 58px 20px 51px 20px;
-}
-
-footer p > span {
-  color: #ff512f;
-}
-
-footer input {
-  border: none !important;
-}
-
-footer input::placeholder {
-  color: rgb(255, 255, 255) !important;
-}
-
-footer .input-group .input-group-text {
-  background: var(--bggradient);
-  border: none;
-}
-
-footer .column i {
-  color: #dd2476;
-}
-
-footer .column i + i {
-  padding: 0 0.5em;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  /* display: block; */
-  background-color: whitesmoke;
-  min-width: 160px;
-  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  
-}
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #ffffff;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-header .nav-item:last-child {
-  padding-right: 10.5em;
-}
-
-header .nav-item {
-  padding: 0.5em;
-  /* width: 100%; */
-  /* width: -2px;*/
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
-}
-
-header .nav-link:hover {
-  color: black;
-}
-
-/* here */
-
- header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 35vmin;
-}
-
-header .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
-}
-
-header .row .col-md-5 img {
-  width: 90%;
-}
-
-header .container .col-md-7 h6 {
-  padding: 1vmin;
-  letter-spacing: 4px;
-}
-
-header .container .col-md-7 h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
-}
-
-header .container .col-md-7 p {
-  padding: 1vmin 5vmin;
-} 
-header a {
-  /* font-family: var(--Sniglet-font); */
-  font-size: 0.9em;
-  color: rgb(28, 0, 140);
-}
-#login-btn
-{
-  padding: 15px;
-  margin-top: 12px;
-  margin-left: 20%;
-}
-header,
-section {
-  /* overflow-x: hidden; */
-  left: 100px;
-}
-header img {
-    height: 80px;
-    margin-left: -110px;
-}
-i{
-  cursor: pointer;
-}
-
 
