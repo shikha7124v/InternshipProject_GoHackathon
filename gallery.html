@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,137 +77,122 @@
 
 <h2 style="text-align:center ; margin-top: 10%;">Slideshow Gallery</h2>
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="img/gallery.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="img/gallery2.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="img/gallery3.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="img/gallery4.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="img/gallery5.jpg" style="width:100%">
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">6 / 7</div>
-    <img src="img/gallery6.jpg" style="width:100%">
-  </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="img/gallery.jpg" style="width:100%" onclick="currentSlide(1)" alt="Samadhan 2022 event">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img/gallery2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Hackathon 1st Prize">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img/gallery3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Samadhan 2022 event">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img/gallery4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Samadhan 2022 event">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img/gallery5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Samadhan 2022 event">
-    </div> 
-    <div class="column">
-      <img class="demo cursor" src="img/gallery6.jpg" style="width:100%" onclick="currentSlide(5)" alt="Samadhan 2022 event">
-    </div>    
-  </div>
-</div>
-<footer>
-  <div class=" p-0">
-      <div class="row text-left">
-          <div class="col-md-5 col-sm-5">
-              <h4 class="text-light">About us</h4>
-              <p class="text-muted">Go Hackathon comprises of eminent Industry professionals, educators and
-                  students meant to nurture talent among budding tech professionals.</p>
-              <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | Terms and conditions
-              </p>
+    <div class="section-padding gallery-section" id="gallery">
+        <div class="container">
+          <!-- Section Title Start -->
+          <div class="text-center">
+            <h2 class="title">Our Gallery</h2>
+           
           </div>
-          <div class="col-md-5 col-sm-12">
-              <h4 class="text-light">Subscribe</h4>
-              <p class="text-muted">Stay Updated</p>
-              <form class="form-inline">
-                  <div class="col pl-0">
-                      <div class="input-group pr-5">
-                          <input type="text" class="form-control bg-dark text-white"
-                              id="inlineFormInputGroupUsername2" placeholder="Email">
-                          <div class="input-group-prepend">
-                              <div class="input-group-text">
-                                  <i class="fas fa-arrow-right"></i>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </form>
+          <!-- Section Title End -->
+
+          <div id="btncontainer" class="filter">
+            <a class="btn btn-active" href="#all">All</a>
+            <a class="btn" href="#Bollywood">Recent</a>
+            <a class="btn" href="#Hollywood">Filter</a>
+           
           </div>
-          <div class="col-md-2 col-sm-12">
-              <h4 class="text-light">Follow Us</h4>
-              <p class="text-muted">Let us be social</p>
-              <div class="column text-light">
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-instagram"></i>
-                  <i class="fab fa-linkedin"></i>
-                  <i class="fab fa-twitter"></i>
-                  <i class="fab fa-youtube"></i>
-              </div>
+
+          <!-- Gallery Section Start -->
+
+          <div class="gallery sets">
+            <a class="all Bollywood"><img src="/img/gallery.jpg"/></a>
+
+            <a class="all Bollywood"><img src="/img/gallery2.jpg"/></a>
+
+            <a class="all Bollywood"><img src="/img/gallery3.jpg"/></a>
+            
+            <a class="all Bollywood"><img src="/img/gallery4.jpg"/></a>
+            
+            <a class="all Hollywood"><img src="/img/gallery5.jpg"/></a>
+            
+            <a class="all Hollywood"><img src="/img/gallery2.jpg"/></a>
+            
+            <a class="all tv"><img src="/img/gallery.jpg"/></a>
+            <a class="all tv"><img src="/img/gallery2.jpg"/></a>
+            
           </div>
+        </div>
       </div>
-  </div>
-</footer>
+      <script>$(".filter a").click(function (e) {
+        e.preventDefault();
+        var a = $(this).attr("href");
+        a = a.substr(1);
+        $(".sets a").each(function () {
+          if (!$(this).hasClass(a) && a != "") $(this).addClass("hide");
+          else $(this).removeClass("hide");
+        });
 
-
-<script>
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
     
+
+// Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("btncontainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        var current = document.getElementsByClassName("btn-active");
+        current[0].className = current[0].className.replace(" btn-active", "");
+        this.className += " btn-active";
+
+    }
+});
+
+
+let imgs = document.querySelectorAll("img");
+      let count;
+      imgs.forEach((img, index) => {
+        img.addEventListener("click", function (e) {
+          if (e.target == this) {
+            count = index;
+            let openDiv = document.createElement("div");
+            let imgPreview = document.createElement("img");
+            let butonsSection = document.createElement("div");
+            butonsSection.classList.add("butonsSection");
+            let closeBtn = document.createElement("button");
+            let nextBtn = document.createElement("button");
+            let prevButton = document.createElement("button");
+            prevButton.innerText = "Previous";
+            nextBtn.innerText = "Next";
+
+            nextBtn.classList.add("nextButton");
+            prevButton.classList.add("prevButton");
+            nextBtn.addEventListener("click", function () {
+              if (count >= imgs.length - 1) {
+                count = 0;
+              } else {
+                count++;
+              }
+
+              imgPreview.src = imgs[count].src;
+            });
+
+            prevButton.addEventListener("click", function () {
+              if (count === 0) {
+                count = imgs.length - 1;
+              } else {
+                count--;
+              }
+
+              imgPreview.src = imgs[count].src;
+            });
+
+            closeBtn.classList.add("closeBtn");
+            closeBtn.innerText = "Close";
+            closeBtn.addEventListener("click", function () {
+              openDiv.remove();
+            });
+
+            imgPreview.classList.add("imgPreview");
+            imgPreview.src = this.src;
+
+            butonsSection.append(prevButton, nextBtn);
+            openDiv.append(imgPreview, butonsSection, closeBtn);
+
+            openDiv.classList.add("openDiv");
+
+            document.querySelector("body").append(openDiv);
+          }
+        });
+      });</script>
 </body>
+
 </html>
