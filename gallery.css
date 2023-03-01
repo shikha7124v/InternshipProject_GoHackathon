@@ -1,215 +1,92 @@
+
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-body {
-  font-weight: 500;
-  color: #4c4c4c;
-  outline: none;
-  visibility: visible;
-  overflow-x: hidden;
 }
 
-a {
-  text-decoration: none;
-  cursor: pointer;
-  outline: 0;
+img {
+  vertical-align: middle;
 }
 
-.section-padding {
-  padding-top: 80px;
-}
-
-.gallery-section {
+/* Position the image container (needed to position the left and right arrows) */
+.container {
   position: relative;
-  z-index: 1;
+  margin-top: 50px;
 }
 
-.title {
-  font-size: 46px;
-  font-weight: 700;
-  color: 36bbf4;
-  text-align: center;
-  margin-bottom: 20px
-} 
-
-.filter {
-  text-align: center;
-  max-width: 1050px;
-  margin: auto;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-.btn {
-  padding: 10px 20px;
-  margin: 5px 4px 4px 0;
-  display: inline-block;
-  color: #003;
-  background: #eee;
-  border: 1px solid #36bbf4;
-  transition: all 0.4s;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: 500;
-}
-.btn:hover,.btn-active {
-  background: #36bbf4;
-  color: #fff;
-  -webkit-transform: translateY(3px);
-  -ms-transform: translateY(3px);
-  transform: translateY(3px);
-}
-.gallery {
-  display: flex;
-  justify-content: center;
-  width: fit-content;
-  max-width: 1320px;
-  flex-wrap: wrap;
-  margin: 25px auto;
-  /* gap: 14px; */
-}
-.gallery a {
-  display: flex;
-}
-.gallery img {
-  width: 200px;
-  height: 220px;
-  object-fit: cover;
-  transition: 0.3s ease-in-out;
-  border-radius: 12px;
-  overflow: hidden;
-  margin: 10px 10px;
-}
-
-.gallery img:hover {
-  transform: scale(1.1);
-}
-
-.sets .hide,
-.sets .pophide {
-  width: 0%;
-  opacity: 0;
-}
-
-.closeBtn {
-  position: absolute;
-  font-size: 22px;
-  font-weight: 500;
-  right: 25px;
-  top: 25px;
-  color: white;
-  transition: 0.5s linear;
-  padding: 8px 40px;
-  border-radius: 25px;
-  background: red;
-  outline-offset: -6px;
-  outline: 2px solid #fff;
-}
-.closeBtn:hover {
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
   cursor: pointer;
-  background: white;
-  color: black;
-  outline: 2px solid #000;
 }
 
-.openDiv {
-  width: 100%;
-  height: 100vh;
-  background: #000000e7;
-  position: fixed;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  left: 0;
-  z-index: 9999;
-}
-.imgPreview {
-  width: 70%;
-  object-fit: scale-down;
-  max-height: 40vw;
-  height: auto;
-}
-.prevButton,
-.nextButton {
-  transition: 1s linear;
-  padding: 10px 35px;
-  font-size: 18px;
-  border: none;
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
   color: white;
-  background: #0005;
-  border-radius: 10px;
-  border: 1px solid white;
-  margin: 10px;
-}
-.prevButton:hover,
-.nextButton:hover {
-  background: #fff;
-  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
-/* resposive CSS Code */
-
-@media max-width: 1199px {
-  .section-padding {
-    padding-top: 70px;
-  }
-}
-@media (max-width: 991px) {
-  .section-padding {
-    padding-top: 50px;
-  }
-}
-@media (max-width: 767px) {
-  .title {
-    font-size: 36px;
-  }
-  .gallery img {
-    margin: 8px 8px;
-    width: 175px;
-  }
-  .closeBtn {
-    padding: 6px 25px;
-  }
-  .prevButton,
-  .nextButton {
-    font-size: 18px;
-    padding: 8px 25px;
-  }
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-@media (max-width: 540px) {
-  .section-padding {
-    padding-top: 30px;
-  }
-  
-  .gallery img {
-    margin: 8px 6px;
-    width: 155px;
-  }
-
-  .closeBtn {
-    font-size: 18px;
-    border-radius: 15px;
-  }
-  .prevButton,
-  .nextButton {
-    font-size: 18px;
-    padding: 6px 20px;
-    border-radius: 10px;
-    margin: 5px;
-  }
-
-  .imgPreview {
-    width: 90%;
-    max-height: 50vh;
-    height: auto;
-  }
-  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
 
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

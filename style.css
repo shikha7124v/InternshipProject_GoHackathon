@@ -50,14 +50,14 @@ header img {
 #login-btn
 {
   padding: 15px;
-  margin-top: 12px;
-  margin-left: 20%;
+  margin-top: 5px;
+  margin-left: 0%;
 }
-.navbar-collapse
+/* .navbar-collapse
 {
-  padding: 0% 3%;
+  padding: 0% 0%;
   
-}
+} */
 
 header a {
   /* font-family: var(--Sniglet-font); */
@@ -369,7 +369,7 @@ header .container .col-md-7 p {
   font-size: 2vmin;
 }
 
-.card .card-text {
+.card .card-text-index {
   padding: 2.5rem 3rem;
   color: var(--light-black);
 }
@@ -440,7 +440,7 @@ header .container .col-md-7 p {
   margin-top: 10vmin;
 }
 
-.section-4 .card .card-text {
+.section-4 .card .card-text-index {
   padding: 0.5em;
 }
 
