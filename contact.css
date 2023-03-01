@@ -156,7 +156,8 @@ body{
 footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
-  padding: 14vmin 18vmin;
+  /* padding: 14vmin 18vmin; */
+  padding: 58px 20px 51px 20px;
 }
 
 footer p > span {
@@ -277,3 +278,5 @@ header img {
 i{
   cursor: pointer;
 }
+
+
