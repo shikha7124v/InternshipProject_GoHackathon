@@ -516,7 +516,7 @@ body{
   padding: 15px 15px;
 }
 ul {
-  margin: 0px;
+  margin: 19px;
   padding: 0px;
 }
 .footer-section {
@@ -662,7 +662,7 @@ background: #202020;
 padding: 25px 0;
 }
 .copyright-text p {
-margin: 0;
+margin-top: 4%;
 font-size: 14px;
 color: #878787;
 }
@@ -892,4 +892,11 @@ Generic layout (demo looks)
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+.footer-widget-phone{
+  color: white;
+}
+.footer-widget-heading{
+  text-align: center;
+  margin-right: 60px;
 }
