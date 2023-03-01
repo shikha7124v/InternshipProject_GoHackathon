@@ -749,26 +749,6 @@ background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
 .btn-3 span:hover:after {
   width: 100%;
 }
-<<<<<<< HEAD
-.footer-widget{
-  /* margin-left: 5px; */
-  text-align: center;
-}
-.footer-widget-links{
-  margin-left: 40px;
-  text-align: center;
-  color: #1ab4de;
-}
-.footer-widget-phone{
-  margin-left: 40px;
-  text-align: center;
-  color: white;
-}
-.footer-widget-subscribe{
-  margin-left: 50px;
-  /* margin-right: 5px; */
-  text-align: center;
-=======
 article {
   --img-scale: 1.001;
   --title-color: black;
