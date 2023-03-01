@@ -102,11 +102,11 @@ header .container .col-md-7 p {
   padding: 1vmin 5vmin;
 }
 
-.primary-btn {
+/* .primary-btn {
   margin-top: 15px;
   border-radius: 30px;
   font-weight: bold;
-}
+} */
 
 
 footer {
@@ -327,7 +327,7 @@ form{
     border-color: blue;
     border-radius: 5px;
 }
-.btn{
+/* .btn{
     display: block;
     width: 100%;
     padding:0.5rem 0.75rem;
@@ -340,7 +340,7 @@ form{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
     border: none;
-}
+} */
 
 @media (min-width:576px){
     .container{
