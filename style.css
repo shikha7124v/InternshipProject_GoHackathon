@@ -462,40 +462,6 @@ footer {
   overflow-x: hidden;
   padding: 14vmin 18vmin;
 }
-
-/* footer p > span {
-  color: #ff512f;
-}
-
-footer input {
-  border: none !important;
-}
-
-footer input::placeholder {
-  color: rgb(255, 255, 255) !important;
-}
-
-footer .input-group .input-group-text {
-  background: var(--bggradient);
-  border: none;
-}
-
-footer .column i {
-  color: #dd2476;
-}
-
-footer .column i + i {
-  padding: 0 0.5em;
-} */
-
-/*.sticky {
-  position: fixed;
-  width: 100%;
-  background: rgba(255, 255, 255, 85%);
-  z-index: 9999;
-  transition: all 1.5s ease;
-}
-*/
 body{
     font-family: Montserrat;
     width: 100%;
