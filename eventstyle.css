@@ -1,26 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 
-* {
-  box-sizing: border-box;
-} */
-
-/* header,
-section {
-  overflow-x: hidden;
-  height: 30%;
-} */
-
-/* header img {
-  height: 80px;
-  margin-left: -110px;
-} */
-
-
-/* header a {
-  font-family: var(--Sniglet-font);
-  font-size: 0.9em;
-  color: rgb(28, 0, 140);
-} */
 
 .dropdown-content {
   display: none;
@@ -44,100 +22,6 @@ section {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-/* .nav-itemsub {
-  margin-left: 250px;
-  margin-bottom: 50px;
-}
-
-header .nav-item:last-child {
-  padding-right: 10.5em;
-}
-
-header .nav-item {
-  padding: 0.9em;
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
-}
-
-header .nav-link:hover {
-  color: black;
-} */
-
-/* header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 35vmin;
-}
-
-header .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
-}
-
-header {
-  background: #025fff;
-  /* fallback for old browsers */
-  /* background: var(--bggradient);
-  margin-bottom: 5%; */
-/* } */
-
-/* header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
-}
-
-header .container .col-md-7 h6 {
-  padding: 1vmin;
-  letter-spacing: 4px;
-}
-
-header .container .col-md-7 h1 {
-  font-size: 8.5vmin;
-  font-weight: bold;
-  padding: 0.1em 0em;
-}
-
-header .container .col-md-7 p {
-  padding: 1vmin 5vmin;
-} */ */
-
-/* .primary-btn {
-  margin-top: 15px;
-  border-radius: 30px;
-  font-weight: bold;
-} */
-
-
-footer {
-  background: rgba(0, 0, 0, 0.815);
-  overflow-x: hidden;
-  padding: 14vmin 18vmin;
-}
-
-footer p>span {
-  color: #ff512f;
-}
-
-footer input {
-  border: none !important;
-}
-
-footer input::placeholder {
-  color: rgb(255, 255, 255) !important;
-}
-
-footer .input-group .input-group-text {
-  background: var(--bggradient);
-  border: none;
-}
-
-footer .column i {
-  color: #dd2476;
-}
-
-footer .column i+i {
-  padding: 0 0.5em;
 }
 
 .sticky {
@@ -324,37 +208,4 @@ form{
     outline: none;
     border-color: blue;
     border-radius: 5px;
-}
-/* .btn{
-    display: block;
-    width: 100%;
-    padding:0.5rem 0.75rem;
-    background: rgb(0, 136, 255);
-    color: inherit;
-    border-radius: 15px;
-    cursor: pointer;
-    outline: none;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    color: rgb(255, 255, 255);
-    border: none;
-} */
-
-/* @media (min-width:576px){
-    .container{
-        max-width: 540px;
-    }
-} */
-/* @media (min-width:800px){
-    .container{
-        max-width: 760px;
-    }
-
-} */
-/* .card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  height: 200px;
-  padding: 1.25rem;
-  margin-bottom: 5%;
 }
