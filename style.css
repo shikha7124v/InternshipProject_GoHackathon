@@ -585,12 +585,13 @@ margin-bottom: 20px;
 color: #fff;
 font-size: 16px;
 margin-right: 15px;
+
 }
 .footer-social-icon i {
-height: 40px;
-width: 40px;
+height: 30px;
+width: 30px;
 text-align: center;
-line-height: 38px;
+line-height: 30px;
 border-radius: 50%;
 }
 .facebook-bg{
@@ -601,6 +602,15 @@ background: #55ACEE;
 }
 .google-bg{
 background: #1ab4de;
+}
+.instagram-bg{
+  background-color: #F56040;
+}
+.linkedin-bg{
+  background-color: #0077b5;
+}
+.youtube-bg{
+  background-color: #FF0000;
 }
 .footer-widget-heading h3 {
 color: #fff;
@@ -629,7 +639,7 @@ margin-bottom: 12px;
 color: #34d0e5;
 }
 .footer-widget ul li a {
-color: #878787;
+color: white;
 text-transform: capitalize;
 }
 .subscribe-form {
@@ -664,7 +674,7 @@ padding: 25px 0;
 .copyright-text p {
 margin-top: 4%;
 font-size: 14px;
-color: #878787;
+color: white;
 }
 .copyright-text p a{
 color: #24bbda;
@@ -678,7 +688,15 @@ color: #29e0da;
 }
 .footer-menu li a {
 font-size: 14px;
-color: #878787;
+color: white;
+}
+.phone-details a {
+  color: white;
+  text-decoration: none;
+}
+.email-details a {
+  color: white;
+  text-decoration: none;
 }
 /* .btn-3 {
   background: rgb(0,172,238);
