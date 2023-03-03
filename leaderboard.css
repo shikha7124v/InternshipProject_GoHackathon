@@ -1,94 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
 body {
-  font-family: Montserrat;
-  user-select: none;
-}
-
-section {
-  background: url(bg.jpeg);
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 0;
-  background-color: white;
-
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: all .2s linear;
+  font-family: 'Montserrat', 'sans-serif';
 }
 
 .leaderboard {
-  max-width: 55em;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  padding: 1em;
-  padding-top: 2em;
-  margin-top: 10vh;
-}
-
-.board {
-  max-width: 55em;
-  margin-top: 10vh;
-}
-
-.theme-img {
-  width: 20em;
-  border-radius: 10px;
-}
-
-.description {
-  display: inline-flex;
-  text-align: center;
-  margin: 3em;
-  padding: 1vh;
-  color: black;
-  transform: translateY(-5em);
-  margin-left: 40%;
-}
-
-.search {
-  border-radius: 5px;
-  border: none;
-  background-color: transparent;
-  border-bottom: #0aa989 2px solid;
-  padding: .5em;
-  font-size: 1em;
-  color: black;
-}
-
-.search:focus {
-  outline: none;
+  width: 100%;
+  margin-top: 180px;
+  margin-bottom: 60px;
 }
 
 table {
-  margin-top: 2em;
-  width: 50em;
+  margin-top: 80px;
+  width: 90%;
   color: black;
   margin-right: auto;
   margin-left: auto;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 20%;
-}
-
-table thead {
-  opacity: .8;
+  font-family: 'Montserrat', 'sans-serif';
 }
 
 table img {
@@ -149,10 +75,6 @@ tbody tr:nth-child(odd) {
   font-weight: 800;
 }
 
-@media(max-width:860px) {
-  .leaderboard {
-    padding: 0;
-  }
 
   .theme-img {
     margin-right: auto;
@@ -169,10 +91,3 @@ tbody tr:nth-child(odd) {
     max-width: 100vw;
     overflow-x: scroll;
   }
-}
-
-@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
-
-* {
-  box-sizing: border-box;
-}
