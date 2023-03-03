@@ -1,12 +1,9 @@
-@import url("");
-* {
-  box-sizing: border-box;
-}
+
 body{
-margin: 0;
+/* margin: 0;
 padding: 0;
-font-size: medium;
-font-family: Montserrat;
+font-size: medium; */
+font-family: 'Montserrat',  'sans-serif';
 }
 header,
 section {
@@ -47,12 +44,12 @@ header img {
   text-align: center;
 }
 
-#login-btn
+/* #login-btn
 {
-  padding: 15px;
-  margin-top: 5px;
+  
+  margin-top: 2px;
   margin-left: 0%;
-}
+} */
 /* .navbar-collapse
 {
   padding: 0% 0%;
@@ -467,11 +464,7 @@ footer {
   margin-left: 0%;
   width: 100%;
 }
-body{
-    font-family: Montserrat;
-    width: 100%;
-    padding: 0% 0%;
-}
+
 .text-light{
     color: #ffffff !important;
 }
@@ -670,7 +663,6 @@ transform: rotate(-6deg);
 }
 .copyright-area{
 background: #202020;
-padding: 25px 0;
 }
 .copyright-text p {
 margin-top: 4%;
