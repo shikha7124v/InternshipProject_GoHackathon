@@ -1,10 +1,11 @@
 .contact-main{
-  min-height: 114vh;
+  min-height: 100vh;
   width: 100%;
   background: #c8e8e9;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 110px;
 }
 
 i{
