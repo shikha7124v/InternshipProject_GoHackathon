@@ -1,88 +1,89 @@
+* {box-sizing:border-box}
 
-
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 8%;
 }
 
-.imgbody {
-    min-height: 90vh; 
-	background-color: #cecece;
-    /* margin: 10% 2%; */
-    margin: -2% 0% 2% 0%;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-.containerimg {
-	max-width: 100rem;
-	/* margin: 0 auto; */
-    margin: 10% 1% 10% 17%;
-	padding: 0 2rem 2rem;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-.headingimg {
-	font-family: "Montserrat", Arial, sans-serif;
-	font-size: 4rem;
-	font-weight: 500;
-	line-height: 1.5;
-	text-align: center;
-	padding: -1.5rem 0;
-	color: #1a1a1a;
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.headingimg span {
-	display: block;
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-.gallery2 {
-	display: flex;
-	flex-wrap: wrap;
-	/* Compensate for excess margin on outer gallery flex items */
-	margin: -1rem -1rem;
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-.gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
-	flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
-    /* width: 600px; */
-    width: 95%;
-	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-	/* overflow: hidden; */
-    /* height: 400px; */
-    height: 70%;
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.gallery-image {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	transition: transform 400ms ease-out;
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #33c9f7;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 2%;
 }
 
-.gallery-image:hover {
-	transform: scale(1.15);
+.active, .dot:hover {
+  background-color: #717171;
 }
 
-/*
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
 
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-*/
-
-@supports (display: grid) {
-	.gallery2 {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(37rem, 1fr));
-		grid-gap: 1rem;
-	}
-
-	.gallery2,
-	.gallery-item {
-		margin: 0;
-	}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
