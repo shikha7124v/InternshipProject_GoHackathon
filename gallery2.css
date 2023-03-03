@@ -83,8 +83,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
 @supports (display: grid) {
 	.gallery2 {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-		grid-gap: 0rem;
+		grid-template-columns: repeat(auto-fit, minmax(37rem, 1fr));
+		grid-gap: 1rem;
 	}
 
 	.gallery2,
