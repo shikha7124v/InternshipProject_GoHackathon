@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Go Hackathon</title>
-
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-            
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-      <link rel="stylesheet" href="leaderboard.css">
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile-style.css">
+    <!-- <link rel="stylesheet" href="contact.html"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
         rel="stylesheet">
-       
-   </head>
-<body>
-
+    <link rel="stylesheet" href="eventstyle.css">
+</head>
+<body class="eventbody">
     <header>
-        <div class="container-fluid p-0">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="#">
                     <img class="logoimg" src="img/logowithoutbg.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-right text-dark"></i>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <div class="mr-auto"></div>
                     <ul class="navbar-nav">
                         <!-- <li class="nav-item active">
-                            <a class="nav-link active" href="index.html">HOME</a>
+                            <a class="nav-link" href="#">HOME
+                                <span class="sr-only">(current)</span>
+                            </a>
                         </li> -->
                         <li class="nav-item">
                             <a class="nav-link active" href="about.html">ABOUT US</a>
                         </li>
                         <li class="nav-item dropdown">
                             <div class="dropdown">
-                                <a href="event.html" class="nav-link">EVENTS</a>
+                                <a href="#" class="nav-link">EVENTS</a>
                                 <div class="dropdown-content">
                                     <a href="#">LIVE EVENTS</a>
                                     <a href="#">UPCOMMING EVENTS</a>
@@ -54,7 +49,7 @@
                             <div class="dropdown">
                                 <a href="#" class="nav-link">HACKATHON</a>
                                 <div class="dropdown-content">
-                                    <a href="leaderboard.html">LEADERBOARD</a>
+                                    <a href="#">LEADERBOARD</a>
                                     <a href="#">PRACTICE SET</a>
                                     <a href="#">PARTICIPANTS</a>
                                     <a href="#">WINNERS</a>
@@ -62,10 +57,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gallery1.html">GALLERY</a>
+                            <a class="nav-link" href="#">GALLERY</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                            <a class="nav-link" href="#">CONTACT US</a>
                         </li>
                         <li>
                             <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
@@ -76,152 +71,33 @@
         </div>
     </header>
 
-    <div class="leaderboard">
-        <!-- <div class="description">
-            <h3>LEADER BOARD </h3>
-            <div class="dropdownn">
-                <a href="#" class="nav-link">EVENTS</a>
-                <div class="dropdownn-content">
-                    <a href="#">topic A</a>
-                    <a href="#">topic B</a>    
-                </div>
-            </div>  
-        </div> -->
-        
-       
-            <div class="container">
-                <div class="card-deck">
-                    <div class="card">
-                        <img src= "img/1.jpg" alt="Person" class="card__image">
-                        <p class="card__name">Geeta</p>
-                        <div class="grid-container">
-                            <div class="grid-rank">
-                                1st Rank
-                            </div>
-                            <div class="grid-score">
-                                Score 1000
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="card">
-                        <img src= "img/1.jpg" alt="Person" class="card__image">
-                        <p class="card__name">Geeta</p>
-                        <div class="grid-container">
-                            <div class="grid-rank">
-                                1st Rank
-                            </div>
-                            <div class="grid-score">
-                                Score 1000
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src= "img/1.jpg" alt="Person" class="card__image">
-                        <p class="card__name">Geeta</p>
-                        <div class="grid-container">
-                            <div class="grid-rank">
-                                1st Rank
-                            </div>
-                            <div class="grid-score">
-                                Score 1000
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <img src= "img/1.jpg" alt="Person" class="card__image">
-                        <p class="card__name">Geeta</p>
-                        <div class="grid-container">
-                            <div class="grid-rank">
-                                1st Rank
-                            </div>
-                            <div class="grid-score">
-                                Score 1000
-                            </div>
-                        </div>
-                    </div>
-
-                </div>  
+    <div class="container">
+        <div class="past-event">
+            <div>
+                <h6><strong>Event Name:- </strong>SAMADHAN</h6>
+                <h6><strong>Event Mascot:- <img src="img/samadhan.png" alt=""></strong></h6>
+                <h6><strong>Event Date:- </strong>17th and 18th December 2022</h6>
+                <h6><strong>Event Duration:- </strong>24hrs (Split over 2 Days)</h6>
+                <h6><strong>Event Venue:- </strong>BTKIT Dwarahat (https://goo.gl/maps/1UNyqo5NwR8kTsTVA)</h6>
+            </div> <br>
+            <div class="past-event-text">
+                <p>The event will be hosted at BTKIT Campus situated in the beautiful hills of Ranikhet belt near Dwarahat. 
+                    Dwarahat is historically rich in culture, spiritual, and commercial activities in the Almora region 
+                    and now is one of the rapidly growing educational hubs of Uttarakhand.</p>
             </div>
-
-
-            <table>
-                <thead>
-                    <tr>
-                        <td></td>
-                        <td>
-                            Participant
-                        </td>
-                        <td>
-                            Score
-                        </td>
-                        <td>
-                            Rank
-                        </td>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td id="winner">4</td>
-                    
-                        <td><img src="img/1.jpg"><p> XYZ</p></td>
-                        <td>239</td>
-                        <td>4</td>
-                    </tr>
-                    
-                    <tr>
-                        <td id="runner-up">5</td>
-                        <td><img src="img/2.jpg"><p>XYZ</p></td>
-                        <td>209</td>
-                        <td>5</td>
-                    </tr>
-                    
-                    <tr>
-                        <td id="second-runner-up">6</td>
-                        <td><img src="img/3.jpg"><p>XYZ</p></td>
-                        <td>154</td>
-                        <td>6</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>7</td>
-                        <td><img src="img/4.jpg"><p>XYZ</p></td>
-                        <td>100</td>
-                        <td>7</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>8</td>
-                        <td><img src="img/5.jpg"><p>XYZ</p></td>
-                        <td>82</td>
-                        <td>8</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td><img src="img/5.jpg"><p>ABC</p></td>
-                        <td>81</td>
-                        <td>9</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td><img src="img/5.jpg"><p>XYZ</p></td>
-                        <td>75</td>
-                        <td>10</td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td><img src="img/5.jpg"><p>XYZ</p></td>
-                        <td>70</td>
-                        <td>11</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div>
+                <h6><strong>Event Uniqueness:-</strong></h6>
+                <p>This event brings real industry problem statements to different teams from across the country, the teams are given specific problem statements for which they develop solutions. Professional industry mentors evaluate the level and choose the winning team. The winning team gets the prize money.
+                    The story does not end here, it goes beyond that, here most of the hackathons end up with the winning team, and in this event, the opportunity is for everybody who participates in it.
+                    All the Participating teams who developed their solutions (both winning and losing one’s) will be now assigned to industry mentors for specific periods. The teams will focus on developing the solution under the mentorship of the expert. The team who will produce the best results in the desired timeframe will be selected for a paid internship for 6 months (or for a specific duration of the project development)
+                    On successful completion of the project, the team will have options either to continue paid internship with a new project or get a job opportunity (if they have completed their studies by that time.)
+                    Go hackathon aims at providing continuous help and support to all the participants of their events and developing a life-long bond of learning, earning, and contributing back. The aim is to impact industry and society by providing continuous innovative solutions to real problems faced by the industry.</p>
+            </div>
         </div>
     </div>
-   
-    <footer class="footer-section">
+
+      <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-5 pb-4">
                 <div class="row">
@@ -332,24 +208,17 @@
             </div>
         </div>
     </footer>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+<script src="./main.js"></script>
 <script>
-    function search(){
-        var text = document.getElementById('search').value;
-        const tr = document.getElementsByTagName('tr');
-        for (let i=1;i<tr.length;i++){
-            if(!tr[i].children[1].children[1].innerHTML.toLowerCase().includes(
-                text.toLowerCase()
-            )){
-                tr[i].style.display = 'none';
-            }
-            else{
-                tr[i].style.display = '';
-            }
-        }
-    }
-    
-
-    
+  
 </script>
+</body>
+
 </html>

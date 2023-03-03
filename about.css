@@ -1,7 +1,7 @@
 body{
   background-color: #ffffff;
   width: 100%;
-  font-family: Montserrat;
+  font-family: 'Montserrat',  'sans-serif'; 
   
   }
   /* h1{
@@ -29,16 +29,16 @@ header img {
   margin-left: -110px;
 } */
 
-#login-btn
+/* #login-btn
 {
   padding: 15px;
   margin-top: 5px;
   margin-left: 0%;
-}
-.navbar-collapse
+} */
+/* .navbar-collapse
 {
 padding: 0% 3%;
-}
+} */
 
 /* header a {
 font-family: var(--Sniglet-font);
@@ -83,7 +83,7 @@ border-radius: 30px;
 font-weight: bold;
 } */
 
-footer {
+/* footer {
 background: rgba(0, 0, 0, 0.815);
 overflow-x: hidden;
 padding: 14vmin 18vmin;
@@ -121,7 +121,7 @@ width: 100%;
 background: rgba(255, 255, 255, 85%);
 z-index: 9999;
 transition: all 1.5s ease;
-}
+} */
 .imgofabout{
   margin-top: 60px;
   height: 300px;
@@ -146,10 +146,6 @@ transition: all 1.5s ease;
   text-align: justify;
 }
 
-
-body{
-font-family: Montserrat;
-}
 
 
 /* .border-radius{

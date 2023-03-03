@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Go Hackathon</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile-style.css">
+    <!-- <link rel="stylesheet" href="contact.html"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img class="logoimg" src="img/logowithoutbg.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-dark"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <!-- <a class="nav-link" href="#">HOME
+                                <span class="sr-only">(current)</span>
+                            </a> -->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="event.html" class="nav-link">EVENTS</a>
+                                <div class="dropdown-content">
+                                    <a href="#">LIVE EVENTS</a>
+                                    <a href="#">UPCOMMING EVENTS</a>
+                                    <a href="#">PAST EVENTS</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link">HACKATHON</a>
+                                <div class="dropdown-content">
+                                    <a href="leaderboard.html">LEADERBOARD</a>
+                                    <a href="#">PRACTICE SET</a>
+                                    <a href="#">PARTICIPANTS</a>
+                                    <a href="#">WINNERS</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                        <li>
+                            <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="section-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7  bannertext">
+                    <h6>BEST PLATFORM</h6>
+                    <h1>GO HACKATHON</h1>
+                    <p>
+                        Go Hackathon comprises of eminent Industry professionals, educators and students meant to
+                        nurture talent among budding tech professional.<br>
+                        We create an eco-system of industry academia partnership and help in continuous and
+                        sustainable development of innovative ideas, which are impactful for the growing economy and
+                        society.
+                    </p>
+                    <a href="about.html">
+                        <button class="btn btn-primary px-5 py-2 primary-btn">
+                            NOW MORE
+                        </button>
+                    </a>
+                </div>
+                <div class="col-lg-5 bannerimage">
+                    <img src="img/development2" alt="developer2" />
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sponsors">
+        <div class="content text-center">
+            <h2 text-align="center">SPONSORS AND ASSOCIATES</h2>
+        </div>
+        <div class="images">
+
+            <div class="img1">
+                <img class="simg" src="sponsorsimg/SSIM-LOGO-1.png" alt="ssim">
+            </div>
+            <div class="img2">
+                <img class="simg" src="sponsorsimg/tp-agri-logo.png" alt="agritech">
+            </div>
+            <div class="img3">
+                <img class="simg" src="sponsorsimg/Skyfield-Agritech.png" alt="Skyfield-Agritech">
+            </div>
+            <div class="img4">
+                <img class="simg" src="sponsorsimg/MOLogo.png" alt="molong">
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="section-1 p-0">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-2  p-0">
+            <div class="cover">
+                <div class="overlay"></div>
+                <div class="content text-center">
+                    <h1>Some Features That Made Us Unique</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+                    </p>
+                </div>
+            </div>
+            <div class=" text-center">
+                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+                    <div class="rect">
+                        <img class="feature" src="img/feature/3.jpg" alt="">
+
+                    </div>
+                    <div class="rect">
+                        <h1>45</h1>
+                        <p>Coding Competitions</p>
+                    </div>
+                    <div class="rect">
+                        <h1>45</h1>
+                        <p>Hackathons</p>
+                    </div>
+                    <div class="rect">
+                        <h1>45</h1>
+                        <p>Startup Ideas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="purchase text-center">
+                <h1>Courses, Practice Sets, Quizzes</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="cards">
+                    <div class="d-flex flex-row justify-content-center flex-wrap">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Data structures</h5>
+                                </div>
+                                <p class="card-text-index">
+                                    Master concepts of data structures and algorithms.
+                                </p>
+                                <div class="pricing">
+                                    <button class="btn-3">know more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Web Designing</h5>
+                                </div>
+                                <p class="card-text-index">
+                                    Be a pro web developer.
+                                </p>
+                                <div class="pricing">
+                                    <button class="btn-3">know more</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="title">
+                                    <h5 class="card-title">Data Science</h5>
+                                </div>
+                                <p class="card-text-index">
+                                    Be a full time data science engieer in fang company
+                                </p>
+                                <div class="pricing">
+                                    <button class="btn-3">know more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="section-3  p-0 text-center">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Download Our App for all Platform</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis
+                        omnis quod possimus odit
+                    </p>
+                </div>
+            </div> -->
+        <!-- <div class="platform row">
+                <div class="col-md-6 col-sm-12 text-right">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">Desktop</h3>
+                                <p class="p-0 m-0">On website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 text-left">
+                    <div class="desktop shadow-lg">
+                        <div class="d-flex flex-row justify-content-center">
+                            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
+                            <div class="text text-left">
+                                <h3 class="pt-1 m-0">On Mobile</h3>
+                                <p class="p-0 m-0">On Play Store</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Section 4 -->
+        <section class="section-4">
+            <div class="container text-center">
+                <h1 class="text-dark">Collaborate With Go Hackathon</h1>
+                <p class="text-secondary">Some of our collaborations with top colleges</p>
+            </div>
+            <div class="team row ">
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="img/collaborator1.png" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">BTKU Dwarahat</h3>
+                            <p class="card-text-index">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                veniam, illo dolor soluta assumenda
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Go Hackaersum</a>
+                            <p class="text-black-50">19/01/2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active">
+                                <div class="card mr-2 d-inline-block shadow">
+                                    <div class="card-img-top">
+                                        <img src="" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">ABC College</h3>
+                                        <p class="card-text-index">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                            recusandae, veniam, illo dolor soluta assumenda
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">XYZ Event</a>
+                                        <p class="text-black-50">13/12/2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card  d-inline-block mr-2 shadow">
+                                    <div class="card-img-top">
+                                        <img src="img/collaborator1.png" class="img-fluid rounded-circle w-50 p-4"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title">XYZ college</h3>
+                                        <p class="card-text-index">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                            recusandae, veniam, illo dolor soluta assumenda
+                                        </p>
+                                        <a href="#" class="text-secondary text-decoration-none">Coding Jam</a>
+                                        <p class="text-black-50">18/11/2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center">
+                    <div class="card mr-2 d-inline-block shadow-lg">
+                        <div class="card-img-top">
+                            <img src="img/WIT-LOGO-1-1.png" class="img-fluid border-radius p-4" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">WIT Dehradun</h3>
+                            <p class="card-text-index">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                veniam, illo dolor soluta assumenda
+                            </p>
+                            <a href="#" class="text-secondary text-decoration-none">Coding Competition</a>
+                            <p class="text-black-50">11/10/2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="section-5">
+            <div class="vc_column-inner"> == $0
+                ::before
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center" class="vc_custom_heading">FAQ'S</h2>
+                    <div class="vc_tta-container" dat-vc-action="collapse">
+                        <div class="vc_general vc_tta vc_tta-tabs vc_tta-color-grey vc_tta-style-modern vc_tta-shape-rounded vc_tta-spacing-5 vc_tta-tabs-position-left vc_tta-controls-align-left">
+                            <div class="vc_tta-tabs-container"> 
+                                <ul class="vc_tta-tabs-list"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+    <!-- <div class="surveybutton">
+        <a class="survey-btn" href="survey.html">
+            <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Survey</button>
+        </a>
+    </div> -->
+    <!-- <footer>
+        <div class=" p-0">
+            <div class="row text-left">
+                <div class="col-md-5 col-sm-5">
+                    <h4 class="text-light">About us</h4>
+                    <p class="text-muted">Go Hackathon comprises of eminent Industry professionals, educators and
+                        students meant to nurture talent among budding tech professionals.</p>
+                    <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | Terms and conditions
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <h4 class="text-light">Subscribe</h4>
+                    <p class="text-muted">Stay Updated</p>
+                    <form class="form-inline">
+                        <div class="col pl-0">
+                            <div class="input-group pr-5">
+                                <input type="text" class="form-control bg-dark text-white"
+                                    id="inlineFormInputGroupUsername2" placeholder="Email">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4 class="text-light">Follow Us</h4>
+                    <p class="text-muted">Let us be social</p>
+                    <div class="column text-light">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <footer class="footer-section">
+        <div class="container">
+            <!-- <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>AAG – 11, Shipra Krishna Azure <br> Kaushambi, Ghaziabad, UP – 201010</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+91 9910018925,<br>+91 767846713,<br>+91-120-4567841</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>info@gohackathon.in <br>
+                                    gohackathon2k22@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="footer-content pt-2 pd-6">
+                <div class="">
+                    <div class="address details">
+                        <a href="https://goo.gl/maps/7uj6ADWiX5YEDBTCA">
+                            <i class="fa fa-map-marker"></i>
+                        </a>
+                        <div class="topic">Address</div>
+                        <div class="text-one">
+                            AAG – 11, Shipra Krishna Azure
+                        </div>
+                        <div class="text-two">Kaushambi, Ghaziabad, UP – 201010</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fa fa-phone"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+91 9910018925, +91 767846713,</div>
+                        <div class="text-two">+91-120-4567841</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">info@gohackathon.in</div>
+                        <div class="text-two">gohackathon2k22@gmail.com</div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="footer-content pt-5 pb-4">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 footer-about">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="logo.jpg" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant
+                                    to nurture talent among budding tech professionals. </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 ">
+                        <div class="footer-widget-links">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">events</a></li>
+                                    <li><a href="#">Hackathon</a></li>
+                                    <li><a href="#">gallery</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 ">
+                        <div class="footer-widget-phone">
+                            <div class="footer-widget">
+                                <div class="address details">
+
+                                    <div class="topic"> <a href="https://goo.gl/maps/7uj6ADWiX5YEDBTCA">
+                                            <i class="fa fa-map-marker"></i>
+                                        </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Address</div>
+                                    <div class="text-one">
+                                        AAG – 11, Shipra Krishna Azure
+                                    </div>
+                                    <div class="text-two">Kaushambi, Ghaziabad, UP – 201010</div>
+                                </div>
+                                <div class="phone details">
+
+                                    <div class="topic"> <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone
+                                    </div>
+                                    <a href="tel:+91 9910018925">+91 9910018925</a>
+                                    <a href="tel:+91 767846713">+91 767846713</a>
+                                    <a href="tel:+91-120-4567841">+91-120-4567841</a>
+                                </div>
+                                <div class="email details">
+
+                                    <div class="topic"><i
+                                            class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email
+                                    </div>
+                                    <a href="mailto:info@gohackathon.in">info@gohackathon.in</a>
+                                    <a href="mailto:gohackathon2k22@gmail.com">gohackathon2k22@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 ">
+                        <div class="footer-widget-subscribe">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button >send</button> 
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright © 2023 | <a href="https://gohackathon.in/">GOHACKATHON</a> | All Right
+                                Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Terms and Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+@import url("");
+* {
+  box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+font-size: medium;
+font-family: Montserrat;
+}
+header,
+section {
+  overflow-x: hidden;
+  left: 100px;
+}
+header img {
+    height: 80px;
+    margin-left: -110px;
+}
+
+.container{
+  background-attachment: white;
+  width: 100%;
+}
+.section-0{
+  background-color: #37bbe454;
+  margin-top: 110px;
+  /* padding: 140px; */
+  text-align: center;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: small;
+  /* margin-top: 10px; */
+}
+
+.section-0 img{
+  height: 300px;
+  width: 360px;
+  /* left: 70%; */
+}
+
+
+.container-hero
+{
+  background-color: rgb(192, 198, 201);
+  padding-left: 3%;
+  text-align: center;
+}
+
+#login-btn
+{
+  padding: 15px;
+  margin-top: 5px;
+  margin-left: 0%;
+}
+/* .navbar-collapse
+{
+  padding: 0% 0%;
+  
+} */
+
+header a {
+  /* font-family: var(--Sniglet-font); */
+  font-size: 0.9em;
+  color: rgb(28, 0, 140);
+}
+.my-button{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  background-color:#6ab1bc;
+  color: black;
+  border:0px;
+  margin-right: 100px;
+  box-shadow: 1px rgb(121, 116, 116);;
+  border-radius: 10px;
+  margin-left: 230px;
+  text-size-adjust: 40;
+  display: inline-block;
+  position: relative;
+}
+.my-button-2{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  /* font-family: 'Times New Roman', Times, serif; */
+  background-color:#e8da5f;
+  color: black;
+  border:0px;
+  margin-right: 130px;
+  box-shadow: 10px rgb(96, 93, 93);
+  border-radius: 10px;
+  margin-left: 100px;
+  text-size-adjust: 40;
+  display: inline-block;
+}
+.my-button-3{
+  width:200px;
+  height:80px;
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:#ad77aa;
+  color: black;
+  border:0px;
+  box-shadow: 1px rgb(121, 116, 116);
+  border-radius: 10px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.overlay{
+  text-align: center;
+  font-size: medium;
+  
+}
+.gallery{
+  display: flex;
+  justify-content: center;
+  top: 40px;
+  align-items: center;
+ 
+}
+
+.gallery-section{
+  position: relative;
+}
+.gallery-section img{
+  width: 150%;
+  height: 40%;
+  position: absolute;
+}
+.Image1{
+  left: 5em;
+}
+.Image2{
+  left: 10rem;
+  top: 1rem;
+}
+.Image3{
+  left: 15rem;
+  top: 2rem;
+}
+.gallery-section img:hover{
+  z-index:20;
+  
+}
+.gallery-section:hover img:not(:hover){
+  transform:scale(.9)
+}
+@media screen and (max-width:500px){
+  .Image1{
+    left:5rem;
+  }
+  .Image2{
+    left:7rem;
+  }
+  .Image3{
+    left:10rem;
+  }
+}
+.gallery-item-1:hover{
+  transform: scale(1.1);
+}
+.gallery-item{
+  border-radius: 0%;
+   margin-top: 50;
+   margin-left: 50;
+   margin-right: 50;
+   margin-bottom: 50;
+   height: 70vh;
+   transition: transform 0.3s ease-in-out;
+}
+p{
+   text-align: center;
+   font-size: medium;
+   display: block;
+}
+.bannertext{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.bannerimage{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.container-fluid
+{
+  position: absolute;
+  z-index: 1;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #dee2e6;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.5em;
+  /* width: 100%; */
+  /* width: -2px;*/
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+/* here */
+
+ header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bold;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+} 
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/********** section 1 **************/
+
+.section-1 {
+  padding: 6vmin 0vmin;
+}
+
+
+/*  Section 2  */
+
+.cover {
+  width: 100%;
+  height: 55vmin;
+  background-image: url("img/feature/3.jpg");
+  background-color: grey;
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+}
+
+.cover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.cover .content {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-top: 19vmin;
+}
+
+.cover .content > h1 {
+  font-family: var(--Patua);
+  font-size: 6vmin;
+  color: rgb(0, 0, 0);
+}
+
+.cover .content > p {
+  font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #000000;
+}
+.feature{
+  width: 120px;
+  height: 150px;
+}
+
+.numbers .rect {
+  position: relative;
+  z-index: 1;
+  background: rgb(255, 255, 255);
+  width: 17rem;
+  height: 17rem;
+  padding-top: 3.5vmin;
+  margin: 1rem;
+  border-radius: 0.5em;
+  box-shadow: 1px 2px 50px 0px rgba(0, 191, 255, 0.484);
+}
+
+.numbers {
+  margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+  font-size: 5rem;
+  color: rgb(71, 181, 255);
+}
+
+.numbers .rect > p {
+  font-family: var(--Patua);
+}
+
+.purchase > h1 {
+  padding-top: 15vmin;
+  padding-bottom: 0.1em;
+  font-family: var(--Lobster);
+}
+
+.purchase > p {
+  color: var(--light-black);
+  font-size: 3vmin;
+  padding-bottom: 10vmin;
+}
+
+.purchase .cards .card {
+  width: 22rem;
+  margin: 3vmin 3vmin;
+}
+
+.cards div {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.cards .title {
+  background: rgba(208, 241, 241, 0.199);
+  padding: 1.4em 2.5em;
+  font-size: 2vmin;
+}
+
+.card .card-text-index {
+  padding: 2.5rem 3rem;
+  color: var(--light-black);
+}
+.card-body{
+    cursor: pointer;
+}
+.card-body .pricing {
+  background: rgba(3, 213, 250, 0.501);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+}
+
+.card-body .pricing > h1 {
+  font-size: 4vmin;
+  padding: 1em 0.5em;
+}
+
+/* Section 3 */
+
+.section-3 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: var(--bggradient);
+}
+
+.section-3 .col-md-12 > h1 {
+  padding: 2em 0 0.5em 0;
+  color: rgb(0, 0, 0);
+  font-size: 6vmin;
+}
+
+.section-3 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: var(--light-gray);
+  font-size: 3vmin;
+}
+
+.section-3 .desktop {
+  background: rgba(140, 236, 255, 0.903);
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-3 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-3 .desktop p {
+  font-size: 2vmin;
+}
+
+/* Section Team */
+
+.section-4 .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.section-4 .team {
+  padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+  width: 22em;
+  margin-top: 10vmin;
+}
+
+.section-4 .card .card-text-index {
+  padding: 0.5em;
+}
+
+.section-4 .card-body > a {
+  font-size: 1.5em;
+}
+
+.section-4 .carousel-item {
+  padding-left: 3rem;
+}
+
+.border-radius {
+  border-radius: 340px;
+  width: 60%;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  /* padding: 14vmin 18vmin; */
+  /* padding: 30px 40px 30px 40px; */
+  padding: 30px -6px;
+  margin-right: 0%;
+  margin-left: 0%;
+  width: 100%;
+}
+
+/* footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+footer .input-group .input-group-text {
+  background: var(--bggradient);
+  border: none;
+}
+
+footer .column i {
+  color: #dd2476;
+}
+
+footer .column i + i {
+  padding: 0 0.5em;
+} */
+
+/*.sticky {
+  position: fixed;
+  width: 100%;
+  background: rgba(255, 255, 255, 85%);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+*/
+body{
+    font-family: Montserrat;
+    width: 100%;
+    padding: 0% 0%;
+}
+.text-light{
+    color: #ffffff !important;
+}
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #37bbe454;
+  /* border: 1px solid transparent; */
+  /* border-radius: 0.25rem; */
+}
+.text-light {
+  color: #ffffff !important;
+}
+
+.mr_auto{
+  margin-right: 0%;
+}
+.sponsors{
+  margin-top: 50px;
+}
+.images{
+  position: relative; 
+  left: -23.6667px; 
+  box-sizing: border-box; 
+  width: 1263px; 
+  max-width: 1263px;
+  margin-right: 60px;;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.simg{
+  width: 350px;
+  height: 152px;
+  border-radius:4px ;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  margin: 20px;
+  padding: 15px 15px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: rgb(27, 27, 27);
+position: relative;
+width: 100%;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #29ade5;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #212020;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+margin: 30px 1px 7px 1px;
+width: 98%;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+    color: #ffffff;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #1ab4de;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+margin-right: 20px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 81px;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #2271bc;
+margin-right: 20px;
+}
+.footer-widget ul li {
+display: inline-block;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #34d0e5;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0px;
+  background: #0093ee;
+  padding: 14px 5px;
+  border: 1px solid #4a4a4a;
+  top: 0;
+  color: white;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #24bbda;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #29e0da;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+.btn-3 {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:hover{
+   color: rgba(2,126,251,1);
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+.footer-widget{
+  /* margin-left: 5px; */
+  text-align: center;
+}
+.footer-widget-links{
+  margin-left: 40px;
+  text-align: center;
+  color: #1ab4de;
+}
+.footer-widget-phone{
+  margin-left: 40px;
+  text-align: center;
+  color: white;
+}
+.footer-widget-subscribe{
+  margin-left: 50px;
+  /* margin-right: 5px; */
+  text-align: center;
+}
