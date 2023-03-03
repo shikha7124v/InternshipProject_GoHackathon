@@ -168,7 +168,7 @@ header a {
    transition: transform 0.3s ease-in-out;
 }
 p{
-   text-align: center;
+   text-align: justify;
    font-size: medium;
    display: block;
 }
@@ -907,4 +907,14 @@ i{
 .footer-widget-heading{
   text-align: center;
   margin-right: 60px;
+}
+
+.past-event{
+  margin-top: 150px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.past-event-heading{
+  text-align: left;
 }
