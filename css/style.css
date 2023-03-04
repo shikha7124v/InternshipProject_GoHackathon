@@ -426,9 +426,13 @@ header .container .col-md-7 p {
   padding-top: 14vmin;
 }
 
-.section-4 .team {
-  padding: 10vmin 4vmin;
+.text-secondary {
+  text-align: center;
 }
+
+/* .section-4 .team {
+  padding: 10vmin 4vmin;
+} */
 
 .section-4 .card {
   width: 22em;
