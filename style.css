@@ -1,10 +1,8 @@
 
 body{
-/* margin: 0;
-padding: 0;
-font-size: medium; */
 font-family: 'Montserrat',  'sans-serif';
 }
+
 header,
 section {
   overflow-x: hidden;
@@ -21,13 +19,10 @@ header img {
 }
 .section-0{
   background-color: #37bbe454;
-  margin-top: 110px;
-  /* padding: 140px; */
   text-align: center;
   width: 100%;
   font-family: Montserrat;
   font-size: small;
-  /* margin-top: 10px; */
 }
 
 .section-0 img{
@@ -56,11 +51,6 @@ header img {
   
 } */
 
-header a {
-  /* font-family: var(--Sniglet-font); */
-  font-size: 0.9em;
-  color: rgb(28, 0, 140);
-}
 .my-button{
   width:200px;
   height:80px;
@@ -180,19 +170,19 @@ p{
   margin-top: 80px;
   margin-bottom: 80px;
 }
-.container-fluid
+/* .container-fluid
 {
   position: absolute;
   z-index: 1;
 
-}
+} */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: whitesmoke;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  
+  z-index: 11;
 }
 .dropdown-content a {
   color: black;
@@ -213,18 +203,25 @@ header .nav-item:last-child {
   padding-right: 10.5em;
 }
 
-header .nav-item {
-  padding: 0.5em;
-  /* width: 100%; */
-  /* width: -2px;*/
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
+.logoimg{
+  vertical-align: middle;
+  border-style: none;
+  height: 80px;
+  width: auto;
+  padding-left: 2rem;
 }
 
 header .nav-link:hover {
   color: black;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 /* here */
@@ -472,9 +469,9 @@ footer {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: #37bbe454;
-  /* border: 1px solid transparent; */
-  /* border-radius: 0.25rem; */
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 .text-light {
   color: #ffffff !important;
