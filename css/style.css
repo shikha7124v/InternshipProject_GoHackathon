@@ -1,10 +1,8 @@
 
 body{
-/* margin: 0;
-padding: 0;
-font-size: medium; */
 font-family: 'Montserrat',  'sans-serif';
 }
+
 header,
 section {
   overflow-x: hidden;
@@ -21,13 +19,10 @@ header img {
 }
 .section-0{
   background-color: #37bbe454;
-  margin-top: 110px;
-  /* padding: 140px; */
   text-align: center;
   width: 100%;
   font-family: Montserrat;
   font-size: small;
-  /* margin-top: 10px; */
 }
 
 .section-0 img{
@@ -50,17 +45,13 @@ header img {
   margin-top: 2px;
   margin-left: 0%;
 } */
-/* .navbar-collapse
-{
-  padding: 0% 0%;
-  
+
+/* .navbar-collapse{
+  height: auto;
+  position: relative;
+  z-index: 1;
 } */
 
-header a {
-  /* font-family: var(--Sniglet-font); */
-  font-size: 0.9em;
-  color: rgb(28, 0, 140);
-}
 .my-button{
   width:200px;
   height:80px;
@@ -168,7 +159,7 @@ header a {
    transition: transform 0.3s ease-in-out;
 }
 p{
-   text-align: center;
+   text-align: justify;
    font-size: medium;
    display: block;
 }
@@ -180,19 +171,19 @@ p{
   margin-top: 80px;
   margin-bottom: 80px;
 }
-.container-fluid
+/* .container-fluid
 {
   position: absolute;
   z-index: 1;
 
-}
+} */
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: whitesmoke;
   min-width: 160px;
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
-  
+  z-index: 11;
 }
 .dropdown-content a {
   color: black;
@@ -213,18 +204,25 @@ header .nav-item:last-child {
   padding-right: 10.5em;
 }
 
-header .nav-item {
-  padding: 0.5em;
-  /* width: 100%; */
-  /* width: -2px;*/
-}
-
-header .navbar-brand {
-  padding-left: 8rem;
+.logoimg{
+  vertical-align: middle;
+  border-style: none;
+  height: 80px;
+  width: auto;
+  padding-left: 2rem;
 }
 
 header .nav-link:hover {
   color: black;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 /* here */
@@ -428,9 +426,13 @@ header .container .col-md-7 p {
   padding-top: 14vmin;
 }
 
-.section-4 .team {
-  padding: 10vmin 4vmin;
+.text-secondary {
+  text-align: center;
 }
+
+/* .section-4 .team {
+  padding: 10vmin 4vmin;
+} */
 
 .section-4 .card {
   width: 22em;
@@ -472,9 +474,9 @@ footer {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: #37bbe454;
-  /* border: 1px solid transparent; */
-  /* border-radius: 0.25rem; */
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
 .text-light {
   color: #ffffff !important;
@@ -485,18 +487,19 @@ footer {
 }
 .sponsors{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .images{
-  position: relative; 
-  left: -23.6667px; 
+  position: relative;  
   box-sizing: border-box; 
-  width: 1263px; 
-  max-width: 1263px;
-  margin-right: 60px;;
+  width: 100%;
+  margin-right: 0px;;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding: 0% 3%;
 }
+
 .simg{
   width: 350px;
   height: 152px;
@@ -509,8 +512,7 @@ footer {
   padding: 15px 15px;
 }
 ul {
-  margin: 19px;
-  padding: 0px;
+  font-weight: 500;
 }
 .footer-section {
 background: rgb(27, 27, 27);
@@ -537,7 +539,7 @@ font-weight: 600;
 margin-bottom: 2px;
 }
 .cta-text span {
-color: #757575;
+color: #332f2f;
 font-size: 15px;
 }
 .footer-content {
@@ -673,6 +675,14 @@ text-align: left;
 .copyright-text p a{
 color: #24bbda;
 }
+
+.footer-menu {
+margin-top: 4%;
+font-size: 14px;
+color: white;
+text-align: right;
+}
+
 .footer-menu li {
 display: inline-block;
 margin-left: 20px;
@@ -855,7 +865,7 @@ Generic layout (demo looks)
   gap: 24px;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   article {
       container: card/inline-size;
   }
@@ -863,9 +873,9 @@ Generic layout (demo looks)
   .article-body p {
       display: none;
   }
-}
+} */
 
-@container card (min-width: 380px) {
+/* @container card (min-width: 380px) {
   .article-wrapper {
       display: grid;
       grid-template-columns: 100px 1fr;
@@ -887,7 +897,9 @@ Generic layout (demo looks)
       aspect-ratio: 1;
       object-fit: cover;
   }
-}
+} */
+
+
 i{
   color: rgb(255, 255, 255);
   cursor: pointer;
@@ -907,4 +919,14 @@ i{
 .footer-widget-heading{
   text-align: center;
   margin-right: 60px;
+}
+
+.past-event{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+
+.past-event-heading{
+  text-align: left;
 }
