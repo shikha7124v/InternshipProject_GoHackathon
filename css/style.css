@@ -482,18 +482,19 @@ footer {
 }
 .sponsors{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .images{
-  position: relative; 
-  left: -23.6667px; 
+  position: relative;  
   box-sizing: border-box; 
-  width: 1263px; 
-  max-width: 1263px;
-  margin-right: 60px;;
+  width: 100%;
+  margin-right: 0px;;
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding: 0% 3%;
 }
+
 .simg{
   width: 350px;
   height: 152px;
