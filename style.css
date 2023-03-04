@@ -506,8 +506,7 @@ footer {
   padding: 15px 15px;
 }
 ul {
-  margin: 19px;
-  padding: 0px;
+  font-weight: 500;
 }
 .footer-section {
 background: rgb(27, 27, 27);
@@ -852,7 +851,7 @@ Generic layout (demo looks)
   gap: 24px;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
   article {
       container: card/inline-size;
   }
@@ -860,9 +859,9 @@ Generic layout (demo looks)
   .article-body p {
       display: none;
   }
-}
+} */
 
-@container card (min-width: 380px) {
+/* @container card (min-width: 380px) {
   .article-wrapper {
       display: grid;
       grid-template-columns: 100px 1fr;
@@ -884,7 +883,9 @@ Generic layout (demo looks)
       aspect-ratio: 1;
       object-fit: cover;
   }
-}
+} */
+
+
 i{
   color: rgb(255, 255, 255);
   cursor: pointer;
