@@ -13,6 +13,7 @@ table {
   font-family: 'Montserrat', 'sans-serif';
 }
 
+
 table img {
   width: 2em;
   height: 2em;
@@ -29,6 +30,30 @@ tbody tr {
   box-shadow: 0 2px rgba(100, 100, 100, .5);
   border-radius: 10px;
 }
+
+.card{
+  text-align: center;
+}
+
+.card__name{
+  text-align: center;
+  font-weight:bold;
+  
+  
+}
+.card-deck .card{
+  box-shadow:3px 3px rgb(231, 224, 224);
+  background-color: whitesmoke;
+}
+.card-deck .card:hover {
+
+  background-color: #d8dde2;
+  background-image: linear-gradient(rgb rgb(67, 67, 231),rgb whitesmoke);
+  transform:scale(1.025);
+  transition: .2s ease-in-out;
+  box-shadow: 5px 5px grey;
+}
+
 
 tbody tr:hover {
   transform: scale(1.025);
@@ -47,29 +72,16 @@ table td:nth-child(2) {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #34a1af;
-  background-image: linear-gradient(45deg, #606a89, transparent);
+  background-color: rgb(153, 173, 238);
+  
 }
 
 tbody tr:nth-child(odd) {
-  background-color: #cde5f3;
-  background-image: linear-gradient(45deg, #5e7081, #7b8fbb00);
+  background-color: rgb(106, 115, 240);
+ 
+  
 }
 
-#winner {
-  color: gold;
-  font-weight: 800;
-}
-
-#runner-up {
-  color: silver;
-  font-weight: 800;
-}
-
-#second-runner-up {
-  color: #cd7f32;
-  font-weight: 800;
-}
 
 
   .theme-img {
