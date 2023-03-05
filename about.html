@@ -1,77 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About Us</title>
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
-        rel="stylesheet">
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Go Hackathon | About us</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+            rel="stylesheet">
+    </head>
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img class="logoimg" src="img/main_logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-align-right text-dark"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a href="event.html" class="nav-link">EVENTS</a>
+                            <div class="dropdown-content">
+                                <a href="#">LIVE EVENTS</a>
+                                <a href="#">UPCOMMING EVENTS</a>
+                                <a href="#">PAST EVENTS</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <div class="dropdown">
+                            <a href="#" class="nav-link">HACKATHON</a>
+                            <div class="dropdown-content">
+                                <a href="leaderboard.html">LEADERBOARD</a>
+                                <a href="#">PRACTICE SET</a>
+                                <a href="#">PARTICIPANTS</a>
+                                <a href="#">WINNERS</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                    <li>
+                        <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
 <body id="body">
-    <header>
-        <div class="container-fluid p-0">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="index.html">
-                    <img class="logoimg" src="img/logowithoutbg.png" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-align-right text-dark"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <!-- <a class="nav-link" href="#">HOME
-                                <span class="sr-only">(current)</span>
-                            </a> -->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">ABOUT US</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a href="event.html" class="nav-link">EVENTS</a>
-                                <div class="dropdown-content">
-                                    <a href="#">LIVE EVENTS</a>
-                                    <a href="#">UPCOMMING EVENTS</a>
-                                    <a href="#">PAST EVENTS</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a href="#" class="nav-link">HACKATHON</a>
-                                <div class="dropdown-content">
-                                    <a href="leaderboard.html">LEADERBOARD</a>
-                                    <a href="#">PRACTICE SET</a>
-                                    <a href="#">PARTICIPANTS</a>
-                                    <a href="#">WINNERS</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">CONTACT US</a>
-                        </li>
-                        <li>
-                            <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+    
         
             <div class="container">
                 <div class="row">
@@ -90,27 +85,7 @@
                     </div>
                 </div>
             </div>
-    <!-- <table cellspacing="10" class="aboutsection"> -->
-        <!-- <section class="aboutsection">
-        <div class="aboutsectiondiv">
-            <span class="aboutdescription">
-                <h1>About Us</h1>
-                <h2>Go Hackathon</h2>
-                <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
-                    nurture talent among budding tech professional.<br>
-                    Industry today is looking for talented students who are equipped and experience with
-                    advanced skills, software, attitude and updated industry best practices.<br>
-                    We create an eco-system of industry academia partnership and help in continuous and
-                    sustainable development of innovative ideas, which are impactful for the growing economy and
-                    society.<br>
-                    Go hackathon thrives to provide best nurturing, mentorship, skills and professional
-                    opportunities to its members and participants.
-                    We conduct series of events, seminars, hackathons, internships and Projects.<br></p>
-                </span>
-            <span class="aboutdescriptionimg"><img class="imgofabout" src="img/development2" alt="Angela profile photo"></span>
-        </div>
-    </section> -->
-    <!-- </table> -->
+
     <div class="container">
         <div class="row">
             <div class="aboutsection-bottom col-lg-12">
@@ -127,59 +102,8 @@
             </div>
         </div>
     </div>
-    <!-- <div class="aboutsection-bottom">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, cum nisi ipsam eius similique ut eaque sit nam impedit quos deleniti praesentium voluptates maxime. Harum pariatur ullam eveniet nam maxime.
-            Illum architecto exercitationem, reprehenderit velit dolores eos quos ullam ut tempore nisi, voluptas quia iure necessitatibus eaque! Id similique aut excepturi eveniet numquam facilis ab temporibus sit deleniti, porro fugiat.
-            Labore necessitatibus possimus eligendi tenetur accusamus omnis ad repellat magni perspiciatis maiores! Ullam, vel omnis modi doloribus sunt fugiat provident pariatur quaerat quam eaque eos temporibus veritatis cumque velit architecto!
-            Ab eveniet iure aperiam iusto possimus nobis debitis quam earum veniam sapiente voluptatum perferendis labore, porro beatae, laboriosam autem assumenda minima recusandae magnam! Consequuntur unde quidem facere? Alias, sit labore.
-            Atque non, ipsam explicabo impedit bis sapiente ipsum deserunt earum itaque inventore officiis consequatur facere quibusdam vero ex tempora, optio praesentium sequi, quia rerum illum deleniti. Facilis, modi.
-            Aperiam voluptates eum expedita doloribus sapiente fuga ratione quibusdam magni aliquid necessitatibus incidunt vel delectus natus odio nulla ut, iusto hic vero aspernatur. Nobis dignissimos molestias deserunt, nulla provident soluta.
-            Animi temporibus error, molestias esse itaque fuga sunt nostrum, autem facere dolorem delectus minus repellendus nam reprehenderit non, quisquam ducimus labore! Iste maiores ex neque nemo! Facere voluptate asperiores enim?
-            Eveniet explicabo repellat et. Magnam, aliquam. Ducimus, ab aut repellat voluptate aliquam, animi placeat ipsa exercitationem, magnam voluptas nostrum ea. Nemo voluptate, culpa eum facilis dolorem delectus perferendis corrupti odit?
-            Alias neque unde temporibus quo quasi sequi cumque at voluptates iste aspernatur ad cupiditate, perspiciatis consequuntur optio qui deserunt sunt eos possimus, similique ea accusamus nulla velit. Numquam, porro voluptatum!
-            Deserunt magn<br></p>
-    </div> -->
-    <!-- <footer>
-        <div class="container-fluid p-0">
-            <div class="row text-left">
-                <div class="col-md-5 col-sm-5">
-                    <h4 class="text-light">About us</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea
-                        similique illum corrupti</p>
-                    <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | Terms and conditions
-                    </p>
-                </div>
-                <div class="col-md-5 col-sm-12">
-                    <h4 class="text-light">Subscribe</h4>
-                    <p class="text-muted">Stay Updated</p>
-                    <form class="form-inline">
-                        <div class="col pl-0">
-                            <div class="input-group pr-5">
-                                <input type="text" class="form-control bg-dark text-white"
-                                    id="inlineFormInputGroupUsername2" placeholder="Email">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <h4 class="text-light">Follow Us</h4>
-                    <p class="text-muted">Let us be social</p>
-                    <div class="column text-light">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>    -->
+</body>
+
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-5 pb-4">
@@ -187,7 +111,7 @@
                     <div class="col-xl-3 col-lg-3 footer-about">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="logo.jpg" class="img-fluid" alt="logo"></a>
+                                <a href="index.html"><img src="img/footer_logo.jpg" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text">
                                 <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant
@@ -233,9 +157,7 @@
                                     </div>
                                 </div> <br>
                                 <div class="phone-details">
-                                    <div class="topic"> 
-                                        <!-- <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone -->
-                                        <!-- <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 9910018925">+91 9910018925</a></strong> <br> -->
+                                    <div class="topic">
                                         <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 7678476713">+91 7678476713</a></strong> <br>
                                         <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91-120-4567841">+91-120-4567841</a></strong>
                                     </div>
@@ -243,7 +165,6 @@
                                 <div class="email-details">
                                     <div class="topic">
                                         <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:info@gohackathon.in">info@gohackathon.in</a></strong>
-                                        <!-- <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:gohackathon2k22@gmail.com">gohackathon2k22@gmail.com</a></strong> -->
                                     </div>   
                                 </div>
                             </div>
@@ -291,5 +212,5 @@
             </div>
         </div>
     </footer>
-</body>
+
 </html>
