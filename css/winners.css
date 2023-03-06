@@ -29,7 +29,7 @@ body{
 
 /* Hackathon */
 .ev-1-1{
-    background-color:#ffffff ;
+    background-color: #cce1f1;
     border: #cce1f1;
     background-size: 100% 100%;
     border-radius: 3px;
@@ -38,7 +38,7 @@ body{
     font-size:60px;
     font-weight: bold;
     text-align: center;
-    color:blue;
+    color:rgb(0, 0, 0);
     background: rgb(122, 186, 247);
 }
 .ev-1-1-cards{
@@ -54,26 +54,20 @@ body{
 }
 /* First prize  */
 .prize-1{
-    background-color:#03b7fe;
+    background-color: aqua;
     background-size: 100% 100%;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-}
-.prize-1:hover .fig1-prize figcaption{
-    font-size: xx-larger;
-    font-weight: bold;
-    color: #fff;;
-    text-align: center;
     max-width:500px;
     max-height: 600px;
-    
 }
+
 .fig1-prize figcaption{
-    font-size: 40px;
+    font-size: 40px;;
     font-weight: bold;
-    color:#fff;
+    color:rgb(8, 8, 165);
     text-align: center;
     padding-top:20px;
 }
@@ -103,7 +97,7 @@ body{
     margin-left:-30px;
 }
 .fig1-college p{
-    color: #fff;;
+    color:rgb(8, 8, 165);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -122,7 +116,7 @@ body{
 }
 
 .fig2-prize figcaption{
-    font-size: xx-large;
+    font-size: 40px;;
     font-weight: bold;
     color:rgb(8, 8, 165);
     text-align: center;
