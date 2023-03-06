@@ -74,8 +74,18 @@
         background-color:#03b7fe;
       }
       .front1{
-        background-image: url('Krishi.jpg');
-        width:100%;
+        background-image: url('Krishi1.jpg');
+        background-size: cover;
+        height:300px;
+        width:200px;
+        border-radius: 10px 10px 10px 10px;
+        background-repeat:no-repeat;
+        text-align: center;
+        justify-content: center;
+      }
+      .front1 p{
+        padding-top:100px;
+        font-weight: solid black;
       }
       
       .front:after {
