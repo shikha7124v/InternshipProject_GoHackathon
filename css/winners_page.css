@@ -73,6 +73,10 @@
       .back {
         background-color:#03b7fe;
       }
+      .front1{
+        background-image: url('Krishi.jpg');
+        width:100%;
+      }
       
       .front:after {
         position: absolute;
@@ -162,6 +166,8 @@
         color: #fff;
         transition: all .3s;
       }
+
+      
       
       @media screen and (max-width: 68rem) {
         .col {
