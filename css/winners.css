@@ -6,23 +6,24 @@ body{
     font-size:xx-large;
     font-weight: bold;
     text-align: center;
-    justify-content: center;    
+    justify-content: center;
     background-image: url("bg.gif");
+    background-color: #cccccc;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    color: goldenrod;
-    
+    color: goldenrod;    
+    padding:0px;
 }
 .event-1{
     display: flex;
     flex-direction: column;
+    width:100%;
+    height:100%;
 }
 .event-1 > div{
-    margin:10px;
+    margin:0px;
 }
-
-
 
 
 
@@ -37,15 +38,19 @@ body{
     font-size:60px;
     font-weight: bold;
     text-align: center;
-    color:rgb(0, 0, 0);
+    color:blue;
+    background: rgb(122, 186, 247);
 }
 .ev-1-1-cards{
     display:flex;
+    position:relative;
     flex-direction: row;
     background-color: #cce1f1;
 }
 .ev-1-1-cards > div{
-    margin:10px;
+    margin-left:100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /* First prize  */
 .prize-1{
@@ -61,22 +66,48 @@ body{
     font-weight: bold;
     color: #fff;;
     text-align: center;
+    max-width:500px;
+    max-height: 600px;
+    
 }
 .fig1-prize figcaption{
-    font-size: xx-large;
+    font-size: 40px;
     font-weight: bold;
     color:#fff;
     text-align: center;
+    padding-top:20px;
+}
+
+.fig1-prize img{
+    margin-top: 50px;
 }
 .fig1-participants{
     display:flex;
     flex-direction: row;
+    text-align: center;
+    
+}
+.fig1-participants img{
+    width:130px;
+    height:130px;
+}
+.fig1-participant1{
+    margin-top:0px;
+}
+.fig1-participant2{
+    margin-top:0px;
+    margin-left:-30px;
+}
+.fig1-participant3 {
+    margin-top:0px;
+    margin-left:-30px;
 }
 .fig1-college p{
     color: #fff;;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    padding-top: 0px;
 }
 /* Second prize  */
 .prize-2{
@@ -86,6 +117,8 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    max-width:500px;
+    max-height: 600px;
 }
 
 .fig2-prize figcaption{
@@ -93,23 +126,214 @@ body{
     font-weight: bold;
     color:rgb(8, 8, 165);
     text-align: center;
+    padding-top:20px;
+}
+.fig2-prize img{
+    margin-top: 50px;
 }
 .fig2-participants{
     display:flex;
     flex-direction: row;
+    text-align: center;
+}
+.fig2-participants img{
+    width:130px;
+    height:130px;
+}
+.fig2-participant1{
+    margin-top:0px;
+}
+.fig2-participant2{
+    margin-top:0px;
+    margin-left:-30px;
+}
+.fig2-participant3 {
+    margin-top:0px;
+    margin-left:-30px;
 }
 .fig2-college p{
     color:rgb(8, 8, 165);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    padding-top: 0px;
 }
 
 
-
-
-/* Ideathon*/
+/* Ideathon */
 .ev-1-2{
+    background-color:#cce1f1 ;
+    border: #cce1f1;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    text-align: center;
+    justify-content: center;
+}
+.ev-1-2 h2{
+    font-size:60px;
+    font-weight: bold;
+    text-align: center;
+    color:blue;
+    background: rgb(122, 186, 247);
+}
+.ev-1-2-cards{
+    display:flex;
+    position:relative;
+    flex-direction: row;
+    background-color: #cce1f1;
+}
+.ev-1-2-cards > div{
+    margin-left:5px;
+}
+/* First prize  */
+.ev-1-2-prize-1{
+    background-color: aqua;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width:500px;
+    max-height: 600px;
+    
+}
+.ev-1-2-fig1-prize figcaption{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(8, 8, 165);
+    text-align: center;
+    padding-top:20px;
+}
+
+.ev-1-2-fig1-prize img{
+    margin-top: 50px;
+}
+.ev-1-2-fig1-participants{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.ev-1-2-fig1-participants img{
+    width:130px;
+    height:130px;
+}
+.ev-1-2-fig1-participant1{
+    margin-top:0px;
+}
+.ev-1-2-fig1-participant2{
+    margin-top:0px;
+    margin-left:-30px;
+}
+.ev-1-2-fig1-participant3 {
+    margin-top:0px;
+    margin-left:-30px;
+}
+.ev-1-2-fig1-college p{
+    color:rgb(8, 8, 165);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+}
+/* Second prize  */
+.ev-1-2-prize-2{
+    background-color: aqua;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width:500px;
+    max-height: 600px;
+}
+.ev-1-2-fig2-prize figcaption{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(8, 8, 165);
+    text-align: center;
+    padding-top:20px;
+}
+.ev-1-2-fig2-prize img{
+    margin-top: 50px;
+}
+.ev-1-2-fig2-participants{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+.ev-1-2-fig2-participants img{
+    width:130px;
+    height:130px;
+}
+.ev-1-2-fig2-participant1{
+    margin-top:0px;
+}
+.ev-1-2-fig2-participant2{
+    margin-top:0px;
+    margin-left:-30px;
+}
+.ev-1-2-fig2-participant3 {
+    margin-top:0px;
+    margin-left:-30px;
+}
+.ev-1-2-fig2-college p{
+    color:rgb(8, 8, 165);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+}
+/* Third prize  */
+.ev-1-2-prize-3{
+    background-color: aqua;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width:500px;
+    max-height: 600px;
+}
+.ev-1-2-fig3-prize figcaption{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(8, 8, 165);
+    text-align: center;
+    padding-top:20px;
+}
+.ev-1-2-fig3-prize img{
+    margin-top: 50px;
+}
+.ev-1-2-fig3-participants{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+}
+.ev-1-2-fig3-participants img{
+    width:130px;
+    height:130px;
+}
+.ev-1-2-fig3-participant1{
+    margin-top:0px;
+}
+.ev-1-2-fig3-participant2{
+    margin-top:0px;
+    margin-left:-30px;
+}
+.ev-1-2-fig3-participant3 {
+    margin-top:0px;
+    margin-left:-30px;
+}
+.ev-1-2-fig3-college p{
+    color:rgb(8, 8, 165);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+}
+/* Ideathon*/
+/*.ev-1-2{
     background-color:#cce1f1 ;
     border: #cce1f1;
     background-size: 100% 100%;
@@ -120,6 +344,7 @@ body{
     font-weight: bold;
     text-align: center;
     color:blue;
+    background: rgb(122, 186, 247);
 }
 .ev-1-2-cards{
     display:flex;
@@ -129,7 +354,7 @@ body{
 .ev-1-2-cards > div{
     margin:10px;
 }
-/* First prize  */
+/* First prize  
 .ev-1-2-prize-1{
     background-color: aqua;
     background-size: 100% 100%;
@@ -160,7 +385,7 @@ body{
     font-weight: bold;
     text-align: center;
 }
-/* Second prize  */
+/* Second prize  
 .ev-1-2-prize-2{
     background-color: aqua;
     background-size: 100% 100%;
@@ -186,7 +411,7 @@ body{
     font-weight: bold;
     text-align: center;
 }
-/* Third prize  */
+/* Third prize  
 .ev-1-2-prize-3{
     background-color: aqua;
     background-size: 100% 100%;
@@ -211,7 +436,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-}
+}*/
 
 
 
@@ -222,12 +447,16 @@ body{
     border: #cce1f1;
     background-size: 100% 100%;
     border-radius: 3px;
+    text-align: center;
+    justify-content: center
 }
+
 .ev-1-3 h2{
     font-size:60px;
     font-weight: bold;
     text-align: center;
     color:blue;
+    background: rgb(122, 186, 247);
 }
 .ev-1-3-cards{
     display:flex;
@@ -245,20 +474,13 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    text-align: center;
-    justify-content: center;
-}
-.ev-1-3-prize-1:hover .fig1-prize figcaption{
-    font-size: xx-larger;
-    font-weight: bold;
-    color:rgb(8, 8, 165);
-    text-align: center;
 }
 .ev-1-3-fig1-prize figcaption{
-    font-size: xx-large;
+    font-size: 40px;
     font-weight: bold;
     color:rgb(8, 8, 165);
-    
+    text-align: center;
+    padding-top:20px;
 }
 .ev-1-3-fig1-participants{
     display:flex;
@@ -278,20 +500,18 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    text-align: center;
-    justify-content: center;
 }
 
 .ev-1-3-fig2-prize figcaption{
-    font-size: xx-large;
+    font-size: 40px;
     font-weight: bold;
     color:rgb(8, 8, 165);
     text-align: center;
+    padding-top:20px;
 }
 .ev-1-3-fig2-participants{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    text-align: center;
 }
 .ev-1-3-fig2-college p{
     color:rgb(8, 8, 165);
@@ -303,19 +523,96 @@ body{
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
+    .ev-1-h1{
+        padding:10px;
+        max-width:800px;
+    }
+    
+    /*Cards*/
+        /*Hackathon*/
     .ev-1-1-cards {
       flex-direction: column;
+      width:350px;
+      text-align: center;
+      justify-content: center;
     }
     .ev-1-2-cards {
         flex-direction: column;
+        width:350px;
+        text-align: center;
+        justify-content: center;
     }
     .ev-1-3-cards {
         flex-direction: column;
+        width:350px;
+        text-align: center;
+        justify-content: center;
     }
-    .Participant{
-        height:50px;
-        width: 50px;
-    }
+    /* cards*/
+        /*Hackathon*/
+        .ev-1-1-cards > div{
+            margin:10px;
+        }
+    /*end of cards*/
+    /*Figures*/
+        /*Hackathon*/
+            /*Prize-1*/
+            
+            .fig1-prize {
+                width:450px;
+                height:300px;
+                margin-left:0px;
+            }
+            .fig1-prize img{
+                width:430px;
+                height:210px;
+                margin-left:-20px;
+            }
+            .fig1-participants img{
+                width:150px;
+                height:150px;
+            }
+            .fig1-participant1{
+                margin-top:60px;
+                margin-left:5px;
+            }
+            .fig1-participant2{
+                margin-top:0px;
+                margin-left:5px;
+            }
+            .fig1-participant3 {
+                margin-top:0px;
+                margin-left:5px;
+            }
+            /*Prize-2*/
+            .fig2-participant2{
+                margin-top:0px;
+            }
+            .fig2-participant3 {
+                margin-top:0px;
+            }
+        /*Ideathon*/
+            /*Prize-3*/
+            .ev-1-2-fig3-participant2{
+                margin-top:0px;
+            }
+            .ev-1-2-fig3-participant3 {
+                margin-top:0px;
+            }
+        /*Coding Competition*/
+            /*Prize-1*/
+            .ev-1-3-fig1-participant2{
+                margin-top:0px;
+            }
+            /*Prize-2*/
+            .ev-1-3-fig2-participant2{
+                margin-top:0px;
+            }
+            .ev-1-3-fig2-participant3 {
+                margin-top:0px;
+            } 
+    /*End of figures*/
+    
     /* Hackathon */
     .fig1-participants{
         display:flex;
