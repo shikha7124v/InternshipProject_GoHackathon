@@ -2,11 +2,18 @@
 
 /* Add padding to containers */
 /* t r b l  */
-.containerregistrationform {
-  padding: 20px 190px 60px 190px;
+/* .container-full{
+  display: inline;
+} */
+.registration-form {
+  padding-top: 67px;
 }
 .containereventdetail{
-    padding: 20px 190px 20px 190px ;
+    padding-left: 40px ;
+} 
+
+.imgheader img{
+  width: 100%;
 }
 /* Full-width input fields */
 input[type=text], input[type=password] {
