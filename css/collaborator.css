@@ -1,12 +1,27 @@
-
+.aboutsection{
+    margin-top: 18px;
+    margin-left: -60px;
+    text-align: left;
+}
 form {
-    background-color: rgb(110, 187, 236);
-    max-width: 500px;
-    margin: 50px auto;
+    /* background-color: rgb(110, 187, 236); */
+    background-color: #bde9f6;
+    /* max-width: 700px; */
+    margin-top: 50px ;
+    margin-left: 50px;
+    margin-right: -120px;
     padding: 30px 20px;
     box-shadow: 2px 5px 10px rgb(0, 0, 0, 0.5);
 }
-
+form h4{
+    text-align: center;
+    color: #000000;
+}
+img{
+    height: 420px;
+    width: 400px;
+    width: 100%;
+}
 .form-control {
     text-align: center;
     margin-bottom: 2px;
@@ -23,18 +38,18 @@ form {
 }
 
 .button {
-    background: #04111c;
+    background: #0b67e0;
     color: #fff;
-    border: 1px solid #eee;
-    border-radius: 20px;
+    border: 0.5px solid #0b67e0 ;
+    border-radius: 10px;
     /* box-shadow: 5px 5px 5px #eee;
     text-shadow: none; */
 }
 
 .button:hover {
-    background: #016ABC;
+    background: #3b93ff;
     color: #fff;
-    border: 1px solid #eee;
+    border: 1px solid #3b93ff;
     border-radius: 20px;
 
 }
