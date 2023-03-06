@@ -9,11 +9,11 @@
 } */
 
 body{
-   background-color: #000000;
+   background-color: #ffffff;
 }
 
 .wrapper{
-    font-family: 'Montserrat',  'sans-serif';
+    /* font-family: 'Montserrat',  'sans-serif'; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,6 +50,11 @@ body{
 
 .wrapper .left p{
   font-size: 12px;
+  text-align: center;
+}
+
+.wrapper .left p a i{
+  color: black;
 }
 
 .wrapper .right{
@@ -106,7 +111,18 @@ body{
     padding-top: 2px;
     padding-bottom: 2px;
 }
+.myprofileoption{
+  text-align: right;
+}
 .myprofileoption a{
     color: #0069e1;
     text-decoration: none;
+}
+.profile-content{
+  background-color: #fff;
+  margin-top: 80%;
+  height: 20%;
+  margin-left: 5%;margin-right: 5%;
+  padding: 8%;
+  text-decoration: none;
 }
