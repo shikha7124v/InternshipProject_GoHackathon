@@ -780,3 +780,59 @@ i{
 }
 
 /* footer ended*/
+
+
+
+
+/*main section*/
+  /*Images*/
+  .img_p{
+    height:500px;
+    width:350px;
+    overflow: hidden;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+  }
+  .intro{
+    height:70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing:border-box;
+    position: absolute;
+    background: rgb(27,27,27,.5);
+    color:white;
+    bottom:240px;
+    transition: .5s;
+  }
+  h1{
+    margin:10px;
+    font-size: 40px;
+  }
+  p{
+    font-size:20px;
+    margin:20px;
+    visibility:hidden;
+    opacity:0;
+  }
+  span{
+    font-weight:bold;
+  }
+  .card:hover{
+    cursor:pointer;
+  }
+  .card:hover .intro{
+    height:220px;
+    bottom:240px;
+    background: black ;
+  }
+  .card:hover p{
+    visibility: visible;
+    opacity: 1;
+  }
+  .card:hover img_p{
+      transform: scale(1.1) rotate(-3deg);
+  }
