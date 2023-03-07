@@ -1,6 +1,9 @@
 .clearfix{
 	clear: both;
 }
+.winnerbanner img{
+  width: 100%;
+}
 .card-container{
     margin-top: 60px;
     margin-bottom: 60px;
@@ -10,9 +13,9 @@
     margin-bottom: 30px;
     padding-top: 2%;
   }
-  .head{
+  /* .head{
       padding:20px;
-  }
+  } */
   body{
     font-family: 'Montserrat',  'sans-serif';
     }
@@ -36,7 +39,7 @@
         font-weight: bold;
         color: #27213c;
         text-align: center;
-        padding: 3rem 1.5rem;
+        /* padding: 3rem 1.5rem; */
       }
       
       .cols {
@@ -73,6 +76,20 @@
       .back {
         background-color:#03b7fe;
       }
+      .front1{
+        background-image: url('Krishi1.jpg');
+        background-size: cover;
+        height:300px;
+        width:200px;
+        border-radius: 10px 10px 10px 10px;
+        background-repeat:no-repeat;
+        text-align: center;
+        justify-content: center;
+      }
+      .front1 p{
+        padding-top:100px;
+        font-weight: solid black;
+      }
       
       .front:after {
         position: absolute;
@@ -84,7 +101,7 @@
         content: '';
         display: block;
         opacity: 1;
-        background-color: #efefef;
+        background-color: #dfdddd;
         backface-visibility: hidden;
         border-radius: 10px;
       }
@@ -162,6 +179,8 @@
         color: #fff;
         transition: all .3s;
       }
+
+      
       
       @media screen and (max-width: 68rem) {
         .col {
@@ -180,3 +199,7 @@
           width: 60%;
         }
       } 
+      .inner img{
+        width: 90%;
+        height: 90%;
+      }
