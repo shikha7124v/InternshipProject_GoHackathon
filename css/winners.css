@@ -1,6 +1,7 @@
 body{
     width: 100%;
     height:100%;
+    background-color: #fff;
 }
 .ev-1-h1{
     font-size:xx-large;
@@ -12,7 +13,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    color: goldenrod;    
+    color: goldenrod;
+    height: 30%;    
     padding:0px;
 }
 .event-1{
@@ -29,28 +31,31 @@ body{
 
 /* Hackathon */
 .ev-1-1{
-    background-color: #cce1f1;
+    background-color: #ffffff;
     border: #cce1f1;
     background-size: 100% 100%;
     border-radius: 3px;
 }
-.ev-1-1 h2{
-    font-size:60px;
+.ev-1-1 h4{
+    font-size:30px;
     font-weight: bold;
     text-align: center;
     color:blue;
     background: rgb(122, 186, 247);
+    margin-top: 3%;
 }
 .ev-1-1-cards{
     display:flex;
     position:relative;
     flex-direction: row;
-    background-color: #cce1f1;
+    background-color: #ffffff;
+    height: 530px;
+    width: 500px;
 }
 .ev-1-1-cards > div{
     margin-left:100px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 81px;
 }
 /* First prize  */
 .prize-1{
@@ -156,15 +161,15 @@ body{
 
 /* Ideathon */
 .ev-1-2{
-    background-color:#cce1f1 ;
+    background-color:#ffffff ;
     border: #cce1f1;
     background-size: 100% 100%;
     border-radius: 3px;
     text-align: center;
     justify-content: center;
 }
-.ev-1-2 h2{
-    font-size:60px;
+.ev-1-2 h4{
+    font-size:30px;
     font-weight: bold;
     text-align: center;
     color:blue;
@@ -174,7 +179,7 @@ body{
     display:flex;
     position:relative;
     flex-direction: row;
-    background-color: #cce1f1;
+    background-color: #ffffff;
 }
 .ev-1-2-cards > div{
     margin-left:5px;
@@ -437,7 +442,7 @@ body{
 
 /* Coding Competition*/
 .ev-1-3{
-    background-color:#cce1f1 ;
+    background-color:#ffffff ;
     border: #cce1f1;
     background-size: 100% 100%;
     border-radius: 3px;
@@ -446,8 +451,8 @@ body{
     padding-bottom:50px;
 }
 
-.ev-1-3 h2{
-    font-size:60px;
+.ev-1-3 h4{
+    font-size:30px;
     font-weight: bold;
     text-align: center;
     color:blue;
@@ -456,7 +461,7 @@ body{
 .ev-1-3-cards{
     display:flex;
     flex-direction: row;
-    background-color: #cce1f1;
+    background-color: #ffffff;
 }
 .ev-1-3-cards > div{
     margin-left:100px;
