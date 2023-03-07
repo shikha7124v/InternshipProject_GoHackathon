@@ -1,5 +1,5 @@
- header,
-  section {
+ /*header*/
+ /* section {
     overflow-x: hidden;
     left: 100px;
   }
@@ -22,8 +22,6 @@
   
   .section-0 img{
     height: 300px;
-    width: 360px;
-    /* left: 70%; */
   }
   
   
@@ -33,25 +31,12 @@
     padding-left: 3%;
     text-align: center;
   }
-  
-  /* #login-btn
-  {
-    
-    margin-top: 2px;
-    margin-left: 0%;
-  } */
-  
-  /* .navbar-collapse{
-    height: auto;
-    position: relative;
-    z-index: 1;
-  } */
+   
   
   .my-button{
     width:200px;
     height:80px;
     font-size:30px;
-    /* font-family: 'Times New Roman', Times, serif; */
     background-color:#6ab1bc;
     color: black;
     border:0px;
@@ -67,7 +52,6 @@
     width:200px;
     height:80px;
     font-size:30px;
-    /* font-family: 'Times New Roman', Times, serif; */
     background-color:#e8da5f;
     color: black;
     border:0px;
@@ -166,12 +150,7 @@
     margin-top: 80px;
     margin-bottom: 80px;
   }
-  /* .container-fluid
-  {
-    position: absolute;
-    z-index: 1;
   
-  } */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -219,8 +198,7 @@
     color: black;
     text-decoration: none;
   }
-  
-  /* here */
+ 
   
    header .row .col-md-7 {
     padding: 22vmin 1vmin;
@@ -254,6 +232,8 @@
     font-weight: bold;
   }
 
+*/
+
 /* header ended*/
 
 
@@ -274,12 +254,12 @@
 .container{
   display: flex;
 }
-/*.card{
-  height: 500px ;
-  margin: 500px;
+.card{
+  height: 150px ;
+  margin: 400px;
   box-shadow: 5px 5px 20px black;
   overflow: hidden ;
-}*/
+}
 .card-title {
   font-size: 30px;
   font-family: sans-serif;
@@ -293,10 +273,10 @@
   width: 350px;
   border-radius: 3px;
 }
-/*.intro{
+.intro{
   height: 70px;
   width: 350px;
-}*/
+}
 
 /*body end*/
 

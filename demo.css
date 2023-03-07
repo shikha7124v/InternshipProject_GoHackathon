@@ -55,6 +55,7 @@
   .heading{
     text-align: center;
     color: #2487ff;
+    margin-top: 60px;
   }
   .card:not(:first-child) {
       margin-left: -50px;
