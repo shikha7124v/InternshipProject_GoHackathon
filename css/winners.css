@@ -6,10 +6,10 @@
     width:350px;
     overflow: hidden;
   }
-  .container{
+  .container1.container3.container2{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 70vh;
     align-items: center;
   }
   .intro{
@@ -18,7 +18,7 @@
     padding: 6px;
     box-sizing:border-box;
     position: absolute;
-    background: rgb(27,27,27,.5);
+    background: rgba(0, 187, 255, 0.771);
     color:white;
     bottom:240px;
     transition: .5s;
@@ -36,20 +36,20 @@
   span{
     font-weight:bold;
   }
-  .card:hover{
+  .card:hover{ 
     cursor:pointer;
   }
   .card:hover .intro{
     height:220px;
     bottom:240px;
-    background: black ;
+    background: rgb(255, 255, 255) ;
   }
   .card:hover p{
     visibility: visible;
-    opacity: 1;
+    opacity: 1; 
   }
   .card:hover .img_p{
-      transform: scale(1.1) rotate(-3deg);
+      transform: scale(1.1);
   }
 
 *{
@@ -63,7 +63,7 @@
 .body{
   width:100%;
   height:100%;
-  margin:0px;
+  margin: 5px;
   padding:0px;
 }
 .main{
@@ -74,7 +74,8 @@
   display: flex;
 }
 .card{
-  height: 150px ;
+  height: 100px ;
+  width: 100px;
   margin: 400px;
   box-shadow: 5px 5px 20px black;
   overflow: hidden ;
