@@ -1,195 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoHackathon</title>
-    <link rel="stylesheet" href="css/winners.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Go Hackathon</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/winners_page.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+    rel="stylesheet">
 </head>
-<body>
-    <div class="event-1">
 
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="index.html">
+      <img class="logoimg" src="img/main_logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-align-right text-dark"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="mr-auto"></div>
+      <ul class="navbar-nav">
+          <li class="nav-item active">
+              <!-- <a class="nav-link" href="#">HOME
+                  <span class="sr-only">(current)</span>
+              </a> -->
+          </li>
+          <li class="nav-item">
+              <a class="nav-link active" href="about.html">ABOUT US</a>
+          </li>
+          <li class="nav-item dropdown">
+              <div class="dropdown">
+                  <a href="event.html" class="nav-link">EVENTS</a>
+                  <div class="dropdown-content">
+                      <a href="#">LIVE EVENTS</a>
+                      <a href="#">UPCOMMING EVENTS</a>
+                      <a href="#">PAST EVENTS</a>
+                  </div>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+              <div class="dropdown">
+                  <a href="#" class="nav-link">HACKATHON</a>
+                  <div class="dropdown-content">
+                      <a href="leaderboard.html">LEADERBOARD</a>
+                      <a href="practiceset.html">PRACTICE SET</a>
+                      <a href="participants.html">PARTICIPANTS</a>
+                      <a href="#">WINNERS</a>
+                  </div>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="training.html">TRAINING</a>
+        </li>
+          <li>
+              <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+          </li>
+      </ul>
+  </div>
+</nav>
 
-        <div class="ev-1-h1">
-            <h1>Winners of Samadhan 2022 at BTKIT</h1>
-        </div>
-
-        <div class="ev-1-1">
-            <h2>Hackathon Winners</h2>
-            <div class="ev-1-1-cards">                
-                <div class="prize-1">
-                    <div class="fig1-prize">
-                        <figure >
-                            <figcaption>First Prize</figcaption>
-                            <img src="img/First-Prize-Hackathon-1024x500.jpeg" class="First-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="fig1-participants">
-                        <figure class="fig1-participant1">
-                            <img src="img/Rishabh-Pic-1st-hackathon150x150.jpeg" class="Participant1" >
-                            <figcaption>Rishabh Gosain</figcaption>
-                        </figure>
-                        <figure class="fig1-participant2">
-                            <img src="img/Sahej-Budhiraja-1st-hackathon-150x150.jpeg" class="Participant2" >
-                            <figcaption>Sahej Budhiraja</figcaption>
-                        </figure>
-                        <figure class="fig1-participant3">
-                            <img src="img/Yuvraj-Aggarwal-1st-hackathon150x150.jpeg" class="Participant3" >
-                            <figcaption>Yuvraj Aggarwal</figcaption>
-                        </figure>
-                    </div>
-                    <div class="fig1-college">
-                        <p>College Name:- Jagannath Institute of Management Studies Greater Noida</p>
-                    </div>
+<body class="eventbody">
+  
+<div class="main">
+    <div class="head">
+        
+        <div class = "container">
+            <div class ="card">
+                <img src ="img/Kunal-Thapliyal-1st-Ideathon-150x150.jpeg" alt ="Kunal Thapliyal">
+                <div class="intro">
+                    <h1> Kunal Thapliyal</h1>
+                    <p> <span> Winner Ideathon</span>- secured 1st positon in Ideathon </p>
                 </div>
-                <div class="prize-2">
-                    <div class="fig2-prize">
-                        <figure >
-                            <figcaption>Second Prize</figcaption>
-                            <img src="img/Second-Prize-Hackathon.jpeg" class="Second-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="fig2-participants">
-                        <figure class="fig2-participant1">
-                            <img src="img/Himanshu-Pic-2nd-hackathon150x150.jpeg" class="Participant1" >
-                            <figcaption>Himanshu Joshi</figcaption>
-                        </figure>
-                        <figure class="fig2-participant2">
-                            <img src="img/Ishika-Pic-2nd-hackathon150x150.jpeg" class="Participant2" >
-                            <figcaption>Ishika Agarwal</figcaption>
-                        </figure>
-                        <figure class="fig2-participant3">
-                            <img src="img/Anmol-Jain-Pic-2nd-hackathon150x150.jpeg" class="Participant3" >
-                            <figcaption>Anmol Jain</figcaption>
-                        </figure>
-                    </div>
-                    <div class="fig2-college">
-                        <p>College Name:- Engineering College of Roorkee</p>
-                    </div>
-                </div>
+
             </div>
         </div>
 
-        <div class="ev-1-2">
-            <h2>Ideathon Winners</h2>
-            <div class="ev-1-2-cards">
-                
-                <div class="ev-1-2-prize-1">
-                    <div class="ev-1-2-fig1-prize">
-                        <figure >
-                            <figcaption>First Prize</figcaption>
-                            <img src="img/First-Prize-Ideathon.jpeg" class="First-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="ev-1-2-fig1-participants">
-                        <figure class="fig1-participant1">
-                            <img src="img/Kunal-Thapliyal-1st-Ideathon-150x150.jpeg" class="Participant1" >
-                            <figcaption>Kunal Thapliyal</figcaption>
-                        </figure>
-                    </div>
-                    <div class="ev-1-2-fig1-college">
-                        <p>College Name:- Bipin Tripathi Kumaon Institute of Technology Dwarahat</p>
-                    </div>
-                </div>
-                <div class="ev-1-2-prize-2">
-                    <div class="ev-1-2-fig2-prize">
-                        <figure >
-                            <figcaption>Second Prize</figcaption>
-                            <img src="img/Second-Prize-Ideathon.jpeg" class="Second-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="ev-1-2-fig2-participants">
-                        <figure class="ev-1-2-fig2-participant1">
-                            <img src="img/Daksh-Suryavanshi-2nd-Ideathon-150x150.jpeg" class="Participant1" >
-                            <figcaption>Daksh Sryavanshi</figcaption>
-                        </figure>
-                    </div>
-                    <div class="ev-1-2-fig2-college">
-                        <p>College Name:- Dr. Akhilesh Das Gupta Institute Of Technology and Management New Delhi</p>
-                    </div>
-                </div>
-                <div class="ev-1-2-prize-3">
-                    <div class="ev-1-2-fig3-prize">
-                        <figure >
-                            <figcaption>Third Prize</figcaption>
-                            <img src="img/Third-Prize-Ideathon.jpeg" class="Third-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="ev-1-2-fig3-participants">
-                        <figure class="ev-1-2-fig3-participant1">
-                            <img src="img/Ashutosh-Pic-3rd-Ideathon150x150.jpeg" class="Participant1" >
-                            <figcaption>Ashutosh Kumar</figcaption>
-                        </figure>
-                        <figure class="ev-1-2-fig3-participant2">
-                            <img src="img/Harsh-Pic-3rd-Ideathon150x150.jpeg" class="Participant2" >
-                            <figcaption>Harsh Bhardwaj</figcaption>
-                        </figure>
-                        <figure class="ev-1-2-fig3-participant3">
-                            <img src="img/Anmol-Ratan-Pic-3rd-Ideathon-150x150.jpeg" class="Participant3" >
-                            <figcaption>Anmol Ratan Tiwari</figcaption>
-                        </figure>
-                    </div>
-                    <div class="ev-1-2-fig3-college">
-                        <p>College Name:- College of Engineering Roorkee</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="ev-1-3">
-            <h2>Competitive Coding Winners</h2>
-            <div class="ev-1-3-cards">                
-                <div class="ev-1-3-prize-1">
-                    <div class="ev-1-3-fig1-prize">
-                        <figure >
-                            <figcaption>First Prize</figcaption>
-                            <img src="img/First-Prize-Coding.jpeg" class="First-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="fig1-1-3-participants">
-                        <figure class="ev-1-3-fig1-participant1">
-                            <img src="img/Jatin-Pic-1st-Coding-150x150.jpeg" class="Participant1" >
-                            <figcaption>Jatin Gusain</figcaption>
-                        </figure>
-                        <figure class="ev-1-3-fig1-participant2">
-                            <img src="img/Chetan-Batra-Pic-1st-coding-150x150.jpeg" class="Participant2" >
-                            <figcaption>Chetan Batra</figcaption>
-                        </figure>
-                    </div>
-                    <div class="ev-1-3-fig1-college">
-                        <p>College Name:- Bipin Tripathi Kumaon Institute of Technology Dwarahat</p>
-                    </div>
-                </div>
-                <div class="ev-1-3-prize-2">
-                    <div class="ev-1-3-fig2-prize">
-                        <figure >
-                            <figcaption>Second Prize</figcaption>
-                            <img src="img/Second-Prize-Coding.jpeg" class="Second-Prize" style="width:100%">
-                        </figure>
-                    </div>
-                    <div class="ev-1-3-fig2-participants">
-                        <figure class="ev-1-3-fig2-participant1">
-                            <img src="img/no_image-2nd-Coding.png" class="Participant1" >
-                            <figcaption>XYZ</figcaption>
-                        </figure>
-                        <figure class="ev-1-3-fig2-participant2">
-                            <img src="img/no_image-2nd-Coding.png" class="Participant2" >
-                            <figcaption>XYZ</figcaption>
-                        </figure>
-                        <figure class="ev-1-3-fig2-participant3">
-                            <img src="img/no_image-2nd-Coding.png" class="Participant3" >
-                            <figcaption>XYZ</figcaption>
-                        </figure>
-                    </div>
-                    <div class="ev-1-3-fig2-college">
-                        <p>College Name:- Bipin Tripathi Kumaon Institute of Technology Dwarahat</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+  
     </div>
+</div>
 </body>
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-content pt-5 pb-4">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 footer-about">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/footer_logo.jpg" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant
+                                to nurture talent among budding tech professionals. </p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i class="fab fa-instagram instagram-bg"></i></a>
+                            <a href="https://twitter.com/GoHackathon"><i class="fab fa-twitter twitter-bg"></i></a>
+                            <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
+                            <a href="https://www.youtube.com/@gohackathon/videos"><i class="fab fa-youtube youtube-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 ">
+                    <div class="footer-widget-links">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">about</a></li>
+                                <li><a href="event.html">events</a></li>
+                                <li><a href="leaderboard.html">Leaderboard</a></li>
+                                <li><a href="gallery2.html">gallery</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 ">
+                    <div class="footer-widget-phone">
+                        <div class="footer-widget">
+                            <div class="address details">
+                              <div class="footer-widget-heading">
+                                <h3>Contact Us</h3>
+                              </div>
+                                <div class="topic">
+                                        <i class="fa fa-map-marker"></i>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;<strong>AAG–11, Shipra Krishna Azure, Kaushambi, Ghaziabad, U.P 201010</strong>
+                                </div>
+                            </div> <br>
+                            <div class="phone-details">
+                                <div class="topic"> 
+                                    <!-- <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone -->
+                                    <!-- <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 9910018925">+91 9910018925</a></strong> <br> -->
+                                    <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 7678476713">+91 7678476713</a></strong> <br>
+                                    <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91-120-4567841">+91-120-4567841</a></strong>
+                                </div>
+                            </div> <br>
+                            <div class="email-details">
+                                <div class="topic">
+                                    <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:info@gohackathon.in">info@gohackathon.in</a></strong>
+                                    <!-- <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:gohackathon2k22@gmail.com">gohackathon2k22@gmail.com</a></strong> -->
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 ">
+                    <div class="footer-widget-subscribe">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright © 2023 | <a href="https://gohackathon.in/">GOHACKATHON</a> | All Right
+                            Reserved.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Terms and Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
 </html>

@@ -1,6 +1,9 @@
 .clearfix{
 	clear: both;
 }
+.winnerbanner img{
+  width: 100%;
+}
 .card-container{
     margin-top: 60px;
     margin-bottom: 60px;
@@ -10,9 +13,9 @@
     margin-bottom: 30px;
     padding-top: 2%;
   }
-  .head{
+  /* .head{
       padding:20px;
-  }
+  } */
   body{
     font-family: 'Montserrat',  'sans-serif';
     }
@@ -42,7 +45,7 @@
         font-weight: bold;
         color: #27213c;
         text-align: center;
-        padding: 3rem 1.5rem;
+        /* padding: 3rem 1.5rem; */
       }
       
       .cols {
@@ -279,3 +282,7 @@
           width: 60%;
         }
       } 
+      .inner img{
+        width: 90%;
+        height: 90%;
+      }
