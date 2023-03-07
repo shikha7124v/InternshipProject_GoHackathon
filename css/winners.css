@@ -595,6 +595,7 @@ i{
     align-items: center;
     margin-top:0px;
     height:450px;
+    width: auto;
   }
   .card div{
     display: flex;
@@ -647,7 +648,7 @@ i{
     color:white;
   }
   .card:hover .img_p{
-      transform: scale(1.1) rotate(0deg);
+      transform: scale(1.0) rotate(0deg);
   }
 
 
