@@ -813,6 +813,6 @@ i{
     visibility: visible;
     opacity: 1;
   }
-  .card:hover img_p{
+  .card:hover .img_p{
       transform: scale(1.1) rotate(-3deg);
   }
