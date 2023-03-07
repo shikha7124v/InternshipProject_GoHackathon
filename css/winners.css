@@ -265,6 +265,9 @@
   padding: 0px;
   font-family: 'Montserrat',  'sans-serif';
 }
+.container{
+  display: flex;
+}
 .card-title {
   font-size: 30px;
   font-family: sans-serif;
