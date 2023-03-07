@@ -265,9 +265,21 @@
   padding: 0px;
   font-family: 'Montserrat',  'sans-serif';
 }
+.main{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
 .container{
   display: flex;
 }
+/*.card{
+  height: 500px ;
+  margin: 500px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden ;
+}*/
 .card-title {
   font-size: 30px;
   font-family: sans-serif;
@@ -277,9 +289,14 @@
   /* padding: 3rem 1.5rem; */
 }
 .img{
-  height: 150px;
-  width: 150px;
+  height: 500px;
+  width: 350px;
+  border-radius: 3px;
 }
+/*.intro{
+  height: 70px;
+  width: 350px;
+}*/
 
 /*body end*/
 
