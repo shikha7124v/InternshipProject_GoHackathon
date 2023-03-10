@@ -78,53 +78,243 @@
         color: #000;
         font-size: 1rem;
       }
+      .participant{
+        width:100%;
+        height:100%;
+      }
       
       .back {
         background-color:#03b7fe;
       }
       
       /*Front of cards*/
-      .front1{
-        background-image: url('Krishi1.jpg');
+        /*Hackathon*/
+          /*Prize-1*/
+      .Hackathon_1{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        padding-top:10px;
+        row-gap: 10px;
+        column-gap: 10px;
+        justify-content: center;
+      }
+      .front1_1{
+        background-image: url('/img/Rishabh-Pic-1st-hackathon150x150.jpeg');
         background-size: cover;
-        height:200px;
-        width:165px;
         border-radius: 10px 10px 10px 10px;
         background-repeat:no-repeat;
         text-align: center;
         justify-content: center;
+        width: 100px;
+        height:100px;
       }
-      .front2{
-        background-image: url('hack1.jpg');
+      .front1_2{
+        background-image: url('/img/Yuvraj-Aggarwal-1st-hackathon150x150.jpeg');
         background-size: cover;
-        height:200px;
-        width:165px;
         border-radius: 10px 10px 10px 10px;
         background-repeat:no-repeat;
         text-align: center;
         justify-content: center;
+        width:100px;
+        height:100px;
       }
-      .front3{
-        background-image: url('ideathon1.jpg');
+      .front1_3{
+        background-image: url('/img/Sahej-Budhiraja-1st-hackathon-150x150.jpeg');
         background-size: cover;
-        height:200px;
-        width:165px;
         border-radius: 10px 10px 10px 10px;
         background-repeat:no-repeat;
         text-align: center;
         justify-content: center;
+        width:100px;
+        height:100px;
       }
-      .front4{
-        background-image: url('coding.jpg');
-        background-size: cover;
-        height:180px;
-        width:165px;
-        border-radius: 10px 10px 10px 10px;
-        background-repeat:no-repeat;
-        text-align: center;
-        justify-content: center;
-      }
+          /*Prize-2*/
+          .Hackathon_2{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            padding-top:10px;
+            row-gap: 10px;
+            column-gap: 10px;
+            justify-content: center;
+          }
+          .front1_4{
+            background-image: url('/img/Ishika-Pic-2nd-hackathon150x150.jpeg');
+            background-size: cover;
+            border-radius: 10px 10px 10px 10px;
+            background-repeat:no-repeat;
+            text-align: center;
+            justify-content: center;
+            width: 100px;
+            height:100px;
+          }
+          .front1_5{
+            background-image: url('/img/Himanshu-Pic-2nd-hackathon150x150.jpeg');
+            background-size: cover;
+            border-radius: 10px 10px 10px 10px;
+            background-repeat:no-repeat;
+            text-align: center;
+            justify-content: center;
+            width:100px;
+            height:100px;
+            margin-left: -50px;
+          }
+          .front1_6{
+            background-image: url('/img/Anmol-Jain-Pic-2nd-hackathon150x150.jpeg');
+            background-size: cover;
+            border-radius: 10px 10px 10px 10px;
+            background-repeat:no-repeat;
+            text-align: center;
+            justify-content: center;
+            width:100px;
+            height:100px;
+            margin-left:50px;
+          }
+        /*Ideathon*/
+          /*Prize-1*/
+          .Ideathon_1{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .front2_1{
+            background-image: url('/img/Kunal-Thapliyal-1st-Ideathon-150x150.jpeg');
+            background-size: cover;
+            border-radius: 10px 10px 10px 10px;
+            background-repeat:no-repeat;
+            text-align: center;
+            justify-content: center;
+            width: 210px;
+            height:215px;
+          }
+            /*Prize-2*/
+            .Ideathon_2{
+              display:flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .front2_2{
+              background-image: url('/img/Daksh-Suryavanshi-2nd-Ideathon-150x150.jpeg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width: 210px;
+              height:215px;
+            }
+            /*Prize-3*/
+            .Ideathon_3{
+              display:grid;
+              grid-template-columns: auto auto ;
+              padding-top:10px;
+              row-gap: 10px;
+              column-gap: 10px;
+              padding-left: 40px;
+              justify-content: center;
+            }
+            .front2_3{
+              background-image: url('/img/Ashutosh-Pic-3rd-Ideathon150x150.jpeg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width: 100px;
+              height:100px;
+            }
+            .front2_4{
+              background-image: url('/img/Harsh-Pic-3rd-Ideathon150x150.jpeg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width:100px;
+              height:100px;
+            }
+            .front2_5{
+              background-image: url('/img/Anmol-Ratan-Pic-3rd-Ideathon-150x150.jpeg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width:100px;
+              height:100px;
+            }
+          
+          /*Coding*/
+            /*Prize-1*/
+            .Coding_1{
+              display:grid;
+              grid-template-columns: auto auto;
+              padding-top:10px;
+              row-gap: 10px;
+              column-gap: 10px;
+              justify-content: center;
+            }
+            .front3_1{
+              background-image: url('/img/Jatin-Pic-1st-Coding-150x150.jpeg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width: 100px;
+              height:100px;
+            }
+            .front3_2{
+              background-image: url('/img/Chetan-Batra-Pic-1st-coding-150x150.jpeg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width:100px;
+              height:100px;
+            }
+            /*Prize-2*/
+            .Coding_2{
+              display:grid;
+              grid-template-columns: auto auto auto;
+              padding-top:10px;
+              row-gap: 10px;
+              column-gap: 10px;
+              justify-content: center;
+            }
+            .front3_3{
+              background-image: url('/img/blurred.jpg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width: 100px;
+              height:100px;
+            }
+            .front3_4{
+              background-image: url('/img/blurred.jpg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width:100px;
+              height:100px;
+            }
+            .front3_5{
+              background-image: url('/img/blurred.jpg');
+              background-size: cover;
+              border-radius: 10px 10px 10px 10px;
+              background-repeat:no-repeat;
+              text-align: center;
+              justify-content: center;
+              width:100px;
+              height:100px;
+            }
       /*End of front of cards*/
+
+     
 
       /*back of cards*/
       .inner_p{
