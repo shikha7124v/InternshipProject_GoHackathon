@@ -1,3 +1,7 @@
+.eventbody {
+  padding: 5% 5%;
+}
+
 * {box-sizing: border-box}
 
 /* Add padding to containers */
