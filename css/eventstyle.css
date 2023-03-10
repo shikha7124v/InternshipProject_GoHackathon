@@ -1,3 +1,22 @@
 .col{
    margin: 50px;
 }
+
+@keyframes blink{
+  50%{
+    opacity:0;
+  }
+  80%{
+    opacity: 0.5;
+  }
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #34c510;
+  border-radius: 50%;
+  display: inline-block;
+  animation: blink 1s linear infinite;
+  margin-left: 175px;
+  margin-top: 5px;
+}
