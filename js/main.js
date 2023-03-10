@@ -15,8 +15,8 @@ let nCount = selector => {
   
   let a = 0;
   $(window).scroll(function () {
-    let oTop = $(".numbers").offset().top - window.innerHeight;
-    if (a == 0 && $(window).scrollTop() >= oTop) {
+    let Top = $(".numbers").offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() >= Top) {
       a++;
       nCount(".rect > h1");
     }
@@ -24,8 +24,8 @@ let nCount = selector => {
   
   let navbar = $(".navbar");
   $(window).scroll(function () {
-    let oTop = $(".section-2").offset().top - window.innerHeight;
-    if ($(window).scrollTop() > oTop) {
+    let Top = $(".section-2").offset().top - window.innerHeight;
+    if ($(window).scrollTop() > Top) {
       navbar.addClass("sticky");
     } else {
       navbar.removeClass("sticky");
