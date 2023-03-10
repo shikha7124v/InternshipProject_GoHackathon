@@ -27,11 +27,13 @@
     height: 50vh;
   }
   body{
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: Montserrat;
     margin: 0;
     background-color: white;
     
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
@@ -92,7 +94,8 @@ table{
     color:black;
     margin-right: auto;
     margin-left: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Montserrat;
     margin-bottom: 20%;
 }
 table thead{
@@ -167,7 +170,8 @@ header img {
 
 
 header a {
-  font-family: var(--Sniglet-font);
+  /* font-family: var(--Sniglet-font); */
+  font-family: Montserrat;
   font-size: 0.9em;
   color: rgb(28, 0, 140);
 }
@@ -242,7 +246,8 @@ header img {
     margin-left: -110px;
 }
 header a {
-    font-family: var(--Sniglet-font);
+    /* font-family: var(--Sniglet-font); */
+    font-family: Montserrat;
     font-size: 0.9em;
     color: rgb(28, 0, 140);
   }
@@ -284,7 +289,8 @@ header {
 }
 
 header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: Montserrat;
 }
 
 header .container .col-md-7 h6 {
@@ -524,7 +530,8 @@ header img {
 } */
 
 header a {
-  font-family: var(--Sniglet-font);
+  /* font-family: var(--Sniglet-font); */
+  font-family: Montserrat;
   font-size: 0.9em;
   color: rgb(28, 0, 140);
 }
@@ -589,7 +596,8 @@ header {
 }
 
 header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik", sans-serif; */
+  font-family: Montserrat;
 }
 
 header .container .col-md-7 h6 {

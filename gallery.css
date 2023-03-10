@@ -127,7 +127,8 @@ left: 35%;
     width:200px;
     height:80px;
     font-size:30px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Montserrat;
     background-color:#6ab1bc;
     color: black;
     border:0px;
@@ -144,7 +145,8 @@ left: 35%;
     width:200px;
     height:80px;
     font-size:30px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Montserrat;
     background-color:#e8da5f;
     color: black;
     border:0px;
@@ -160,7 +162,8 @@ left: 35%;
     width:200px;
     height:80px;
     font-size:30px;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: Montserrat;
     background-color:#ad77aa;
     color: black;
     border:0px;

@@ -55,7 +55,8 @@ table{
     color:black;
     margin-right: auto;
     margin-left: auto;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: Montserrat;
 }
 table thead{
     opacity: .8;
