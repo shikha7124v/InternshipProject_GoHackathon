@@ -1,136 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Go Hackathon</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragati</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/winners.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="participants.css">
 </head>
-
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="index.html">
-      <img class="logoimg" src="img/main_logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-align-right text-dark"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="mr-auto"></div>
-      <ul class="navbar-nav">
-          <li class="nav-item active">
-               <a class="nav-link" href="#">HOME
-                  <span class="sr-only">(current)</span>
-              </a> 
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active" href="about.html">ABOUT US</a>
-          </li>
-          <li class="nav-item dropdown">
-              <div class="dropdown">
-                  <a href="event.html" class="nav-link">EVENTS</a>
-                  <div class="dropdown-content">
-                      <a href="#">LIVE EVENTS</a>
-                      <a href="#">UPCOMMING EVENTS</a>
-                      <a href="#">PAST EVENTS</a>
-                  </div>
-              </div>
-          </li>
-          <li class="nav-item dropdown">
-              <div class="dropdown">
-                  <a href="#" class="nav-link">HACKATHON</a>
-                  <div class="dropdown-content">
-                      <a href="leaderboard.html">LEADERBOARD</a>
-                      <a href="practiceset.html">PRACTICE SET</a>
-                      <a href="participants.html">PARTICIPANTS</a>
-                      <a href="#">WINNERS</a>
-                  </div>
-              </div>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="gallery.html">GALLERY</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="training.html">TRAINING</a>
-        </li>
-          <li>
-              <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-          </li>
-      </ul>
-  </div>
+    <a class="navbar-brand" href="index.html">
+        <img class="logoimg" src="img/main_logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-right text-dark"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="event.html" class="nav-link">EVENTS</a>
+                    <div class="dropdown-content">
+                        <a href="#">LIVE EVENTS</a>
+                        <a href="#">UPCOMMING EVENTS</a>
+                        <a href="#">PAST EVENTS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link">HACKATHON</a>
+                    <div class="dropdown-content">
+                        <a href="leaderboard.html">LEADERBOARD</a>
+                        <a href="practiceset.html">PRACTICE SET</a>
+                        <a href="participants.html">PARTICIPANTS</a>
+                        <a href="#">WINNERS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="training.html">TRAINING</a>
+            </li>
+            <li>
+                <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+            </li>
+        </ul>
+    </div>
 </nav>
 
-<body class="eventbody">
-  
-<div class="main">
-    <div class="head">
-        <div class="ideathon_result"></div>
-            <h1 class="card-title"> Ideathon Results</h1>   
-            <div class = "container1">
-                <h2> 1st Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Kunal-Thapliyal-1st-Ideathon-150x150.jpeg" >
-                      <h3>Kunal Thapliyal</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class = "container2">
-                <h2> 2nd Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Daksh-Suryavanshi-2nd-Ideathon-150x150.jpeg" >
-                      <h3>Daksh Suryavanshi</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class = "container3">
-                <div class="head-div2">
-                <h2 > 3rd Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Anmol-Ratan-Pic-3rd-Ideathon-150x150.jpeg" >
-                      <h3>Anmol Ratan</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="card1">
-                      <img src="img/Ashutosh-Pic-3rd-Ideathon150x150.jpeg" >
-                      <h3>Ashutosh</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="card1">
-                      <img src="img/Harsh-Pic-3rd-Ideathon150x150.jpeg" >
-                      <h3>Harsh</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                </div>
-                </div>                  
-            </div>
-        </div>
-
-
-  
+<body>
+    <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/V_tf7coW-k8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-</div>
+<div class="inner">
+    <h1>Abstract</h1>
+    <p>So we have decided to create such a product whose creation cost is minimal.
+<br> <br>
+        Our idea is to create such an organic and less costly product that could be fruitful for the farmers.
+      <br>  <br>
+        As we know that the flowers which are used in May be temples, marriages, or maybe waste flowers which are of no use. collect all those flowers and dump them in compost for a maximum of 7 days and then consume the liquid out of it. Which could be used as manure for farmers, gardeners, etc. So this could be an organic way to help farmers grow crops and this is very less costly and very helpful because it would be without any waste…..Apart from that there is just one more concern where some extra step should be taken to take care of this project, which is – while dumping the flowers or leaves into the compost we have to find such a place where there would be no one..may be on the terrace because it would smell bad. But we do have an alternative for the same, there are organic odors present in the market may be Jasmine or lavender flavor bottles we can use them.. and thus it is helpful and effective for the farmers without even spending much.
+        <br> <br>
+        This is natural (KHAAD). Many researchers have stated that all these chemicals are very harmful when we consume them or even it deteriorates the quality of the soil. But this is a natural product. This liquid is also used in research work.
+        <br>   <br>
+        While gardening gardeners prefer natural/ organic things to be poured in the flowers or to grow the crop..
+        <br>   <br>
+        So this is the best thing which could be used and created without any wastage and without also cost-effectively.</p>
+    </div>
 </body>
 <footer class="footer-section">
     <div class="container">
@@ -243,14 +195,4 @@
         </div>
     </div>
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-
 </html>

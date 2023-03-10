@@ -1,137 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Go Hackathon</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Sewak</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/winners.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="participants.css">
 </head>
-
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="index.html">
-      <img class="logoimg" src="img/main_logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-align-right text-dark"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="mr-auto"></div>
-      <ul class="navbar-nav">
-          <li class="nav-item active">
-               <a class="nav-link" href="#">HOME
-                  <span class="sr-only">(current)</span>
-              </a> 
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active" href="about.html">ABOUT US</a>
-          </li>
-          <li class="nav-item dropdown">
-              <div class="dropdown">
-                  <a href="event.html" class="nav-link">EVENTS</a>
-                  <div class="dropdown-content">
-                      <a href="#">LIVE EVENTS</a>
-                      <a href="#">UPCOMMING EVENTS</a>
-                      <a href="#">PAST EVENTS</a>
-                  </div>
-              </div>
-          </li>
-          <li class="nav-item dropdown">
-              <div class="dropdown">
-                  <a href="#" class="nav-link">HACKATHON</a>
-                  <div class="dropdown-content">
-                      <a href="leaderboard.html">LEADERBOARD</a>
-                      <a href="practiceset.html">PRACTICE SET</a>
-                      <a href="participants.html">PARTICIPANTS</a>
-                      <a href="#">WINNERS</a>
-                  </div>
-              </div>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="gallery.html">GALLERY</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="training.html">TRAINING</a>
-        </li>
-          <li>
-              <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-          </li>
-      </ul>
-  </div>
+    <a class="navbar-brand" href="index.html">
+        <img class="logoimg" src="img/main_logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-right text-dark"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="event.html" class="nav-link">EVENTS</a>
+                    <div class="dropdown-content">
+                        <a href="#">LIVE EVENTS</a>
+                        <a href="#">UPCOMMING EVENTS</a>
+                        <a href="#">PAST EVENTS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link">HACKATHON</a>
+                    <div class="dropdown-content">
+                        <a href="leaderboard.html">LEADERBOARD</a>
+                        <a href="practiceset.html">PRACTICE SET</a>
+                        <a href="participants.html">PARTICIPANTS</a>
+                        <a href="#">WINNERS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="training.html">TRAINING</a>
+            </li>
+            <li>
+                <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+            </li>
+        </ul>
+    </div>
 </nav>
 
-<body class="eventbody">
-  
-<div class="main">
-    <div class="head">
-        <div class="ideathon_result"></div>
-            <h1 class="card-title"> Ideathon Results</h1>   
-            <div class = "container1">
-                <h2> 1st Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Kunal-Thapliyal-1st-Ideathon-150x150.jpeg" >
-                      <h3>Kunal Thapliyal</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class = "container2">
-                <h2> 2nd Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Daksh-Suryavanshi-2nd-Ideathon-150x150.jpeg" >
-                      <h3>Daksh Suryavanshi</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class = "container3">
-                <div class="head-div2">
-                <h2 > 3rd Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Anmol-Ratan-Pic-3rd-Ideathon-150x150.jpeg" >
-                      <h3>Anmol Ratan</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="card1">
-                      <img src="img/Ashutosh-Pic-3rd-Ideathon150x150.jpeg" >
-                      <h3>Ashutosh</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="card1">
-                      <img src="img/Harsh-Pic-3rd-Ideathon150x150.jpeg" >
-                      <h3>Harsh</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                </div>
-                </div>                  
-            </div>
-        </div>
 
-
-  
+<body > <div class="inner">
+    <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/mHGqtX9V4-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-</div>
-</body>
+
+    <h1>Abstract</h1>
+    <h3>Agritech: Harnessing the Power of Technology for Sustainable Agriculture</h3>
+    <p>The increasing global demand for food, combined with the challenges posed by climate change and land degradation, has made it necessary to find innovative solutions to improve agricultural productivity and sustainability. Agritech is a project that leverages technology to address these challenges, with a focus on making agriculture more efficient, profitable, and environmentally friendly.
+        we Krishi Sevak seek to help the farmers throughout INDIA using a combination of technology and agriculture. India holds the record for second-largest agricultural land in the world, with around 60% of rural Indian households making their living from agriculture.</p>
+    <h3>Objectives:    </h3>
+    <p>1)To increase crop yield and quality through precision agriculture techniques.
+     <br>  2) To minimize the impact of weather conditions on crop growth and productivity through real-time weather monitoring.</p>
+    <h3>Our Planning:</h3>
+    <p>1)Our main targeted state is U.P and Bihar
+       <br> 2)To provide the benefits of all government schemes to farmers in one go. ( Dedicated website)
+      <br>  3)Help the farmer to increase their household income.
+       <br> 4)Increasing awareness about different fertilizer substitutes to farmers to prevent soil erosion</p>
+    <h3>Expected Outcomes:</h3>
+    <p><br>  1)Increased crop yield and quality through precision agriculture techniques.
+     <br>   2)Improved resource utilization and reduced waste through smart irrigation systems.
+      <br>  3)Better-informed decision-making and reduced impact of weather conditions on crop growth and productivity through real-time weather monitoring.
+      <br>  4)Streamlined labor management and reduced labor shortage through automation technology.</p>
+        <h3>Conclusion:</h3>
+        <p>The Agritech Project has the potential to revolutionize the agriculture industry by improving efficiency and reducing waste through the use of technology. The implementation of precision agriculture, smart irrigation, real-time weather monitoring, and automation technology will contribute to a more sustainable and productive agriculture industry.</p>
+    </div>
+    </body>
 <footer class="footer-section">
     <div class="container">
         <div class="footer-content pt-5 pb-4">
@@ -244,13 +204,5 @@
     </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
 
 </html>

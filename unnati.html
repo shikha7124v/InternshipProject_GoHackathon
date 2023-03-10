@@ -1,137 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Go Hackathon</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unnati</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/winners.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="participants.css">
 </head>
-
 <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="index.html">
-      <img class="logoimg" src="img/main_logo.png" alt=""></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fas fa-align-right text-dark"></i>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="mr-auto"></div>
-      <ul class="navbar-nav">
-          <li class="nav-item active">
-               <a class="nav-link" href="#">HOME
-                  <span class="sr-only">(current)</span>
-              </a> 
-          </li>
-          <li class="nav-item">
-              <a class="nav-link active" href="about.html">ABOUT US</a>
-          </li>
-          <li class="nav-item dropdown">
-              <div class="dropdown">
-                  <a href="event.html" class="nav-link">EVENTS</a>
-                  <div class="dropdown-content">
-                      <a href="#">LIVE EVENTS</a>
-                      <a href="#">UPCOMMING EVENTS</a>
-                      <a href="#">PAST EVENTS</a>
-                  </div>
-              </div>
-          </li>
-          <li class="nav-item dropdown">
-              <div class="dropdown">
-                  <a href="#" class="nav-link">HACKATHON</a>
-                  <div class="dropdown-content">
-                      <a href="leaderboard.html">LEADERBOARD</a>
-                      <a href="practiceset.html">PRACTICE SET</a>
-                      <a href="participants.html">PARTICIPANTS</a>
-                      <a href="#">WINNERS</a>
-                  </div>
-              </div>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="gallery.html">GALLERY</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="training.html">TRAINING</a>
-        </li>
-          <li>
-              <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-          </li>
-      </ul>
-  </div>
+    <a class="navbar-brand" href="index.html">
+        <img class="logoimg" src="img/main_logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-right text-dark"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="event.html" class="nav-link">EVENTS</a>
+                    <div class="dropdown-content">
+                        <a href="#">LIVE EVENTS</a>
+                        <a href="#">UPCOMMING EVENTS</a>
+                        <a href="#">PAST EVENTS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link">HACKATHON</a>
+                    <div class="dropdown-content">
+                        <a href="leaderboard.html">LEADERBOARD</a>
+                        <a href="practiceset.html">PRACTICE SET</a>
+                        <a href="participants.html">PARTICIPANTS</a>
+                        <a href="#">WINNERS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="training.html">TRAINING</a>
+            </li>
+            <li>
+                <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+            </li>
+        </ul>
+    </div>
 </nav>
 
-<body class="eventbody">
-  
-<div class="main">
-    <div class="head">
-        <div class="ideathon_result"></div>
-            <h1 class="card-title"> Ideathon Results</h1>   
-            <div class = "container1">
-                <h2> 1st Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Kunal-Thapliyal-1st-Ideathon-150x150.jpeg" >
-                      <h3>Kunal Thapliyal</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-            </div>
-            <div class = "container2">
-                <h2> 2nd Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Daksh-Suryavanshi-2nd-Ideathon-150x150.jpeg" >
-                      <h3>Daksh Suryavanshi</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class = "container3">
-                <div class="head-div2">
-                <h2 > 3rd Position</h2>
-                <div class="card-container">
-                    <div class="card1">
-                      <img src="img/Anmol-Ratan-Pic-3rd-Ideathon-150x150.jpeg" >
-                      <h3>Anmol Ratan</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="card1">
-                      <img src="img/Ashutosh-Pic-3rd-Ideathon150x150.jpeg" >
-                      <h3>Ashutosh</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    
-                    <div class="card1">
-                      <img src="img/Harsh-Pic-3rd-Ideathon150x150.jpeg" >
-                      <h3>Harsh</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                </div>
-                </div>
-                </div>                  
-            </div>
-        </div>
-
-
-  
+<body>
+    <div class="yt"><iframe width="560" height="315" src="https://www.youtube.com/embed/VbqFqO897A8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-</div>
-</body>
+    <div  class="inner">
+    <h1>Abstract</h1> <br>
+    <p><b>About us:</b>  Jaavika Krishi Udyog enterprises is an advisory firm that provides consulting services to farmers and connects them with the right experts. Our aim is to provide the best services to our farmers so that they can increase the productivity and efficiency of their yield. We have our office in Nanakmatta, Uttarakhand and actively working in 20 locations with a vision to cover all parts of Uttarakhand and extending it to pan India.
+<br>    <br>
+      <b>Our services:</b>   With the changing world we should also make some changes in our agriculture practice too. At Jaavika we test the soil and accordingly suggest suitable manure. We deal in the organic seed of Wheat, rice, tomato, potato, onion, sugarcane, masoor, etc. Help in collaborating with the markets, supermarkets, Mandis, transporter, etc. We have a subscription plan for our farmers where we provide our extensive services 365 days and 24*7. Crop insurance, weather forecasting reports, workshops, and CRS are our distinctive features. We have a designated website and helpline number which provides assistance to farmers 24*7.
+<br>   <br>  
+      <b>Additional activity:</b>  Additional activity: Providing internship and volunteer programs to youth and college-going students pursuing BSC agriculture.
+ <br>    <br>   
+      <b>Challenges:</b>   climate change, unemployment, migration, shortage of fertilizers and pesticides, crop damage, lack of knowledge about schemes, and lack of water supply.
+ <br>     <br>  
+      <b>Conclusion:</b>  Conclusion: As an organization, we want to spread the knowledge and awareness of modern-day challenges and the solutions to it Generate employment opportunities, train people to increase the productivity, and efficiency of agriculture, and provide seeds, manure, fertilizers, and the best agriculture practices.</p>
+    </div>
+    </body>
 <footer class="footer-section">
     <div class="container">
         <div class="footer-content pt-5 pb-4">
@@ -243,14 +193,4 @@
         </div>
     </div>
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
-
 </html>
