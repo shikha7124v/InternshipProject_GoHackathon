@@ -1,0 +1,167 @@
+.clearfix{
+	clear: both;
+}
+
+#main {
+  padding: 3% 3%;
+  margin-bottom: 30px;
+  padding-top: 2%;
+}
+
+.col-div-6{
+	width: 50%;
+	float: left;
+  margin-bottom: 3%;
+}
+
+.col-div-3{
+	width: 25%;
+	float: left;
+}
+.box{
+	width: 85%;
+	height: 100px;
+	background-color: #007cad;
+	margin-left: 10px;
+	padding:10px;
+}
+.box:hover{
+  color:rgb(255, 255, 255);
+  background-color: #03b7fe;;
+}
+.box:hover .box p{
+  color:white;
+}
+.box:hover .box p span{
+  color:white;
+}
+.box:hover .box-icon{
+  color:white;
+}
+.box p{
+	 font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.box p span{
+	font-size: 20px;
+	font-weight: 400;
+	color:white;
+}
+.box-icon{
+	font-size: 40px!important;
+    float: right;
+    margin-top: 35px!important;
+    color: #00259f;
+    padding-right: 10px;
+}
+.col-div-8{
+	width: 70%;
+	float: left;
+}
+.col-div-4{
+	width: 30%;
+	float: left;
+}
+.content-box{
+	padding: 20px;
+}
+.content-box p{
+	margin: 0px;
+    font-size: 20px;
+    color:#ffffff;
+}
+.content-box p span{
+	float: right;
+    background-color:#0092cc;
+    padding: 3px 10px;
+    font-size: 15px;
+}
+.content-box p span:hover{
+  color:white;
+  background-color:#03b7fe ;
+}
+.box-8, .box-4{
+	width: 95%;
+	background-color: #007cad;
+	height: 440px;
+	
+}
+
+
+.box-8{
+	margin-left: 10px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+ th {
+  text-align: left;
+  padding:15px;
+  color: #ffffff;
+  border-bottom: 3px solid #001f38cb;
+}
+ td {
+  text-align: left;
+  padding:10px;
+  color: #fff;
+  border-bottom: 3px solid #001f38cb;
+}
+.circle-wrap {
+  margin: 50px auto;
+  width: 200px;
+  height: 200px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle-wrap .circle .mask {
+  clip: rect(0px, 200px, 200px, 100px);
+}
+
+.circle-wrap .circle .mask .fill {
+  clip: rect(0px, 200px, 200px, 100px);
+  background-color: #00259f;
+}
+.circle-wrap .circle .mask.full,
+.circle-wrap .circle .fill {
+  animation: fill ease-in-out 3s;
+  transform: rotate(126deg);
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(126deg);
+  }
+}
+.circle-wrap .inside-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #03b7fe;
+  line-height: 180px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+

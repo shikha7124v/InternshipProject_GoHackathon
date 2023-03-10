@@ -1,0 +1,23 @@
+.imgofabout{
+  margin-top: 30px;
+  height: 300px;
+  width: 360px;
+  text-align: center;
+}
+
+.aboutsection{
+  margin-top: 80px; 
+}
+
+.aboutsection p {
+  text-align: justify;
+}
+
+.aboutsection-bottom{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.aboutsection-bottom p {
+  text-align: justify;
+}

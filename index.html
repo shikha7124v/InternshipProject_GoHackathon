@@ -1,76 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Go Hackathon</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Style.css" />
-    <link rel="stylesheet" href="./mobile-style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
         rel="stylesheet">
 </head>
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">
+        <img class="logoimg" src="img/main_logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-align-right text-dark"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mr-auto"></div>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="events.html" class="nav-link">EVENTS</a>
+                    <div class="dropdown-content">
+                        <a href="#">LIVE EVENTS</a>
+                        <a href="#">UPCOMMING EVENTS</a>
+                        <a href="#">PAST EVENTS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <div class="dropdown">
+                    <a href="#" class="nav-link">HACKATHON</a>
+                    <div class="dropdown-content">
+                        <a href="leaderboard.html">LEADERBOARD</a>
+                        <a href="practiceset.html">PRACTICE SET</a>
+                        <a href="participants.html">PARTICIPANTS</a>
+                        <a href="#">WINNERS</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="training.html">TRAINING</a>
+            </li>
+            <li>
+                <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 <body id="body">
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                    <img class="logoimg" src="img/logowithoutbg.png" alt=""></a>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <!-- <div class="mr-auto"></div> -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="about.html">ABOUT US</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a href="#" class="nav-link">EVENTS</a>
-                                <div class="dropdown-content">
-                                    <a href="#">LIVE EVENTS</a>
-                                    <a href="#">UPCOMMING EVENTS</a>
-                                    <a href="#">PAST EVENTS</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <div class="dropdown">
-                                <a href="#" class="nav-link">HACKATHON</a>
-                                <div class="dropdown-content">
-                                    <a href="#">LEADERBOARD</a>
-                                    <a href="#">PRACTICE SET</a>
-                                    <a href="#">PARTICIPANTS</a>
-                                    <a href="#">WINNERS</a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">GALLERY</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CONTACT US</a>
-                        </li>
-                        <li>
-                            <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+    
     <section class="section-0">
         <div class="container">
             <div class="row">
@@ -82,301 +78,289 @@
                         nurture talent among budding tech professional.<br>
                         We create an eco-system of industry academia partnership and help in continuous and
                         sustainable development of innovative ideas, which are impactful for the growing economy and
-                        society.Industry today is looking for talented students who are equipped and experience with
-                        advanced skills, software, attitude and updated industry best practices.<br>
-                        We create an eco-system of industry academia partnership and help in continuous and
-                        sustainable development of innovative ideas, which are impactful for the growing economy and
                         society.
                     </p>
-                    <button class="btn btn-primary px-5 py-2 primary-btn">
-                        NOW MORE
-                    </button>
+                    <a href="about.html">
+                        <button class="btn btn-primary px-5 py-2 primary-btn">
+                            KNOW MORE
+                        </button>
+                    </a>
                 </div>
                 <div class="col-lg-5 bannerimage">
                     <img src="img/development2" alt="developer2" />
-
                 </div>
             </div>
         </div>
     </section>
     <section class="sponsors">
-            <div class="content text-center">
-                <h1>SPONSORS AND ASSOCIATES</h1>
+        <div class="content text-center">
+            <h2 text-align="center">SPONSORS AND ASSOCIATES</h2>
+        </div>
+        <div class="images">
+            <div class="img1">
+                <img class="simg" src="img/sponsorsimg/SSIM-LOGO-1.png" alt="ssim">
             </div>
-
-                <img  class="simg" src="sponsorsimg/Skyfield-Agritech.png" alt="Skyfield-Agritech">
-                <img   class="simg"src="sponsorsimg/tp-agri-logo.png" alt="agritech">
-                <img  class="simg" src="sponsorsimg/SSIM-LOGO-1.png" alt="ssim">
-                <img  class="simg" src="sponsorsimg/MOLogo.png" alt="molong">
+            <div class="img2">
+                <img class="simg" src="img/sponsorsimg/tp-agri-logo.png" alt="agritech">
+            </div>
+            <div class="img3">
+                <img class="simg" src="img/sponsorsimg/Skyfield-Agritech.png" alt="Skyfield-Agritech">
+            </div>
+            <div class="img4">
+                <img class="simg" src="img/sponsorsimg/MOLogo.png" alt="Mangosorange">
+            </div>
+        </div>
     </section>
-    <main>
-        <section class="section-1 p-0">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section class="section-2  p-0">
-            <div class="cover">
-                <div class="overlay"></div>
-                <div class="content text-center">
-                    <h1>Some Features That Made Us Unique</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
-                    </p>
-                </div>
-            </div>
-            <div class=" text-center">
-                <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
-                    <div class="rect">
-                        <h1>45</h1>
-                        <p>Events</p>
-                    </div>
-                    <div class="rect">
-                        <h1>45</h1>
-                        <p>Coding Competitions</p>
-                    </div>
-                    <div class="rect">
-                        <h1>45</h1>
-                        <p>Hackathons</p>
-                    </div>
-                    <div class="rect">
-                        <h1>45</h1>
-                        <p>Startup Ideas</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="purchase text-center">
-                <h1>Courses, Practice Sets, Quizzes</h1>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+    <section class="section-2  p-0">
+        <div class="cover">
+            <div class="content text-center">
+                <h1>Some Features That Made Us Unique</h1>
+                <p class="text-secondary">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
                 </p>
-                <div class="cards">
-                    <div class="d-flex flex-row justify-content-center flex-wrap">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="title">
-                                    <h5 class="card-title">By XYZ</h5>
-                                </div>
-                                <p class="card-text">
-                                    Master concepts of data structures and algorithms.
-                                </p>
-                                <div class="pricing">
-                                    <h1>Data Structure</h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="title">
-                                    <h5 class="card-title">Web Designing</h5>
-                                </div>
-                                <p class="card-text">
-                                    Be a pro web developer.
-                                </p>
-                                <div class="pricing">
-                                    <h1>Web Designing</h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="title">
-                                    <h5 class="card-title">Data Science</h5>
-                                </div>
-                                <p class="card-text">
-                                    Be a full time data science engieer in fang company
-                                </p>
-                                <div class="pricing">
-                                    <h1>Data Science</h1>
-                                    <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase Now</a>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+        </div>
+        <section class="articles">
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img src="img\feature\3.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Events</h2>
+                        <p>
+                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
+                            congue
+                            bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                            egestas.
+                        </p>
+                        <a href="#" class="read-more">
+                            Read more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
-            </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img\feature\download.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Hackathon</h2>
+                        <p>
+                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
+                            congue
+                            bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                            egestas.
+                        </p>
+                        <a href="#" class="read-more">
+                            Read more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img\feature\avg.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Competitive coding</h2>
+                        <p>
+                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
+                            congue
+                            bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                            egestas.
+                        </p>
+                        <a href="#" class="read-more">
+                            Read more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
         </section>
-        <section class="section-3  p-0 text-center">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h1>Download Our App for all Platform</h1>
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum exercitationem alias perspiciatis
-                        omnis quod possimus odit
-                    </p>
-                </div>
-            </div> -->
-            <div class="platform row">
-                <div class="col-md-6 col-sm-12 text-right">
-                    <div class="desktop shadow-lg">
-                        <div class="d-flex flex-row justify-content-center">
-                            <i class="fas fa-desktop fa-3x py-2 pr-3"></i>
-                            <div class="text text-left">
-                                <h3 class="pt-1 m-0">Desktop</h3>
-                                <p class="p-0 m-0">On website</p>
-                            </div>
-                        </div>
+        <div class="purchase text-center">
+            <h1>Courses, Practice Sets, Quizzes</h1>
+            <p class="text-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <section class="articles">
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img\feature\datastructure.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>Data structure and algorithm</h2>
+                        <p>
+                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
+                            congue
+                            bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                            egestas.
+                        </p>
+                        <a href="#" class="read-more">
+                            Know more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-12 text-left">
-                    <div class="desktop shadow-lg">
-                        <div class="d-flex flex-row justify-content-center">
-                            <i class="fas fa-mobile-alt fa-3x py-2 pr-3"></i>
-                            <div class="text text-left">
-                                <h3 class="pt-1 m-0">On Mobile</h3>
-                                <p class="p-0 m-0">On Play Store</p>
-                            </div>
-                        </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img\feature\webprogramming.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>web programming</h2>
+                        <p>
+                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
+                            congue
+                            bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                            egestas.
+                        </p>
+                        <a href="#" class="read-more">
+                            Know more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
-            </div>
+            </article>
+            <article>
+                <div class="article-wrapper">
+                    <figure>
+                        <img width="368" height="207" src="img\feature\datascience.jpg" alt="" />
+                    </figure>
+                    <div class="article-body">
+                        <h2>data science</h2>
+                        <p>
+                            Curabitur convallis ac quam vitae laoreet. Nulla mauris ante, euismod sed lacus sit amet,
+                            congue
+                            bibendum eros. Etiam mattis lobortis porta. Vestibulum ultrices iaculis enim imperdiet
+                            egestas.
+                        </p>
+                        <a href="#" class="read-more">
+                            know more <span class="sr-only">about this is some title</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </article>
         </section>
-
-        <!-- Section 4 -->
-        <section class="section-4">
-            <div class="container text-center">
-                <h1 class="text-dark">Collaborate With Go Hackathon</h1>
-                <p class="text-secondary">Some of our collaborations with top colleges</p>
-            </div>
-            <div class="team row ">
-                <div class="col-md-4 col-12 text-center">
-                    <div class="card mr-2 d-inline-block shadow-lg">
-                        <div class="card-img-top">
-                            <img src="img/collaborator1.png" class="img-fluid border-radius p-4" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">BTKU Dwarahat</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
-                                veniam, illo dolor soluta assumenda
-                            </p>
-                            <a href="#" class="text-secondary text-decoration-none">Go Hackaersum</a>
-                            <p class="text-black-50">19/01/2023</p>
-                        </div>
+    </section>
+    <section class="section-4">
+        <div class="container text-center">
+            <h1 class="text-dark">Collaborate With Go Hackathon</h1>
+            <p class="text-secondary">Some of our collaborations with top colleges</p>
+        </div>
+        <div class="row team">
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="img/collaborator1.png" class="img-fluid border-radius p-4" alt="">
+                    </div>
+                    <div   class="card-body">
+                        <h3 class="card-title">BTKU Dwarahat</h3>
+                        <p class="card-text-index">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                            veniam, illo dolor soluta assumenda
+                        </p>
+                        <a href="#" class="text-secondary text-decoration-none">Go Hackaersum</a>
+                        <p class="text-black-50">19/01/2023</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-12">
-                    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
-                        <div class="carousel-inner text-center">
-                            <div class="carousel-item active">
-                                <div class="card mr-2 d-inline-block shadow">
-                                    <div class="card-img-top">
-                                        <img src="" class="img-fluid rounded-circle w-50 p-4" alt="">
-                                    </div>
-                                    <div class="card-body">
-                                        <h3 class="card-title">ABC College</h3>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
-                                            recusandae, veniam, illo dolor soluta assumenda
-                                        </p>
-                                        <a href="#" class="text-secondary text-decoration-none">XYZ Event</a>
-                                        <p class="text-black-50">13/12/2022</p>
-                                    </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active">
+                            <div class="card mr-2 d-inline-block shadow">
+                                <div class="card-img-top">
+                                    <img src="" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">ABC College</h3>
+                                    <p class="card-text-index">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        recusandae, veniam, illo dolor soluta assumenda
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">XYZ Event</a>
+                                    <p class="text-black-50">13/12/2022</p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="card  d-inline-block mr-2 shadow">
-                                    <div class="card-img-top">
-                                        <img src="img/collaborator1.png" class="img-fluid rounded-circle w-50 p-4"
-                                            alt="">
-                                    </div>
-                                    <div class="card-body">
-                                        <h3 class="card-title">XYZ college</h3>
-                                        <p class="card-text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
-                                            recusandae, veniam, illo dolor soluta assumenda
-                                        </p>
-                                        <a href="#" class="text-secondary text-decoration-none">Coding Jam</a>
-                                        <p class="text-black-50">18/11/2022</p>
-                                    </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card  d-inline-block mr-2 shadow">
+                                <div class="card-img-top">
+                                    <img src="img/collaborator1.png" class="img-fluid rounded-circle w-50 p-4" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <h3 class="card-title">XYZ college</h3>
+                                    <p class="card-text-index">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                        recusandae, veniam, illo dolor soluta assumenda
+                                    </p>
+                                    <a href="#" class="text-secondary text-decoration-none">Coding Jam</a>
+                                    <p class="text-black-50">18/11/2022</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-12 text-center">
-                    <div class="card mr-2 d-inline-block shadow-lg">
-                        <div class="card-img-top">
-                            <img src="img/WIT-LOGO-1-1.png" class="img-fluid border-radius p-4" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="card-title">WIT Dehradun</h3>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
-                                veniam, illo dolor soluta assumenda
-                            </p>
-                            <a href="#" class="text-secondary text-decoration-none">Coding Competition</a>
-                            <p class="text-black-50">11/10/2022</p>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
-        <!-- <section class="section-5">
-            <div class="vc_column-inner"> == $0
-                ::before
-                <div class="wpb_wrapper">
-                    <h2 style="text-align: center" class="vc_custom_heading">FAQ'S</h2>
-                    <div class="vc_tta-container" dat-vc-action="collapse">
-                        <div class="vc_general vc_tta vc_tta-tabs vc_tta-color-grey vc_tta-style-modern vc_tta-shape-rounded vc_tta-spacing-5 vc_tta-tabs-position-left vc_tta-controls-align-left">
-                            <div class="vc_tta-tabs-container"> 
-                                <ul class="vc_tta-tabs-list"></ul>
-                            </div>
-                        </div>
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img src="img/WIT-LOGO-1-1.png" class="img-fluid border-radius p-4" alt="">
                     </div>
-                </div>
-            </div>
-        </section> --> -->
-    </main>
-    <footer>
-        <div class=" p-0">
-            <div class="row text-left">
-                <div class="col-md-5 col-sm-5">
-                    <h4 class="text-light">About us</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea
-                        similique illum corrupti</p>
-                    <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | Terms and conditions
-                    </p>
-                </div>
-                <div class="col-md-5 col-sm-12">
-                    <h4 class="text-light">Subscribe</h4>
-                    <p class="text-muted">Stay Updated</p>
-                    <form class="form-inline">
-                        <div class="col pl-0">
-                            <div class="input-group pr-5">
-                                <input type="text" class="form-control bg-dark text-white"
-                                    id="inlineFormInputGroupUsername2" placeholder="Email">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">
-                                        <i class="fas fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-2 col-sm-12">
-                    <h4 class="text-light">Follow Us</h4>
-                    <p class="text-muted">Let us be social</p>
-                    <div class="column text-light">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-youtube"></i>
+                    <div class="card-body">
+                        <h3 class="card-title">WIT Dehradun</h3>
+                        <p class="card-text-index">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                            veniam, illo dolor soluta assumenda
+                        </p>
+                        <a href="#" class="text-secondary text-decoration-none">Coding Competition</a>
+                        <p class="text-black-50">11/10/2022</p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-
+    </section>
+    </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -384,7 +368,122 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content pt-5 pb-4">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 footer-about">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/footer_logo.jpg" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Go Hackathon comprises eminent Industry professionals, educators, and students meant
+                                    to nurture talent among budding tech professionals. </p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="https://www.facebook.com/people/GoHackathon/100088250115623/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://www.instagram.com/gohackathon/?igshid=YmMyMTA2M2Y%3D"><i class="fab fa-instagram instagram-bg"></i></a>
+                                <a href="https://twitter.com/GoHackathon"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.linkedin.com/in/go-hackathon-a082b9264/"><i class="fab fa-linkedin-in linkedin-bg"></i></a>
+                                <a href="https://www.youtube.com/@gohackathon/videos"><i class="fab fa-youtube youtube-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 ">
+                        <div class="footer-widget-links">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Quick Links</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">about</a></li>
+                                    <li><a href="event.html">events</a></li>
+                                    <li><a href="leaderboard.html">Leaderboard</a></li>
+                                    <li><a href="gallery2.html">gallery</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 ">
+                        <div class="footer-widget-phone">
+                            <div class="footer-widget">
+                                <div class="address details">
+                                  <div class="footer-widget-heading">
+                                    <h3>Contact Us</h3>
+                                  </div>
+                                    <div class="topic">
+                                            <i class="fa fa-map-marker"></i>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;<strong>AAG–11, Shipra Krishna Azure, Kaushambi, Ghaziabad, U.P 201010</strong>
+                                    </div>
+                                </div> <br>
+                                <div class="phone-details">
+                                    <div class="topic"> 
+                                        <!-- <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Phone -->
+                                        <!-- <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 9910018925">+91 9910018925</a></strong> <br> -->
+                                        <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="tel:+91 7678476713">+91 7678476713</a></strong> <br>
+                                        <i class="fa fa-phone" style="font-size:20px"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><a href="tel:+91-120-4567841">+91-120-4567841</a></strong>
+                                    </div>
+                                </div> <br>
+                                <div class="email-details">
+                                    <div class="topic">
+                                        <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:info@gohackathon.in">info@gohackathon.in</a></strong>
+                                        <!-- <i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="mailto:gohackathon2k22@gmail.com">gohackathon2k22@gmail.com</a></strong> -->
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 ">
+                        <div class="footer-widget-subscribe">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button type="submit" class="btn btn-primary">Send</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright © 2023 | <a href="https://gohackathon.in/">GOHACKATHON</a> | All Right
+                                Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Terms and Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
 
 </html>
