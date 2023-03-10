@@ -106,13 +106,6 @@
     width: 120px;
     transition: 0.4s ease-out;
   }
-  
-  /* .circle {
-    position: absolute;
-    top: 150px;
-    left: calc(50% - 60px);
-  } */
-  
   .stroke {
     stroke: white;
     stroke-dasharray: 360;
