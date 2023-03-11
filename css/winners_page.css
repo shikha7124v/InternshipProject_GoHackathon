@@ -109,8 +109,8 @@
         background-repeat:no-repeat;
         text-align: center;
         justify-content: center;
-        width: 100px;
-        height:100px;
+        width: 150px;
+        height:150px;
       }
       .front1_2{
         background-image: url('/img/Yuvraj-Aggarwal-1st-hackathon150x150.jpeg');
@@ -119,8 +119,8 @@
         background-repeat:no-repeat;
         text-align: center;
         justify-content: center;
-        width:100px;
-        height:100px;
+        width:150px;
+        height:150px;
       }
       .front1_3{
         background-image: url('/img/Sahej-Budhiraja-1st-hackathon-150x150.jpeg');
@@ -129,8 +129,8 @@
         background-repeat:no-repeat;
         text-align: center;
         justify-content: center;
-        width:100px;
-        height:100px;
+        width:150px;
+        height:150px;
       }
           /*Prize-2*/
           .Hackathon_2{
@@ -142,14 +142,13 @@
             justify-content: center;
           }
           .front1_4{
-            background-image: url('/img/Ishika-Pic-2nd-hackathon150x150.jpeg');
-            background-size: cover;
-            border-radius: 10px 10px 10px 10px;
-            background-repeat:no-repeat;
-            text-align: center;
-            justify-content: center;
-            width: 100px;
-            height:100px;
+        background-size: cover;
+        border-radius: 10px 10px 10px 10px;
+        background-repeat:no-repeat;
+        text-align: center;
+        justify-content: center;
+        width:150px;
+        height:150px;
           }
           .front1_5{
             background-image: url('/img/Himanshu-Pic-2nd-hackathon150x150.jpeg');
@@ -158,9 +157,8 @@
             background-repeat:no-repeat;
             text-align: center;
             justify-content: center;
-            width:100px;
-            height:100px;
-            margin-left: -50px;
+            width:150px;
+            height:150px;
           }
           .front1_6{
             background-image: url('/img/Anmol-Jain-Pic-2nd-hackathon150x150.jpeg');
@@ -169,9 +167,8 @@
             background-repeat:no-repeat;
             text-align: center;
             justify-content: center;
-            width:100px;
-            height:100px;
-            margin-left:50px;
+            width:150px;
+            height:150px;
           }
         /*Ideathon*/
           /*Prize-1*/
@@ -407,7 +404,6 @@
         text-align: center;
         justify-content: center;
         position: relative;
-        font-weight: bolder;
       }
       /*Card's title*/
       .p1{
