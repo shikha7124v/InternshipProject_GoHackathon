@@ -98,8 +98,11 @@
         column-gap: 10px;
         justify-content: center;
       }
+      .img-part{
+        width: 300px;
+        height: 300px;
+      }
       .front1_1{
-        background-image: url('/img/Rishabh-Pic-1st-hackathon150x150.jpeg');
         background-size: cover;
         border-radius: 10px 10px 10px 10px;
         background-repeat:no-repeat;
@@ -358,7 +361,10 @@
         left: 0;
         width: 100%;
       }
-      
+      .participant{
+        height:70% ;
+        width: 70%;
+      }
       .inner {
         transform: translateY(-50%) translateZ(60px) scale(.94);
         top: 53%;
