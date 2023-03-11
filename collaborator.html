@@ -102,36 +102,26 @@
                     </div>
                 </div>
                 <div class="formarea col-lg-5">
-                    <h3>Get in Touch</h3>
-                    <form class="text-left">
-                        <label for="fname">First Name:</label></br>
-                        <input type="text" id="fname" name="fname"  class="bg-gray-200"></br>
-                        <label for="lname">Last Name:</label></br>
-                        <input type="text" id="lname" name="lname"  class="bg-gray-200"></br>
-                        <label for="p_no">Phone Number:</label></br>
-                        <input type="tel" id="p_no" name="p_no" pattern="+91-[0-9]{9}" class="bg-gray-200"></br>
-                        <label for="email">Enter your email:</label></br>
-                        <input type="email" id="email" name="email" placeholde="xyz@gmail.com" class="bg-gray-200"></br>
-                        <p>Type of Collaboration</p>
-    
-                        <input type="radio" id="collab_typ_1" value="Team Collaboration" name="cllab_typ"
-                            class="bg-gray-200">
-                        <label for="collab_typ_1">Team Collaboration</label></br>
-                        <input type="radio" id="collab_typ_2" value="Community Collaboration" name="cllab_typ"
-                            class="bg-gray-200">
-                        <label for="collab_typ_2">Community Collaboration</label></br>
-                        <input type="radio" id="collab_typ_3" value="Network Collaboration" name="cllab_typ"
-                            class="bg-gray-200">
-                        <label for="collab_typ_3">Network Collaboration</label></br>
-                        <input type="radio" id="collab_typ_4" value="Cloud Collaboration" name="cllab_typ"
-                            class="bg-gray-200">
-                        <label for="collab_typ_4">Cloud Collaboration</label></br>
-                        <input type="radio" id="collab_typ_5" value="Others" name="cllab_typ" class="bg-gray-200">
-                        <label for="collab_typ_5">Others</label></br>
-                        <label for="goal">Your Goal to achieve through this event/startup:</label></br>
-                        <textarea type="text" id="goal" name="goal" class="bg-gray-200"></textarea></br>
-                        <input class="button bg-gray-500 rounded-sm" type="submit" value="Submit">
-                    </form> 
+                    <div class="container">
+                        <h3>Get in Touch</h3> <br>
+                        <form action="">
+                      
+                          <label for="fname">Full Name</label>
+                          <input type="text" id="fname" name="name" placeholder="Enter Your Name" required>
+                      
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                      
+                          <label for="phone">Phone No.</label>
+                          <input type="number" id="phone" name="phone" placeholder="Enter Your Phone Number">
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                    </div> 
                 </div>
             </div>
         </div>
