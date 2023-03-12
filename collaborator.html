@@ -11,14 +11,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/collaborator.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <nav class="navbar navbar-expand-lg overflow-x-hidden">
     <a class="navbar-brand" href="index.html">
@@ -36,11 +34,11 @@
             </li>
             <li class="nav-item dropdown">
                 <div class="dropdown">
-                    <a href="event.html" class="nav-link">EVENTS</a>
+                    <a href="events.html" class="nav-link">EVENTS</a>
                     <div class="dropdown-content">
-                        <a href="#">LIVE EVENTS</a>
-                        <a href="#">UPCOMMING EVENTS</a>
-                        <a href="#">PAST EVENTS</a>
+                        <a href="live_event.html">LIVE EVENTS</a>
+                        <a href="upcoming_events.html">UPCOMMING EVENTS</a>
+                        <a href="past_events.html">PAST EVENTS</a>
                     </div>
                 </div>
             </li>
@@ -51,7 +49,7 @@
                         <a href="leaderboard.html">LEADERBOARD</a>
                         <a href="practiceset.html">PRACTICE SET</a>
                         <a href="participants.html">PARTICIPANTS</a>
-                        <a href="#">WINNERS</a>
+                        <a href="winners.html">WINNERS</a>
                     </div>
                 </div>
             </li>
@@ -61,6 +59,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACT US</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="training.html">TRAINING</a>
+            </li>
             <li>
                 <button class="btn btn-primary px-5 py-2 primary-btn" id="login-btn">Login/Signup</button>
             </li>
@@ -68,145 +69,83 @@
     </div>
 </nav>
 
-<body id="body" class="overflow-x-hidden ">
-
+<body id="body">
+    
     <div class="evebanner">
-        <img src="img/Collaborator.png" alt="">
-      </div>
+        <img src="img/banner/Collaborator.png" alt="">
+    </div>
 
-<div class="wrapper mx-5">
-    <div class="container mr-3">
-        <div class="row pl-5 ml-1">
-            <div class="aboutsection col-lg-7 pt-5 pl-5 ">
-                <div>
-                <h1 class="text-5xl pb-10">About Go Hackathon</h1>
-                <p class="text-xl">Go Hackathon comprises of eminent Industry professionals, educators and students meant to
-                    nurture talent among budding tech professional.
-                    Industry today is looking for talented students who are equipped and experience with
-                    advanced skills, software, attitude and updated industry best practices.We create an eco-system of
-                    industry academia partnership and help in continuous and
-                    sustainable development of innovative ideas, which are impactful for the growing economy and
-                    society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional
-                    opportunities to its members and participants.
-                    We conduct series of events, seminars, hackathons, internships and Projects.</p>
-                </div>
-                <div class="aboutsection pl-5">
-                    <h1 class="text-5xl " >Why should you collab with Go Hackathon ?</h1>
-                    <br>
-                    <p class="text-xl pl-2">Go Hackathon comprises of eminent Industry professionals, educators and
-                        students meant to
-                        nurture talent among budding tech professional.
-                        Industry today is looking for talented students who are equipped and experience with
-                        advanced skills, software, attitude and updated industry best practices.We create an eco-system
-                        of
-                        industry academia partnership and help in continuous and
+        <div class="container">
+            <div class="row collaborator_section">
+                <div class="textarea col-lg-7">
+                    <h3>GoHackathon</h3>
+                    <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
+                        nurture talent among budding tech professional. Industry today is looking for talented students 
+                        who are equipped and experience with advanced skills, software, attitude and updated industry 
+                        best practices.We create an eco-system of industry academia partnership and help in continuous and
                         sustainable development of innovative ideas, which are impactful for the growing economy and
                         society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional
-                        opportunities to its members and participants.
-                        We conduct series of events, seminars, hackathons, internships and Projects.</p>
+                        opportunities to its members and participants. We conduct series of events, seminars, hackathons, 
+                        internships and Projects.
+                    </p>
+                    <div>
+                        <h3>Why Collaborate Us</h3>
+                        <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
+                            nurture talent among budding tech professional. Industry today is looking for talented students 
+                            who are equipped and experience with advanced skills, software, attitude and updated industry 
+                            best practices.We create an eco-system of industry academia partnership and help in continuous and
+                            sustainable development of innovative ideas, which are impactful for the growing economy and
+                            society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional
+                            opportunities to its members and participants. We conduct series of events, seminars, hackathons, 
+                            internships and Projects.
+                        </p>
+                    </div>
                 </div>
-
-                </div>
-            <div class="imgofabout col-lg-5 pt-20">
-                <form class="text-left bg-white ">
-                    <label for="fname">First Name:</label></br>
-                    <input type="text" id="fname" name="fname" size="50" class="bg-gray-200"></br>
-                    <label for="lname">Last Name:</label></br>
-                    <input type="text" id="lname" name="lname" size="50" class="bg-gray-200"></br>
-                    <label for="p_no">Phone Number:</label></br>
-                    <input type="tel" id="p_no" name="p_no" pattern="+91-[0-9]{9}" class="bg-gray-200"></br>
-                    <label for="email">Enter your email:</label></br>
-                    <input type="email" id="email" name="email" placeholde="xyz@gmail.com" class="bg-gray-200"></br>
-                    <p>Type of Collaboration</p>
-
-                    <input type="radio" id="collab_typ_1" value="Team Collaboration" name="cllab_typ"
-                        class="bg-gray-200">
-                    <label for="collab_typ_1">Team Collaboration</label></br>
-                    <input type="radio" id="collab_typ_2" value="Community Collaboration" name="cllab_typ"
-                        class="bg-gray-200">
-                    <label for="collab_typ_2">Community Collaboration</label></br>
-                    <input type="radio" id="collab_typ_3" value="Network Collaboration" name="cllab_typ"
-                        class="bg-gray-200">
-                    <label for="collab_typ_3">Network Collaboration</label></br>
-                    <input type="radio" id="collab_typ_4" value="Cloud Collaboration" name="cllab_typ"
-                        class="bg-gray-200">
-                    <label for="collab_typ_4">Cloud Collaboration</label></br>
-                    <input type="radio" id="collab_typ_5" value="Others" name="cllab_typ" class="bg-gray-200">
-                    <label for="collab_typ_5">Others</label></br>
-                    <label for="goal">Your Goal to achieve through this event/startup:</label></br>
-                    <textarea type="text" id="goal" name="goal" class="bg-gray-200"></textarea></br>
-                    <input class="button bg-gray-500 rounded-sm" type="submit" value="Submit">
-                </form>
-            </div>
-        </div>
-    </div>
-    <div class="flex  pt-20 pb-10">
-        <!-- benifits section -->
-        <div class="pl-10">
-            <h1 class="text-5xl">Benefits</h1>
-            <br>
-            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos voluptate magnam
-                reiciendis non,
-                ipsam saepe quas quaerat temporibus deserunt ad praesentium? Voluptatum incidunt debitis veritatis
-                repudiandae hic,
-                eos aliquam, iste quis cumque id neque. Dolorum exercitationem, minima minus asperiores dolore debitis
-                quibusdam earum
-                consequatur quaerat reprehenderit tenetur, voluptate tempora alias praesentium in officiis magnam
-                recusandae sapiente fugit?
-                Esse, sunt.</p>
-        </div>
-        <!-- image section -->
-        <div class="imgofabout  col-lg-5 gap-5 pl-10">
-            <img class=" pl-10 w-[80%] h-[100%] streach" src="img/development2" alt="Dev">
-        </div>
-
-    </div>
-</div>
-
-    <!-- <div class="container">
-        <div class="row flex flex-row">
-            <div class="aboutsection ">
-                <h1>Benifits</h1>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eos voluptate magnam reiciendis non, 
-                    ipsam saepe quas quaerat temporibus deserunt ad praesentium? Voluptatum incidunt debitis veritatis repudiandae hic, 
-                    eos aliquam, iste quis cumque id neque. Dolorum exercitationem, minima minus asperiores dolore debitis quibusdam earum 
-                    consequatur quaerat reprehenderit tenetur, voluptate tempora alias praesentium in officiis magnam recusandae sapiente fugit?
-                     Esse, sunt.</p>
-            </div>
-            <div>
-                <div class="imgofabout col-lg-5">
-                    <img class="imgofabout" src="img/development2" alt="Dev">
+                <div class="formarea col-lg-5">
+                    <div class="container">
+                        <h3>Get in Touch</h3> <br>
+                        <form action="">
+                      
+                          <label for="fname">Full Name</label>
+                          <input type="text" id="fname" name="name" placeholder="Enter Your Name" required>
+                      
+                          <label for="email">Email</label>
+                          <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                      
+                          <label for="phone">Phone No.</label>
+                          <input type="number" id="phone" name="phone" placeholder="Enter Your Phone Number">
+                      
+                          <label for="subject">Subject</label>
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                    </div> 
                 </div>
             </div>
         </div>
-    </div> -->
-    </div>
-    <!-- <form>
-        <label for="fname">First Name:</label></br>
-        <input type="text" id="fname" name="fname" size="50"></br>
-        <label for="lname">Last Name:</label></br>
-        <input type="text" id="lname" name="lname" size="50"></br>
-        <label for="p_no">Phone Number:</label></br>
-        <input type="tel" id="p_no" name="p_no" pattern="+91-[0-9]{9}"></br>
-        <label for="email">Enter your email:</label></br>
-        <input type="email" id="email" name="email" placeholde="xyz@gmail.com"></br>
-        <p>Type of Collaboration</p>
 
-        <input type="radio" id="collab_typ_1" value="Team Collaboration" name="cllab_typ">
-        <label for="collab_typ_1">Team Collaboration</label></br>
-        <input type="radio" id="collab_typ_2" value="Community Collaboration" name="cllab_typ">
-        <label for="collab_typ_2">Community Collaboration</label></br>
-        <input type="radio" id="collab_typ_3" value="Network Collaboration" name="cllab_typ">
-        <label for="collab_typ_3">Network Collaboration</label></br>
-        <input type="radio" id="collab_typ_4" value="Cloud Collaboration" name="cllab_typ">
-        <label for="collab_typ_4">Cloud Collaboration</label></br>
-        <input type="radio" id="collab_typ_5" value="Others" name="cllab_typ">
-        <label for="collab_typ_5">Others</label></br>
-        <label for="goal">Your Goal to achieve through this event/startup:</label></br>
-        <textarea type="text" id="goal" name="goal"></textarea></br>
-        <input class="button" type="submit" value="Submit">
-    </form> -->
+    
+        <div class="container">
+            <div class="row collaborator_bottom">
+                <div class="textarea col-lg-7">
+                    <h3>Benifits of Collaboration</h3>
+                    <p>Go Hackathon comprises of eminent Industry professionals, educators and students meant to
+                        nurture talent among budding tech professional. Industry today is looking for talented students 
+                        who are equipped and experience with advanced skills, software, attitude and updated industry 
+                        best practices.We create an eco-system of industry academia partnership and help in continuous and
+                        sustainable development of innovative ideas, which are impactful for the growing economy and
+                        society. Go hackathon thrives to provide best nurturing, mentorship, skills and professional
+                        opportunities to its members and participants. We conduct series of events, seminars, hackathons, 
+                        internships and Projects.
+                    </p>
+                </div>
+                <div class="imagearea col-lg-5">
+                    <img src="img/development2" alt="">
+                </div>
+            </div>
+        </div>
 </body>
 
 <footer class="footer-section">

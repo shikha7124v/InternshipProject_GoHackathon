@@ -34,11 +34,11 @@
             </li>
             <li class="nav-item dropdown">
                 <div class="dropdown">
-                    <a href="event.html" class="nav-link">EVENTS</a>
+                    <a href="events.html" class="nav-link">EVENTS</a>
                     <div class="dropdown-content">
-                        <a href="#">LIVE EVENTS</a>
-                        <a href="#">UPCOMMING EVENTS</a>
-                        <a href="#">PAST EVENTS</a>
+                        <a href="live_event.html">LIVE EVENTS</a>
+                        <a href="upcoming_events.html">UPCOMMING EVENTS</a>
+                        <a href="past_events.html">PAST EVENTS</a>
                     </div>
                 </div>
             </li>
@@ -49,7 +49,7 @@
                         <a href="leaderboard.html">LEADERBOARD</a>
                         <a href="practiceset.html">PRACTICE SET</a>
                         <a href="participants.html">PARTICIPANTS</a>
-                        <a href="#">WINNERS</a>
+                        <a href="winners.html">WINNERS</a>
                     </div>
                 </div>
             </li>
@@ -69,8 +69,8 @@
     </div>
 </nav>             
 <body class="">
-    <div class="imgheader">
-        <img src="img/XYZ.png" alt="">
+    <div class="evebanner">
+        <img src="img/banner/upcoming_event.png" alt="">
     </div>
     <div class="row eventbody">
         <div class="containereventdetail col-xl-8 col-lg-8">
@@ -116,11 +116,15 @@
             <form action="action_page.php" method="post" enctype="text/plain">
                 <div class="container">
                     <h6> <strong> Register Now</strong></h6>
-                    <p>Please fill in this form to create an account.</p>
+                    <p>Please fill in this form to register for the event.</p>
                     <hr>
 
+                    <label for="Event Name"> <b>Event Name</b> </label>
+                    <input type="text" placeholder="event name">
                     <label for="Phone"> <b>Phone Number</b> </label>
+                    <br>
                     <input type="number" placeholder="Contact No." name="Phone" id="required">
+                    <br>
                     <br>
                     <label for="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter Email" name="email" id="email" required>
@@ -128,12 +132,13 @@
                     <label for="psw"><b>Password</b></label>
                     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
-                    <label for="psw-repeat"><b>Repeat Password</b></label>
-                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                    <!-- <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required> -->
                     <hr>
 
                     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                    <button type="submit" class="registerbtn">Register</button>
+                    <a href="payment.html"><button type="submit" class="registerbtn">Register</button></a>
+                    
                 </div>
                 <!--               
                 <div class="container signin">
