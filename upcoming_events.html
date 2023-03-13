@@ -73,7 +73,7 @@
         <img src="img/banner/upcoming_event.png" alt="">
     </div>
     <div class="row eventbody">
-        <div class="containereventdetail col-xl-8 col-lg-8">
+        <div class="containereventdetail col-lg-7">
             <div class="past-event">
                 <div>
                     <h6><strong>Event Name:- </strong>SAMADHAN</h6>
@@ -112,39 +112,27 @@
                 </div>
             </div>
         </div>
-        <div class="registration-form col-xl-4 col-lg-4">
-            <form action="action_page.php" method="post" enctype="text/plain">
-                <div class="container">
-                    <h6> <strong> Register Now</strong></h6>
-                    <p>Please fill in this form to register for the event.</p>
-                    <hr>
+        <div class="registration-form col-lg-5">
 
-                    <label for="Event Name"> <b>Event Name</b> </label>
-                    <input type="text" placeholder="event name">
-                    <label for="Phone"> <b>Phone Number</b> </label>
-                    <br>
-                    <input type="number" placeholder="Contact No." name="Phone" id="required">
-                    <br>
-                    <br>
-                    <label for="email"><b>Email</b></label>
-                    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-
-                    <!-- <label for="psw-repeat"><b>Repeat Password</b></label>
-                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required> -->
-                    <hr>
-
-                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-                    <a href="payment.html"><button type="submit" class="registerbtn">Register</button></a>
-                    
-                </div>
-                <!--               
-                <div class="container signin">
-                  <p>Already have an account? <a href="#">Sign in</a>.</p>
-                </div> -->
-            </form>
+                    <h3><strong>Register Now</strong></h3>
+                    <p>Please Complete the form for registration</p> <br>
+                    <form action="">
+                  
+                      <label for="fullname">Full Name</label>
+                      <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                  
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                  
+                      <label for="phone">Phone No.</label>
+                      <input type="number" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
         </div>
     </div>
 </body>

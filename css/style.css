@@ -2,6 +2,14 @@ body{
 font-family: 'Montserrat',  'sans-serif';
 }
 
+.home_hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 7px;
+  width: 5%;
+}
+
 .evebanner img{
   width: 100%;
 }
@@ -20,6 +28,8 @@ header img {
   background-attachment: white;
   width: 100%;
 }
+
+
 .section-0{
   background-color: #37bbe454;
   text-align: center;
