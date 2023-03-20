@@ -180,6 +180,10 @@ p{
   margin-top: 80px;
   margin-bottom: 80px;
 }
+
+.bannertext p {
+  text-align: center;
+}
 .bannerimage{
   margin-top: 80px;
   margin-bottom: 80px;
