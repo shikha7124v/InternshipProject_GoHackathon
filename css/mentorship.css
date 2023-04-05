@@ -1,0 +1,244 @@
+
+.hide{
+    display:none !important;
+}
+.mentorship-left-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1.mentorship-top-block {
+    font-size: 40px;
+    font-weight: 700;
+}
+.image-holder img {
+    width: 100px;
+    border-radius: 100%;
+    height: 100px;
+}
+.image-block-slider-holder {
+    display: flex;
+}
+.slick-style .item {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+}
+.image-crousel-mid{
+    margin-top: 100px;
+}
+div#image-block1 {
+    height: 400px;
+    overflow-x: hidden;
+}
+div.name {
+    font-size: 15px;
+    font-weight: 600;
+}
+.position {
+    font-size: 15px;
+}
+.mentor-cruise.justify-center picture img {
+    width: 100%;
+}
+div#full-width-2 {
+    background: #1b1b1b;
+    color: white;
+    padding: 5rem 10rem 5rem 10rem;
+}
+ul.mentorship-message-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li.mentorship-message-list1 {
+    text-align: center;
+    margin: 0 15px;
+}
+li.mentorship-message-list1 p {
+    text-align: center;
+}
+li.mentorship-message-list1 p {
+    margin-top: 1rem;
+}
+li.mentorship-message-list1 img {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+li.mentorship-message-list1 h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mentorship-message-top h2, .mentorship-message-top p {
+    text-align: center;
+}
+.mentorship-message-top {
+    padding: 0px 10rem 10px 10rem;
+}
+div#full-width-2 button {
+    background: #00bee8;
+}
+.flex.flex-col.md\:flex-row.justify-center.space-y-4.md\:space-y-0.md\:space-x-4 {
+text-align: center;
+}
+a.flex.justify-center.w-full.md\:w-auto.text-sm.text-white.underline.font-semibold.hover\:text-mc-green {
+border-bottom: 2px solid white;
+margin-left: 15px;
+}
+h2.mentoring-process-heading.center {
+text-align: center;
+}
+.mentoring-process-heading-top {
+font-weight: 600;
+}
+.mentoring-process {
+margin-top: 4rem;
+}
+.fa-apple::before, .fa-instagram:before, .fa-facebook:before, .fa-linkedin:before, .fa-twitter:before, .fa-paypal:before, .fa-google:before {
+color: black;
+font-size:5rem
+}
+.section-compare .top-row .col:nth-child(3) {
+background: #fff;
+padding: 4px 5px 0;
+min-width: 216px;
+border-radius: 6px 6px 0 0;
+-webkit-box-shadow: 0 24px 30px rgba(15,23,42,.07);
+box-shadow: 0 24px 30px rgba(15,23,42,.07);
+}
+.table-compare .inner-rows .inner-row.row .col:nth-child(3){
+background: #fff;
+padding: 4px 5px 0;
+min-width: 216px;
+border-radius: 6px 6px 0 0;
+-webkit-box-shadow: 0 24px 30px rgba(15,23,42,.07);
+box-shadow: 0 24px 30px rgba(15,23,42,.07);  
+}
+section#compare-us .table-compare .inner-rows .inner-row.row .col p {
+    text-align: center;
+}
+section#compare-us .inner-rows .inner-row.row:nth-child(odd) {
+    background: #f1f4f9;
+}
+.section-compare .inner-rows .inner-row .col:first-of-type {
+    min-width: 30%;
+    padding-right: 0;
+    letter-spacing: .4px;
+}
+.section-compare .inner-rows .inner-row {
+    flex-wrap: nowrap;
+}
+.section-compare .inner-rows .inner-row .col {
+    padding: 19px;
+}
+.section-compare .table-compare p {
+    margin: 0;
+}
+.section-compare .top-row .col {
+    padding: 40px 10px 25px;
+}
+.section-compare .top-row .item {
+    font-weight: 600;
+}
+.section-compare .table-compare .col:not(:first-of-type) .item {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.section-compare .table-compare .col:first-of-type {
+    min-width: 30%;
+}
+.col .item p img {
+    width: 20px;
+}
+ul.mentor-company {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+li.mentor-company-list {
+    margin: 5px 15px;
+    padding: 0 15px;
+}
+.max-w-screen-xl.mx-auto.px-4.sm\:px-6.lg\:px-8 h2 {
+    text-align: center;
+    font-weight: 700;
+}
+.max-w-screen-xl.mx-auto.px-4.sm\:px-6.lg\:px-8 {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+}
+.max-w-screen-xl.mx-auto.px-4.sm\:px-6.lg\:px-8 {
+    margin: 45px 0;
+    padding: 20px 0;
+}
+section#compare-us h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+}
+.compare-image-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img.comapre-image {
+    width: 5%;
+    margin: 0 10px;
+}
+
+div#mentorship-reason svg {
+    width: 10%;
+    margin: 20px 0px;
+}
+.col-lg-5.col-sm-5.mentorship-reason-box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mentorship-reason-box1 span {
+    color: #005eff;
+    font-size: 25px;
+}
+.mentorship-reason-box1 h2 {
+    font-weight: 600;
+}
+.mentorship-reason-box2 h3 {
+    font-size: 23px;
+}
+.mentorship-reason1 {
+    padding: 5px 30px;
+}
+.mentorship-reason-box1 {
+    border-right: 1px solid grey;
+    padding: 5px 20px;
+}
+.review-block {
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+section.top-info-section {
+    background: #d1f7ff;
+    margin: 3rem 0;
+    border-radius: 20px;
+}
+.review-block .text, .review-block .info {
+    font-size: 25px;
+}
+.info span.name {
+    font-size: 15px;
+    font-weight: 700;
+}
+.info span.date {
+    font-size: 13px;
+}
+section#compare-us {
+    margin-bottom: 30px;
+}
