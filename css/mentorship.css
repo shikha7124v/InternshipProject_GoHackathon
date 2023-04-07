@@ -2,6 +2,7 @@
 .hide{
     display:none !important;
 }
+
 .mentorship-left-box {
     display: flex;
     align-items: center;
@@ -71,6 +72,7 @@ li.mentorship-message-list1 h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 .mentorship-message-top h2, .mentorship-message-top p {
     text-align: center;
 }
@@ -80,10 +82,10 @@ li.mentorship-message-list1 h3 {
 div#full-width-2 button {
     background: #00bee8;
 }
-.flex.flex-col.md\:flex-row.justify-center.space-y-4.md\:space-y-0.md\:space-x-4 {
+.mentorship-button {
 text-align: center;
 }
-a.flex.justify-center.w-full.md\:w-auto.text-sm.text-white.underline.font-semibold.hover\:text-mc-green {
+a.mentorship-button-mentor {
 border-bottom: 2px solid white;
 margin-left: 15px;
 }
@@ -165,15 +167,13 @@ li.mentor-company-list {
     margin: 5px 15px;
     padding: 0 15px;
 }
-.max-w-screen-xl.mx-auto.px-4.sm\:px-6.lg\:px-8 h2 {
+.trusted-mentors-inner-block h2 {
     text-align: center;
     font-weight: 700;
 }
-.max-w-screen-xl.mx-auto.px-4.sm\:px-6.lg\:px-8 {
+.trusted-mentors-inner-block {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     border-radius: 20px;
-}
-.max-w-screen-xl.mx-auto.px-4.sm\:px-6.lg\:px-8 {
     margin: 45px 0;
     padding: 20px 0;
 }
@@ -241,4 +241,52 @@ section.top-info-section {
 }
 section#compare-us {
     margin-bottom: 30px;
+}
+.container.mentoring-process img {
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    div#full-width-2 {
+        background: #1b1b1b;
+        color: white;
+        padding: 0;
+    }
+    ul.mentorship-message-list {
+        list-style: none;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    li.mentorship-message-list1 img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 20%;
+    }
+    li.mentorship-message-list1 p {
+        text-align: center;
+    }
+    .mentorship-message-top {
+        padding: 0;
+    }
+    .mentorship-message-top h2, .mentorship-message-top p {
+        text-align: center;
+    }
+    div#full-width-2 button {
+        background: #00bee8;
+    }
+    .mentorship-button {
+        font-size: 13px;
+    }
+    .mentoring-process-heading-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mentoring-process-heading-icon img {
+        width: 10% !important;
+    }
+    h2.mentoring-process-heading.center {
+        text-align: center;
+        font-size: 1.5rem;
+    }
 }
