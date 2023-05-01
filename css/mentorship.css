@@ -79,6 +79,10 @@ div.mentorship-button button {
     border-radius: 5px;
     border: unset;
 }
+
+.mentorship-button a {
+    text-decoration: unset;
+}
 .mentorship-button {
 text-align: center;
 }
@@ -316,13 +320,30 @@ button.accordion-button {
     border: none;
 }
 div.accordion-header {
-    background: #f2f4f8;
-    padding: 10px 0 10px 20px;
-    margin: 20px 0;
+    background: unset;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headingOne-heading{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem !important;
+}
+.accordion-button:not(.collapsed) {
+    color: blue !important;
+    background-color: unset !important;
+    box-shadow: unset !important;
 }
 h2.frequent-questions-heading {
     text-align: center;
 }
+section.frequent-questions .accordion-item {
+    margin: 17px 0;
+}
+
 .mentorship-search-button-box1 {
     display: flex;
     flex-direction: revert;
@@ -623,7 +644,7 @@ ul.popular-mentorships-items-list {
     padding: 3rem;
 }
 h2.popular-mentorships-heading {
-    text-align: left;
+    text-align: center;
     margin: 0 0 50px;
     letter-spacing: -.03em;
     font-size: 36px;
