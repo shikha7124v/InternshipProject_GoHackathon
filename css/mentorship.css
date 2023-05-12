@@ -3,6 +3,9 @@
     display:none !important;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
 .mentorship-left-box {
     display: flex;
     align-items: center;
@@ -402,25 +405,6 @@ li.popular-search-item-list {
     font-weight: 600;
     border-radius: 10px;
 }
-/* @keyframes trustedmentor {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-250px * 4));
-    }
-  }
-  .trusted-mentor-items {
-    animation: trustedmentor 40s linear infinite;
-    display: flex;
-} */
-/* .trusted-mentor-items:before, .trusted-mentor-items:after {
-    content: "";
-    height: 400px;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-} */
   @keyframes imageblocksliderholder {
     0% {
       transform: translateY(0);
@@ -430,8 +414,6 @@ li.popular-search-item-list {
     }
   }
   div#image-block1 {
-    /* background: white;
-    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
     height: 400px;
     margin: auto;
     overflow: hidden;
@@ -439,7 +421,6 @@ li.popular-search-item-list {
     width: 100%;
 }
 div#image-block1:before, div#image-block1:after {
-    /* background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%); */
     content: "";
     height: 400px;
     position: absolute;
@@ -458,7 +439,6 @@ div#image-block1before {
 .image-block-slider-holder {
     animation: imageblocksliderholder 40s linear infinite;
     display: flex;
-    /* width: calc(250px * 14); */
 }
 .images-block-slider {
     height: auto;
@@ -623,8 +603,6 @@ a.popular-mentorships-item {
     font-family: Inter,sans-serif;
     color: #141f2f;
     border-radius: 10px;
-    -webkit-transition: .3s color,.3s background;
-    transition: .3s color,.3s background;
     padding: 7px 8px;
     text-decoration: none;
 }
@@ -650,7 +628,36 @@ h2.popular-mentorships-heading {
     font-size: 36px;
     font-weight: 600;
 }
-
+/* mentors-search-filter-block */
+.fa-star:before {
+    content: "\f005";
+    color: orange;
+}
+.profile-1-top-image img {
+    width: 50px;
+    height: 50px;
+}
+.mentors-profile-1-top-image img {
+    width: 100px;
+    height: 100px;
+}
+li.mentors-expert-list {
+    list-style: none;
+}
+li.mentors-search-work-experience-list {
+    list-style: none;
+    text-align: center;
+}
+.mentors-search-filter-star-interested-details, .mentors-search-filter-star-interested {
+    height: 30em;
+    overflow-y: auto;
+}
+div#mentors-search-filter-block-2 {
+    margin: 2rem 0;
+}
+li.mentors-search-mentees-review-list {
+    list-style: none;
+}
 
 /* First section typewriter effect css */
 @media only screen and (min-width: 768px) {
